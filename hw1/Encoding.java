@@ -30,7 +30,7 @@ public class Encoding
 	public static ArrayList<String> merge(ArrayList<String> pers, String insert) {
 		ArrayList<String> result = new ArrayList<String>();
 		for(String elem : pers) {
-			for(int i = 0; i < elem.length(); i++) {
+			for(int i = 0; i <= elem.length(); i++) {
 				String e = elem.substring(0, i) + insert + elem.substring(i);
 				result.add(e);
 			}
