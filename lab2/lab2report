@@ -1,0 +1,66 @@
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lab2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   lab2/report.txt
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Put my screenshot screenshot.png in lab2/ directory. 
+And then git add lab2/screenshot.png. Afterward, 
+git add commit -a -m "Added screenshot".
+And uploade it by typing git push origin master.
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.metadata/
+	Greeter.class
+	Greeter.java
+	GreeterTester.class
+	GreeterTester.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+I have a lot of untracted files waiting to be added.
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.gitignore
+	lab2/.metadata/
+	lab2/Greeter.java
+	lab2/GreeterTester.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+All the untracted files with the type of class dispear.
+This is because we tell git to hide files with name "*.class" in all subdirectories in CS151.
+
+Byt typing, 
+git add lab2/.metadata/
+git add lab2/Greeter.java 
+git add lab2/GreeterTester.java
+git commit -a -m "Added java files"
+
