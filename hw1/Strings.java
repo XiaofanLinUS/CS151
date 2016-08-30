@@ -1,10 +1,5 @@
 
 public class Strings {
-	public static void main(String[] args) {
-		String test = "harrasses";
-		String result = uniqueLetters(test);
-		System.out.println(result);
-	}
 	public static String uniqueLetters(String str)	{
 		int i;
 		int pos;
