@@ -4,10 +4,10 @@ public class Encoding
 {
 	//m is . n is -
 	public static Set<String> morseCodes(int m, int n)	{
-    	String origin = new String();
+    		String origin = new String();
 		for(int i = 0; i < n; i++) {
 			origin += "-";
-	    }
+	    	}
 		for(int j = 0; j < m; j++) {
 			origin += ".";
 		}
