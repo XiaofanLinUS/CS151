@@ -1,0 +1,6 @@
+The first homework.
+For the first programe, 
+I use an array with a size of 26 to record each charcter's appearance. And then use a loop to iterate each character in the string to detact which character appear once if so I add the charater to a string. In the end, I return the string.
+This algorithms takes around 2n times to get the result.
+
+For the second programe, I use a recursive permutation algorithms to create permutations array for strings like "--..". Then I transform the array to treeset to get rid of repetitive strings and return the set.
