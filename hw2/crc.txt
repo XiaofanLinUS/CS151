@@ -1,0 +1,9 @@
+Console asks menu to execute command and disply the current state when Console recevie input from the user.
+Menu asks Mailsystem to login user's account when the console get the input from user to login.
+Mailsystem manages the user's mailbox when the user want to check its message.
+Mailsystem adds new message to the target's mail box when the user wants to send its message.
+Menu records the message and brings it to the Mailsystem to send it when the user leaves its message in console managed by menu.
+Mailbox manage its messages through MessageList when the user wants to check its messages.
+Mailbox add, delete or retreive message through MessageList when the user wants to read a message.
+MessageList manage its messages when the mailbox save, delete or retrive a message.
+
