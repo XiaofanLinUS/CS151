@@ -1,0 +1,11 @@
+Student: lin_xiaofan
+Git submission (max 4): 4
+Git repo private (max 4): 4
+Submitted into (root)/hw1/* (max 4): 4
+Plain text aboutme.txt (max 4): 3
+
+Use git mv to rename to aboutme.txt
+
+Strings passes (max 8): 
+Encodings passes (max 8): 
+
