@@ -1,9 +1,14 @@
-Console asks menu to execute command and disply the current state when Console recevie input from the user.
-Menu asks Mailsystem to login user's account when the console get the input from user to login.
-Mailsystem manages the user's mailbox when the user want to check its message.
-Mailsystem adds new message to the target's mail box when the user wants to send its message.
-Menu records the message and brings it to the Mailsystem to send it when the user leaves its message in console managed by menu.
-Mailbox manage its messages through MessageList when the user wants to check its messages.
-Mailbox add, delete or retreive message through MessageList when the user wants to read a message.
-MessageList manage its messages when the mailbox save, delete or retrive a message.
+Console can only do the input output job. It shouldn't have the access to message alone. Therefore the rest of work regarding messaging should be counted on MailSystem.
+When a user try to login, console must have this job done MailSystem, since it has a list of users to do the login.
+Therefore, Console has a collaborator MailSystem.
+
+In order to validate the password, MailSystem must let User class to validate it. When the user enter the password, Console pass it to MailSystem. And MailSystem pass it to User to validate it.
+
+And also when the user want to send a message to others, MailSystem take care of sending message since every User only knows about its own Mailbox. User has no way to acess other's Mailbox. Therefore, MailSystem has to take care of sending which creates Message and adds it to other's Mailbox.
+
+Therefore, MailSystem has User, MailBox and Message as its collaborators.
+
+For Mailbox, it has two MailLists. One is for saving new messages. The other one is for saving old messages. When Mailbox wants to access a message, it has to ask its MailLists to retrive for it. Then Mailbox pass it to MailSystem.
+
+Therefore, Mailbox has a collaborator, MailList.
 
