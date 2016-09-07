@@ -1,19 +1,16 @@
-Console transmits the input from the user to Menu.
-Therefore Console uses Menu.
-Menu use Console to disply the current state.
-Therefore, Menu uses Console.
-Menu gets input from the user to access its message.
-Menu uses MailSystem to locate its mailbox.
-Therefore, Menu uses MailSystem.
-Menu gets input from the user to create a message.
-Therefore, Menu uses the new Message to send it through MailSystem to the target's Mailbox.
-MailSystem get the new Message and send it to the target's Mailbox.
-Therefore, MailSystem uses Message.
-MailSystem have a bunch of users' info associated with MailBoxes.
-Therefore, MailSystem aggregates MailBoxes.
-Mailbox uses its MessageList to retrive Message.
-Therefore, Mailbox aggregates MailList.
-Mailbox add a message to its MailList.
-Therefore, Mailbox uses Message,
-MailList have a bunch of messages.
-Therefore, MailList aggregates Message
+Console asks MailSystem to login account, get message and send message.
+Therefore, Console uses MailSystem.
+
+MailSystem has a list of Users and retrive one of them to validate password.
+Therefore, MailSystem aggregates User.
+
+MailSystem has a list of Mailboxes to create and send message written by a user to a specific Mailbox.
+Therefore, MailSystem aggregates Mailboxes and uses Message.
+
+User has its own Mailbox to retreive its message. Therefore, User aggregates Mailbox.
+
+Mailbox has two MailLists which save new and old messages. Mailbox use the two lists to retreive, delete or add message.
+Therefore, MailBox aggregates MailList.
+
+MailList is a list of Messages. And MailList manages those Messages for MailBox.
+Therefore, MailList aggregates Message.
