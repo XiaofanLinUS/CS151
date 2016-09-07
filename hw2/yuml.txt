@@ -4,3 +4,4 @@
 [MailSystem]->[note:Message]
 [Mailbox]<>-[MailList]
 [MailList]<>-[Message]
+[User]<>-[Mailbox]
