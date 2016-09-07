@@ -1,0 +1,6 @@
+[Console]->[note:MailSystem]
+[MailSystem]<>-[User]
+[MailSystem]<>-[Mailbox]
+[MailSystem]->[Message]
+[Mailbox]<>-[MailList]
+[MailList]<>-[Message]
