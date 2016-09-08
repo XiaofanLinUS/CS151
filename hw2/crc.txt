@@ -1,14 +1,33 @@
+1. Console: MailSystem
 Console can only do the input output job. It shouldn't have the access to message alone. Therefore the rest of work regarding messaging should be counted on MailSystem.
 When a user try to login, console must have this job done MailSystem, since it has a list of users to do the login.
 Therefore, Console has a collaborator MailSystem.
 
+2.MailSystem: User, Mailbox and User
 In order to validate the password, MailSystem must let User class to validate it. When the user enter the password, Console pass it to MailSystem. And MailSystem pass it to User to validate it.
 
 And also when the user want to send a message to others, MailSystem take care of sending message since every User only knows about its own Mailbox. User has no way to acess other's Mailbox. Therefore, MailSystem has to take care of sending which creates Message and adds it to other's Mailbox.
 
 Therefore, MailSystem has User, MailBox and Message as its collaborators.
 
-For Mailbox, it has two MailLists. One is for saving new messages. The other one is for saving old messages. When Mailbox wants to access a message, it has to ask its MailLists to retrive for it. Then Mailbox pass it to MailSystem.
+3.MailBox: MailList
+For Mailbox, it has two MessageLists. One is for saving new messages. The other one is for saving old messages. When Mailbox wants to access a message, it has to ask its MessageLists to retrive for it. Then Mailbox pass it to MailSystem.
 
-Therefore, Mailbox has a collaborator, MailList.
+Therefore, Mailbox has a collaborator, MessageList.
+
+4.User: MailBox
+Since we need User to retreive messages for MailSystem, each User has its own MailBox to check out its messages. User is able to manage its message in MailBox. When MailSystem wants to output the message from user, it asks User to get access to its Mailbox and to retreive message for MailSystem.
+
+Therefore, User has a collaborator, MailBox.
+
+5.MessageList: Message
+Since MessageList is a list of Messages, it is able to manage its Messages. When a user tell console to delete its old messages, the command comes to MailSystem. MailSystem gets its User to do the job. Then the user get its Mailbox to do the job. Finally, Mailbox asks MessageList to delete messages. Then, in this time, MessageList delete Message(s).
+In order word, MessageList asks Message(s) to disappear.
+
+Therefore, MessageList has a collaborator, Message.
+
+6.Message: NULL
+Since Message only carries contents for the whole design as a basic unit, it doesn't have any collaborator. It is the only cass that do not use any other class.
+
+Therefore, Message has no collaborator.
 
