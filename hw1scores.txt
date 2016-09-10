@@ -6,6 +6,6 @@ Plain text aboutme.txt (max 4): 3
 
 Use git mv to rename to aboutme.txt
 
-Strings passes (max 8): 
-Encodings passes (max 8): 
+Strings passes (max 8): 8 
+Encodings passes (max 8): 8
 
