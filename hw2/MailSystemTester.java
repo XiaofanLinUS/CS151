@@ -9,7 +9,8 @@ public class MailSystemTester
    public static void main(String[] args)
    {
       MailSystem system = new MailSystem();
-      Console p = new Console(system);
+      Scanner console = new Scanner(System.in);
+      Console p = new Console(system, console);
       p.run();
    }
 

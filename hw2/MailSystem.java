@@ -26,8 +26,20 @@ public class MailSystem
       return null;
    }
    
+   public void sendMessage(String receiver, String theMessage) {
+	   User theReceiver = findUser(receiver);
+	   if(theReceiver==null) {
+		   return;
+	   }
+	   Message aMessage = new Message(theMessage, currentUser.getName());
+	   theReceiver.getmailbox().addMessage(aMessage);
+   }
+   
    public int logIn(String theUsername, String thePassword) {
 	   User theUser = findUser(theUsername);
+	   if(theUser == null) {
+		   return -2;
+	   }
 	   if(theUser.validate(thePassword)) {
 		   return -1;
 	   }else {
@@ -49,6 +61,22 @@ public class MailSystem
    public User getCurrentUser() {
 	   return currentUser;
    }
+   
+   public String readMessage() {
+	   String sender = currentUser.getmailbox().getCurrentMessage().getOwner();
+	   String content = currentUser.getmailbox().getCurrentMessage().getText();
+	   String text = "From: " + sender + "\n" + content;
+	   return text;
+   }
+   
+   public void keepMessage() {
+	   currentUser.getmailbox().saveCurrentMessage();
+   }
+   
+   public void eraseMessage() {
+	   currentUser.getmailbox().removeCurrentMessage();
+   }
+   
    private ArrayList<Mailbox> mailboxes;
    private ArrayList<User> users;
    private User currentUser;

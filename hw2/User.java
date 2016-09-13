@@ -3,10 +3,12 @@ public class User {
 	private String password;
 	private String greeting;
 	private Mailbox mailbox;
+	
 	public User(String aUsername, String aPassword) {
 		username = aUsername;
 		password = aPassword;
-		greeting = "Welcome " + aUsername  + ".";
+		//greeting = "Welcome " + aUsername;
+		greeting = "";
 		mailbox = new Mailbox();
 	}
 	
