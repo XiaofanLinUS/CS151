@@ -8,22 +8,10 @@ public class Mailbox
       @param aPasscode passcode number
       @param aGreeting greeting string
    */
-   public Mailbox(String aPasscode, String aGreeting)
+   public Mailbox()
    {
-      passcode = aPasscode;
-      greeting = aGreeting;
       newMessages = new MessageQueue();
       keptMessages = new MessageQueue();
-   }
-
-   /**
-      Check if the passcode is correct.
-      @param aPasscode a passcode to check
-      @return true if the supplied passcode matches the mailbox passcode
-   */
-   public boolean checkPasscode(String aPasscode)
-   {
-      return aPasscode.equals(passcode);
    }
 
    /**
@@ -71,15 +59,6 @@ public class Mailbox
       Message m = removeCurrentMessage();
       if (m != null)
          keptMessages.add(m);
-   }
-
-   /**
-      Change mailbox's greeting.
-      @param newGreeting the new greeting string
-   */
-   public void setGreeting(String newGreeting)
-   {
-      greeting = newGreeting;
    }
 
    /**
