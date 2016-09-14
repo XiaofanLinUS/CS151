@@ -27,11 +27,15 @@ public class Console {
 	public boolean execute(String input) {
 		if (state == MAIN_MENU) {
 			if (input.equalsIgnoreCase("L")) {
+				outputs[MAIN_MENU] = "Welcome to TextChat.\n[L]ogin  [N]ew user  [Q]uit:";
 				state = SIGNIN;
 			} else if (input.equalsIgnoreCase("N")) {
+				outputs[MAIN_MENU] = "Welcome to TextChat.\n[L]ogin  [N]ew user  [Q]uit:";
 				state = SIGNUP;
 			} else if (input.equalsIgnoreCase("Q")) {
 				return false;
+			}else {
+				outputs[MAIN_MENU] = "[L]ogin  [N]ew user  [Q]uit:";
 			}
 		} else if (state == USER_MENU) {
 			if (input.equalsIgnoreCase("S")) {

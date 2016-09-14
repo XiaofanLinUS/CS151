@@ -1,30 +1,30 @@
-Welcome to TextChat
-[L]ogin [N]ew user [Q]uit
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
 Select a user name:
 Select a password:
-Welcome to TextChat
-[L]ogin [N]ew user [Q]uit
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
 Select a user name:
 Select a password:
-Welcome to TextChat
-[L]ogin [N]ew user [Q]uit
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
 User name:
 Password:
-[S]end message  [R]ead messages  [L]ogout
+[S]end message  [R]ead messages  [L]ogout:
 To:
 Message text, . to end:
 Message sent.
-[S]end message  [R]ead messages  [L]ogout
-Welcome to TextChat
-[L]ogin [N]ew user [Q]uit
+[S]end message  [R]ead messages  [L]ogout:
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
 User name:
 Password:
-[S]end message  [R]ead messages  [L]ogout
+[S]end message  [R]ead messages  [L]ogout:
 From: fred
 Hi Mary, what's up?
 Etc. Etc.
-[K]eep  [E]rase
-[N]ext  [D]one with messages
-[S]end message  [R]ead messages  [L]ogout
-Welcome to TextChat
-[L]ogin [N]ew user [Q]uit
+[K]eep  [E]rase:
+[N]ext  [D]one with messages:
+[S]end message  [R]ead messages  [L]ogout:
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
