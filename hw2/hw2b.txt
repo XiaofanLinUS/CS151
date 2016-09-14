@@ -1,0 +1,6 @@
+There are two differences between partA and partB.
+
+Firstly, in part A, I intended to use MailSystem to search for a specific Mailbox in Mailboxes' ArrayList with its owner's name that matches to the key(the name of receiver of the sending message) getted from Console.
+But when I implemented it, I find it is not necessary for MailSystem to find the target's Mailbox in this way. In contrast, MailSystem uses the method findUser to locate the receiver's account. And then, MailSystem gets the Mailbox from the receiver's (user's) instance variable to add the new message.
+
+Secondaly, in part A, I managed to let MailSystem to take care of greeting messages. However, since the greeting messages are merely outputs from Console which has little to do with MailSystem, I let Console take care of them. In this way, I can easily manipulate the greeting message using the method in Console without leting MailSystem to do the output job.
