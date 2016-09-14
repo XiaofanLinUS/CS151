@@ -26,13 +26,14 @@ public class MailSystem
       return null;
    }
    
-   public void sendMessage(String receiver, String theMessage) {
+   public boolean sendMessage(String receiver, String theMessage) {
 	   User theReceiver = findUser(receiver);
 	   if(theReceiver==null) {
-		   return;
+		   return false;
 	   }
 	   Message aMessage = new Message(theMessage, currentUser.getName());
 	   theReceiver.getmailbox().addMessage(aMessage);
+	   return true;
    }
    
    public int logIn(String theUsername, String thePassword) {

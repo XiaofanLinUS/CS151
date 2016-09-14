@@ -73,6 +73,7 @@ public class Console {
 	}
 
 	private void sendIt(String input) {
+		boolean success = false;
 		if (step == 0) {
 			buff.add(input);
 			step++;
@@ -86,11 +87,15 @@ public class Console {
 			}
 			content = content.substring(0, content.length() - 3);
 			buff.add(content);
-			sys.sendMessage(buff.get(0), buff.get(1));
+			success = sys.sendMessage(buff.get(0), buff.get(1));
 			buff = new ArrayList<>();
 			step = 0;
 			state = USER_MENU;
-			display("Message sent.");
+			if(success) {
+				display("Message sent.");
+			}else {
+				display("Message not sent.");
+			}
 		}
 	}
 
@@ -135,8 +140,8 @@ public class Console {
 	private static final int SIGNIN = 4;
 	private static final int SIGNUP = 6;
 	private static final int SENDMESSAGE = 8;
-	private static final String[] outputs = { "Welcome to TextChat\n[L]ogin [N]ew user [Q]uit",
-			"[S]end message  [R]ead messages  [L]ogout", "[K]eep  [E]rase", "[N]ext  [D]one with messages",
+	private static final String[] outputs = { "Welcome to TextChat.\n[L]ogin  [N]ew user  [Q]uit:",
+			"[S]end message  [R]ead messages  [L]ogout:", "[K]eep  [E]rase", "[N]ext  [D]one with messages",
 			"User name:", "Password:", "Select a user name:", "Select a password:", "To:", "Message text, . to end:" };
 	private int state = 0;
 	private int step = 0;

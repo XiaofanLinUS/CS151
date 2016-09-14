@@ -1,0 +1,13 @@
+N
+fred
+secret
+L
+fred
+secret
+S
+barney
+Hi Mary, what's up?
+Etc. Etc.
+.
+L
+Q
