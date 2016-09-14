@@ -41,7 +41,7 @@ public class MailSystem
 	   if(theUser == null) {
 		   return -2;
 	   }
-	   if(theUser.validate(thePassword)) {
+	   if(!theUser.validate(thePassword)) {
 		   return -1;
 	   }else {
 		   currentUser = theUser;

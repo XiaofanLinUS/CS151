@@ -1,0 +1,15 @@
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
+Select a user name:
+Select a password:
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
+User name:
+Password:
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:
+User name:
+Password:
+[S]end message  [R]ead messages  [L]ogout:
+Welcome to TextChat.
+[L]ogin  [N]ew user  [Q]uit:

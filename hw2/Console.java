@@ -118,13 +118,15 @@ public class Console {
 			buff.add(input);
 			step++;
 		} else if (step == 1) {
+			int errorCode = 0;
 			buff.add(input);
-			sys.logIn(buff.get(0), buff.get(1));
-			if (sys.getCurrentUser() != null) {
-				//display(sys.getCurrentUser().getGreeting());
-			}
+			errorCode = sys.logIn(buff.get(0), buff.get(1));
 			buff = new ArrayList<>();
 			step = 0;
+			if(errorCode < 0) {
+				state = MAIN_MENU;
+				return;
+			}
 			state = USER_MENU;
 		}
 	}

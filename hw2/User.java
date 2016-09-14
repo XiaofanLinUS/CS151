@@ -13,7 +13,7 @@ public class User {
 	}
 	
 	public boolean validate(String thePassword) {
-		if (password == thePassword) {
+		if (password.equals(thePassword)) {
 			return true;
 		}else {
 			return false;
