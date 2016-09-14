@@ -147,7 +147,7 @@ public class Console {
 	private static final int SIGNUP = 6;
 	private static final int SENDMESSAGE = 8;
 	private static final String[] outputs = { "Welcome to TextChat.\n[L]ogin  [N]ew user  [Q]uit:",
-			"[S]end message  [R]ead messages  [L]ogout:", "[K]eep  [E]rase", "[N]ext  [D]one with messages",
+			"[S]end message  [R]ead messages  [L]ogout:", "[K]eep  [E]rase:", "[N]ext  [D]one with messages:",
 			"User name:", "Password:", "Select a user name:", "Select a password:", "To:", "Message text, . to end:" };
 	private int state = 0;
 	private int step = 0;

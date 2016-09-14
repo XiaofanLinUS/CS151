@@ -23,8 +23,8 @@ Password:
 From: fred
 Hi Mary, what's up?
 Etc. Etc.
-[K]eep  [E]rase
-[N]ext  [D]one with messages
+[K]eep  [E]rase:
+[N]ext  [D]one with messages:
 [S]end message  [R]ead messages  [L]ogout:
 Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
