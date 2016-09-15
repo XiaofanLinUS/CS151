@@ -141,6 +141,7 @@ public class Console {
 				state = MAIN_MENU;
 				return;
 			}
+			display(sys.getCurrentUser().getGreeting());
 			state = USER_MENU;
 		}
 	}

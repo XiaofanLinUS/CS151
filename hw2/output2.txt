@@ -4,6 +4,7 @@ Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 Select a user name:
 Select a password:
+User added.
 Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 User name:

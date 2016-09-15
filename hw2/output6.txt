@@ -18,6 +18,10 @@ To:
 Message text, . to end:
 Message sent.
 [S]end message  [R]ead messages  [L]ogout:
+To:
+Message text, . to end:
+Message sent.
+[S]end message  [R]ead messages  [L]ogout:
 Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 User name:
@@ -27,6 +31,10 @@ Welcome mary.
 From: fred
 Hi Mary, what's up?
 Etc. Etc.
+[K]eep  [E]rase:
+[N]ext  [D]one with messages:
+From: fred
+Hi Mary, here is another message.
 [K]eep  [E]rase:
 [N]ext  [D]one with messages:
 [S]end message  [R]ead messages  [L]ogout:

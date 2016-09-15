@@ -7,8 +7,7 @@ public class User {
 	public User(String aUsername, String aPassword) {
 		username = aUsername;
 		password = aPassword;
-		//greeting = "Welcome " + aUsername;
-		greeting = "";
+		greeting = "Welcome " + aUsername + ".";
 		mailbox = new Mailbox();
 	}
 	

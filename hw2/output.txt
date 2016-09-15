@@ -2,14 +2,17 @@ Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 Select a user name:
 Select a password:
+User added.
 Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 Select a user name:
 Select a password:
+User added.
 Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 User name:
 Password:
+Welcome fred.
 [S]end message  [R]ead messages  [L]ogout:
 To:
 Message text, . to end:
@@ -19,6 +22,7 @@ Welcome to TextChat.
 [L]ogin  [N]ew user  [Q]uit:
 User name:
 Password:
+Welcome mary.
 [S]end message  [R]ead messages  [L]ogout:
 From: fred
 Hi Mary, what's up?
