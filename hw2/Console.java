@@ -72,6 +72,11 @@ public class Console {
 	}
 
 	private void readIt() {
+		String output = sys.readMessage();
+		if(output.length() == 0) {
+			state = USER_MENU;
+			return;
+		}
 		display(sys.readMessage());
 		state = MESSAGE_MENU1;
 	}
@@ -108,12 +113,17 @@ public class Console {
 			buff.add(input);
 			step++;
 		} else if (step == 1) {
+			boolean success = false;
 			buff.add(input);
-			sys.register(buff.get(0), buff.get(1));
+			success = sys.register(buff.get(0), buff.get(1));
 			buff = new ArrayList<>();
 			step = 0;
 			state = MAIN_MENU;
-			//display("User added.");
+			if(!success) {
+				display("User not added.");
+			}else {
+				display("User added.");
+			}
 		}
 	}
 

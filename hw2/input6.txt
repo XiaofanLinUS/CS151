@@ -1,0 +1,29 @@
+N
+mary
+123456
+N
+fred
+secret
+L
+fred
+secret
+S
+mary
+Hi Mary, what's up?
+Etc. Etc.
+.
+S
+mary
+Hi Mary, here is another message.
+.
+L
+L
+mary
+123456
+R
+E
+N
+E
+N
+L
+Q

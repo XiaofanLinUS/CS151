@@ -53,10 +53,14 @@ public class MailSystem
 	   currentUser = null;
    }
    
-   public void register(String aUsername, String aPassword) {
+   public boolean register(String aUsername, String aPassword) {
+	   if(findUser(aUsername) != null) {
+		   return false;
+	   }
 	   User aUser = new User(aUsername, aPassword);
 	   users.add(aUser);
 	   mailboxes.add(aUser.getmailbox());
+	   return true;
    }
    
    public User getCurrentUser() {
@@ -64,8 +68,12 @@ public class MailSystem
    }
    
    public String readMessage() {
-	   String sender = currentUser.getmailbox().getCurrentMessage().getOwner();
-	   String content = currentUser.getmailbox().getCurrentMessage().getText();
+	   Message currentMessage = currentUser.getmailbox().getCurrentMessage();
+	   if(currentMessage==null) {
+		   return "";
+	   }
+	   String sender = currentMessage.getOwner();
+	   String content = currentMessage.getText();
 	   String text = "From: " + sender + "\n" + content;
 	   return text;
    }
