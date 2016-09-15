@@ -5,8 +5,6 @@ public class Mailbox
 {
    /**
       Creates Mailbox object.
-      @param aPasscode passcode number
-      @param aGreeting greeting string
    */
    public Mailbox()
    {
@@ -61,26 +59,7 @@ public class Mailbox
          keptMessages.add(m);
    }
 
-   /**
-      Change mailbox's passcode.
-      @param newPasscode the new passcode
-   */
-   public void setPasscode(String newPasscode)
-   {
-      passcode = newPasscode;
-   }
-
-   /**
-      Get the mailbox's greeting.
-      @return the greeting
-   */
-   public String getGreeting()
-   {
-      return greeting;
-   }
 
    private MessageQueue newMessages;
    private MessageQueue keptMessages;
-   private String greeting;
-   private String passcode;
 }

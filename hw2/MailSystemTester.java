@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 /**
-   This program tests the mail system. A single phone
-   communicates with the program through System.in/System.out.
+   This program tests the mail system.
 */
 public class MailSystemTester
 {

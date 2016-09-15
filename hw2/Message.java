@@ -22,6 +22,10 @@ public class Message
       return text;
    }
    
+   /**
+    * Get the creator's name of this message
+    * @return the creator's name
+    */
    public String getOwner()
    {
       return owner;

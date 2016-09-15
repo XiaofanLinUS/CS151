@@ -1,18 +1,35 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * This class run as an interface between the true user and the computer
+ * @author linxiaofan
+ *
+ */
 public class Console {
 
+	/**
+	 * Constructs a Console object with a given MailSystem and a given Scanner
+	 * @param aSys	the MailSystem that deals with users and their Mailboxes
+	 * @param aScanner the input class
+	 */
 	public Console(MailSystem aSys, Scanner aScanner) {
 		sys = aSys;
 		scanner = aScanner;
 		buff = new ArrayList<>();
 	}
 
+	/**
+	 * Well, it is just a System.out.println();
+	 * @param output the String needed to be printed
+	 */
 	public void display(String output) {
 		System.out.println(output);
 	}
-
+	
+	/**
+	 * Run and start to get input
+	 * When there is no more need, the program ends
+	 */
 	public void run() {
 		boolean more = true;
 		while (more) {
@@ -23,7 +40,12 @@ public class Console {
 			more = execute(input);
 		}
 	}
-
+	
+	/**
+	 * Execute the commands typed by the true User
+	 * @param input the given commands
+	 * @return	false when the true user wants to quit the program
+	 */
 	public boolean execute(String input) {
 		if (state == MAIN_MENU) {
 			if (input.equalsIgnoreCase("L")) {
@@ -71,6 +93,9 @@ public class Console {
 		return true;
 	}
 
+	/**
+	 * Get messages in the user's mailbox and display it
+	 */
 	private void readIt() {
 		String output = sys.readMessage();
 		if(output.length() == 0) {
@@ -81,6 +106,10 @@ public class Console {
 		state = MESSAGE_MENU1;
 	}
 
+	/**
+	 * Get the input from user and send it to other's mailbox through the MailSystem
+	 * @param input	the content of the new message
+	 */
 	private void sendIt(String input) {
 		boolean success = false;
 		if (step == 0) {
@@ -108,6 +137,10 @@ public class Console {
 		}
 	}
 
+	/**
+	 * Get the input from the user and create a new account
+	 * @param input the info about the new account
+	 */
 	private void signUp(String input) {
 		if (step == 0) {
 			buff.add(input);
@@ -127,6 +160,10 @@ public class Console {
 		}
 	}
 
+	/**
+	 * Get the input of the user's account and log in 
+	 * @param input the info about the user's account
+	 */
 	private void signIn(String input) {
 		if (step == 0) {
 			buff.add(input);
