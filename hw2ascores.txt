@@ -1,0 +1,6 @@
+Student: lin_xiaofan
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
