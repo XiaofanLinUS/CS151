@@ -23,12 +23,14 @@ public class DayWithTime {
 		day = aDayOfMonth;
 		hour = hours;
 		minute = minutes;
-		makeSuperJulian();
+		makeJulian();
 	}
 
-	private DayWithTime(long aSuperJulian) {
-		superJulian = aSuperJulian;
-		makeYmdhm();
+	private DayWithTime(int aJulian, int hours, int minutes) {
+		julian = aJulian;
+		hour = hours;
+		minute = minutes;
+		makeYmd();
 	}
 
 	/**
@@ -90,10 +92,7 @@ public class DayWithTime {
 	 * @return a day that is n days away from this one
 	 */
 	public DayWithTime plusDays(int n) {
-		long sJDays = superJulian + n * 24 * 60;
-		System.out.println(sJDays);
-		DayWithTime addedDay = new DayWithTime(sJDays);
-		return addedDay;
+		return new DayWithTime(n + julian, hour, minute);
 	}
 
 	/**
@@ -105,7 +104,10 @@ public class DayWithTime {
 	 * @return a day that is n days away from this one
 	 */
 	public DayWithTime plusMinutes(long n) {
-		return new DayWithTime(n + superJulian);
+		int mins = (int) (n % 60);
+		int hours = (int) (((n - mins) / 60) % 24);
+		int days = (int) ((n - mins - 60 * hours) / (24 * 60));
+		return new DayWithTime(julian + days, hours, mins);
 	}
 
 	/**
@@ -118,26 +120,27 @@ public class DayWithTime {
 	 *         other
 	 */
 	public long minutesFrom(DayWithTime other) {
-		return superJulian - other.superJulian;
+		int days = daysFrom(other);
+		int hours = getHours() - other.getHours();
+		int mins = getMinutes() - other.getMinutes();
+		return days * 24 * 60 + hours * 60 + mins;
 	}
 
 	/**
 	 * Computes the Julian day number of this day if necessary
 	 */
-	private void makeSuperJulian() {
-		superJulian = toSuperJulian(year, month, day, hour, minute);
+	private void makeJulian() {
+		julian = toJulian(year, month, day);
 	}
 
 	/**
 	 * Converts this Julian day mumber to a calendar date if necessary.
 	 */
-	private void makeYmdhm() {
-		int[] ymdhm = fromSuperJulian(superJulian);
+	private void makeYmd() {
+		int[] ymdhm = fromJulian(julian);
 		year = ymdhm[0];
 		month = ymdhm[1];
 		day = ymdhm[2];
-		hour = ymdhm[3];
-		minute = ymdhm[4];
 	}
 
 	/**
@@ -151,11 +154,7 @@ public class DayWithTime {
 	 *         this day comes later)
 	 */
 	public int daysFrom(DayWithTime other) {
-		long superJulianDiff = minutesFrom(other);
-		int min = (int) (superJulianDiff % 60);
-		int hour = (int) (((superJulianDiff - min)/ 60) % 24);
-		int days = (int) ((superJulianDiff - 60 * hour - min) / 24);
-		return days;
+		return julian - other.julian;
 	}
 
 	/**
@@ -179,7 +178,7 @@ public class DayWithTime {
 	 *         This algorithm is from Press et al., Numerical Recipes in C, 2nd
 	 *         ed., Cambridge University Press 1992
 	 */
-	private static long toSuperJulian(int year, int month, int day, int hour, int minute) {
+	private static int toJulian(int year, int month, int day) {
 		int jy = year;
 		if (year < 0)
 			jy++;
@@ -201,10 +200,8 @@ public class DayWithTime {
 			int ja = (int) (0.01 * jy);
 			jul += 2 - ja + (int) (0.25 * ja);
 		}
-		long sjul = jul * 24 * 60 + hour * 60 + minute;
 
-		System.out.println(sjul);
-		return sjul;
+		return jul;
 	}
 
 	/**
@@ -218,14 +215,8 @@ public class DayWithTime {
 	 * @return an array whose 0 entry is the year, 1 the month, and 2 the day of
 	 *         the month.
 	 */
-	private static int[] fromSuperJulian(long sj) {
-		long sjul = sj;
-		int min = (int) (sjul % 60);
-		System.out.println(min);
-		int hour = (int) (((sjul - min)/ 60) % 24);
-		System.out.println(hour);
-		int ja = (int) ((sjul - 60 * hour - min) / (24 * 60));
-		int j = ja;
+	private static int[] fromJulian(int j) {
+		int ja = j;
 		int JGREG = 2299161;
 		// The Julian day number of the adoption of the Gregorian calendar
 
@@ -248,7 +239,7 @@ public class DayWithTime {
 			--year;
 		if (year <= 0)
 			--year;
-		return new int[] { year, month, date, hour, min };
+		return new int[] { year, month, date };
 	}
 
 	// Private stuff
@@ -257,5 +248,5 @@ public class DayWithTime {
 	private int year;
 	private int month;
 	private int day;
-	private long superJulian;
+	private int julian;
 }
