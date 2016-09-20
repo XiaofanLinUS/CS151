@@ -10,7 +10,11 @@ public class Day
    */
    public Day(int aYear, int aMonth, int aDate)
    {
-      julian = toJulian(aYear, aMonth, aDate);
+      year = aYear;
+      month = aMonth;
+      date = aDate;
+      ymdValid = true;
+      julianValid = false;
    }
 
    /**
@@ -19,7 +23,8 @@ public class Day
    */
    public int getYear()
    {
-      return fromJulian(julian)[0];
+      ensureYmd();
+      return year;
    }
 
    /**
@@ -28,7 +33,8 @@ public class Day
    */
    public int getMonthValue()
    {
-      return fromJulian(julian)[1];
+      ensureYmd();
+      return month;
    }
 
    /**
@@ -37,7 +43,8 @@ public class Day
    */
    public int getDayOfMonth()
    {
-      return fromJulian(julian)[2];
+      ensureYmd();
+      return date;
    }
 
    /**
@@ -48,34 +55,65 @@ public class Day
    */
    public Day plusDays(int n)
    {
+      ensureJulian();
       return new Day(julian + n);
    }
 
    /**
-      Returns the number of days between this day and another day.
+      Returns the number of days between this day and another
+      day
       @param other the other day
       @return the number of days that this day is away from 
       the other (>0 if this day comes later)
    */
    public int daysFrom(Day other)
    {
+      ensureJulian();
+      other.ensureJulian();
       return julian - other.julian;
    }
 
    private Day(int aJulian)
    {
       julian = aJulian;
+      ymdValid = false;
+      julianValid = true;
    }
 
    /**
-      Computes the Julian day number of the given day.
+      Computes the Julian day number of this day if 
+      necessary
+   */
+   private void ensureJulian()
+   {  
+      if (julianValid) return;
+      julian = toJulian(year, month, date);
+      julianValid = true;
+   }
+
+   /**
+      Converts this Julian day mumber to a calendar date if necessary.
+   */
+   private void ensureYmd()
+   {  
+      if (ymdValid) return;
+      int[] ymd = fromJulian(julian);
+      year = ymd[0];
+      month = ymd[1];
+      date = ymd[2];
+      ymdValid = true;
+   }
+
+   /**
+      Computes the Julian day number of the given day day.
+
       @param year a year
       @param month a month
       @param date a day of the month
       @return The Julian day number that begins at noon of 
       the given day
       Positive year signifies CE, negative year BCE. 
-      Remember that the year after 1 BCE was 1 CE.
+      Remember that the year after 1 BCE is 1 CE.
 
       A convenient reference point is that May 23, 1968 noon
       is Julian day number 2440000.
@@ -149,9 +187,13 @@ public class Day
       return new int[] { year, month, date };
    }
 
+   private int year;
+   private int month;
+   private int date;
    private int julian;
+   private boolean ymdValid;
+   private boolean julianValid;
 }
-
 
 
 
