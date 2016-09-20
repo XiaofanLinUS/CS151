@@ -107,7 +107,11 @@ public class DayWithTime {
 		int mins = (int) (n % 60);
 		int hours = (int) (((n - mins) / 60) % 24);
 		int days = (int) ((n - mins - 60 * hours) / (24 * 60));
-		return new DayWithTime(julian + days, hours, mins);
+		System.out.println(days);
+		int theMins = (mins + minute) % 60;
+		int theHours = (((mins + minute) / 60) + (hours + hour)) % 24;
+		days += (((mins + minute) / 60) + (hours + hour)) / 24;
+		return new DayWithTime(julian + days, theHours, theMins);
 	}
 
 	/**
@@ -178,32 +182,31 @@ public class DayWithTime {
 	 *         This algorithm is from Press et al., Numerical Recipes in C, 2nd
 	 *         ed., Cambridge University Press 1992
 	 */
-	private static int toJulian(int year, int month, int day) {
-		int jy = year;
-		if (year < 0)
-			jy++;
-		int jm = month;
-		if (month > 2)
-			jm++;
-		else {
-			jy--;
-			jm += 13;
-		}
-		int jul = (int) (java.lang.Math.floor(365.25 * jy) + java.lang.Math.floor(30.6001 * jm) + day + 1720995.0);
+	   private static int toJulian(int year, int month, int date)
+	   {  
+	      int jy = year;
+	      if (year < 0) jy++;
+	      int jm = month;
+	      if (month > 2) jm++;
+	      else
+	      {  
+	         jy--;
+	         jm += 13;
+	      }
+	      int jul = (int) (java.lang.Math.floor(365.25 * jy) 
+	            + java.lang.Math.floor(30.6001 * jm) + date + 1720995.0);
 
-		int IGREG = 15 + 31 * (10 + 12 * 1582);
-		// Gregorian Calendar adopted Oct. 15, 1582
+	      int IGREG = 15 + 31 * (10 + 12 * 1582);
+	         // Gregorian Calendar adopted Oct. 15, 1582
 
-		if (day + 31 * (month + 12 * year) >= IGREG)
-		// Change over to Gregorian calendar
-		{
-			int ja = (int) (0.01 * jy);
-			jul += 2 - ja + (int) (0.25 * ja);
-		}
-
-		return jul;
-	}
-
+	      if (date + 31 * (month + 12 * year) >= IGREG)
+	         // Change over to Gregorian calendar
+	      {  
+	         int ja = (int) (0.01 * jy);
+	         jul += 2 - ja + (int) (0.25 * ja);
+	      }
+	      return jul;
+	   }
 	/**
 	 * Converts a Julian day number to a calendar date.
 	 * 
@@ -215,32 +218,33 @@ public class DayWithTime {
 	 * @return an array whose 0 entry is the year, 1 the month, and 2 the day of
 	 *         the month.
 	 */
-	private static int[] fromJulian(int j) {
-		int ja = j;
-		int JGREG = 2299161;
-		// The Julian day number of the adoption of the Gregorian calendar
+	   private static int[] fromJulian(int j)
+	   {  
+	      int ja = j;
+	   
+	      int JGREG = 2299161;
+	         // The Julian day number of the adoption of the Gregorian calendar    
 
-		if (j >= JGREG)
-		// Cross-over to Gregorian Calendar produces this correction
-		{
-			int jalpha = (int) (((float) (j - 1867216) - 0.25) / 36524.25);
-			ja += 1 + jalpha - (int) (0.25 * jalpha);
-		}
-		int jb = ja + 1524;
-		int jc = (int) (6680.0 + ((float) (jb - 2439870) - 122.1) / 365.25);
-		int jd = (int) (365 * jc + (0.25 * jc));
-		int je = (int) ((jb - jd) / 30.6001);
-		int date = jb - jd - (int) (30.6001 * je);
-		int month = je - 1;
-		if (month > 12)
-			month -= 12;
-		int year = jc - 4715;
-		if (month > 2)
-			--year;
-		if (year <= 0)
-			--year;
-		return new int[] { year, month, date };
-	}
+	      if (j >= JGREG)
+	         // Cross-over to Gregorian Calendar produces this correction
+	      {  
+	         int jalpha = (int) (((float) (j - 1867216) - 0.25) 
+	             / 36524.25);
+	         ja += 1 + jalpha - (int) (0.25 * jalpha);
+	      }
+	      int jb = ja + 1524;
+	      int jc = (int) (6680.0 + ((float) (jb - 2439870) - 122.1)
+	          / 365.25);
+	      int jd = (int) (365 * jc + (0.25 * jc));
+	      int je = (int) ((jb - jd) / 30.6001);
+	      int date = jb - jd - (int) (30.6001 * je);
+	      int month = je - 1;
+	      if (month > 12) month -= 12;
+	      int year = jc - 4715;
+	      if (month > 2) --year;
+	      if (year <= 0) --year;
+	      return new int[] { year, month, date };
+	   }
 
 	// Private stuff
 	private int hour;
