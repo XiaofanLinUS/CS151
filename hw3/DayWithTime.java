@@ -107,7 +107,6 @@ public class DayWithTime {
 		int mins = (int) (n % 60);
 		int hours = (int) (((n - mins) / 60) % 24);
 		int days = (int) ((n - mins - 60 * hours) / (24 * 60));
-		System.out.println(days);
 		int theMins = (mins + minute) % 60;
 		int theHours = (((mins + minute) / 60) + (hours + hour)) % 24;
 		days += (((mins + minute) / 60) + (hours + hour)) / 24;
@@ -158,7 +157,19 @@ public class DayWithTime {
 	 *         this day comes later)
 	 */
 	public int daysFrom(DayWithTime other) {
-		return julian - other.julian;
+		int hours = getHours() - other.getHours();
+		int mins = getMinutes() - other.getMinutes();
+		int days = julian - other.julian;
+		float minutes = hours * 60 + mins;
+		minutes /= 60 * 24;
+		if(days < 0) {
+			days = -days;
+			days += Math.round(-minutes);
+			days = -days;
+		}else {
+			days += Math.round(minutes);
+		}
+		return days;
 	}
 
 	/**
