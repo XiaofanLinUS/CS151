@@ -1,6 +1,6 @@
 /**
  * Some codes came from the book written by Professor Horstmann 
- * Source url:https://bitbucket.org/cayhorstmann/oodp3code
+ * Source url:https://bitbucket.org/cayhorstmann/oodp3code/src/0e2bd7f0bd4ed0ec83f7265817bc49e93e33f586/ch03/day3/?at=master
  * @author linxiaofan
  *
  */
