@@ -1,4 +1,3 @@
-import sun.nio.cs.ext.SJIS;
 
 public class DayWithTime {
 	/**
@@ -123,7 +122,7 @@ public class DayWithTime {
 	 *         other
 	 */
 	public long minutesFrom(DayWithTime other) {
-		int days = daysFrom(other);
+		int days = julian - other.julian;
 		int hours = getHours() - other.getHours();
 		int mins = getMinutes() - other.getMinutes();
 		return days * 24 * 60 + hours * 60 + mins;
