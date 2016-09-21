@@ -10,16 +10,11 @@ public class DayWithTime {
 	 * Julian/Gregorian calendar. The Julian calendar is used for all days
 	 * before October 15, 1582
 	 * 
-	 * @param aYear
-	 *            a year != 0
-	 * @param aMonth
-	 *            a month between 1 and 12
-	 * @param aDayOfMonth
-	 *            a day of the month between 1 and 31
-	 * @param hours
-	 *            the hours between 0 and 23
-	 * @param minutes
-	 *            the minutes between 0 and 59
+	 * @param aYear a year != 0
+	 * @param aMonth a month between 1 and 12
+	 * @param aDayOfMonth a day of the month between 1 and 31
+	 * @param hours the hours between 0 and 23
+	 * @param minutes the minutes between 0 and 59
 	 */
 	public DayWithTime(int aYear, int aMonth, int aDayOfMonth, int hours, int minutes) {
 		year = aYear;
@@ -91,8 +86,7 @@ public class DayWithTime {
 	 * Returns a day with time that is a certain number of days away from this
 	 * day with time
 	 * 
-	 * @param n
-	 *            the number of days, can be negative
+	 * @param n the number of days, can be negative
 	 * @return a day that is n days away from this one
 	 */
 	public DayWithTime plusDays(int n) {
@@ -103,8 +97,7 @@ public class DayWithTime {
 	 * Returns a day with time that is a certain number of days away from this
 	 * day with time
 	 * 
-	 * @param n
-	 *            the number of minutes, can be negative
+	 * @param n the number of minutes, can be negative
 	 * @return a day that is n days away from this one
 	 */
 	public DayWithTime plusMinutes(long n) {
@@ -121,8 +114,7 @@ public class DayWithTime {
 	 * Returns the number of minutes between this day with time and another day
 	 * with time.
 	 * 
-	 * @param other
-	 *            the other day with time
+	 * @param other the other day with time
 	 * @return the number of minutes that this day with time is away from the
 	 *         other
 	 */
@@ -155,8 +147,7 @@ public class DayWithTime {
 	 * with time, rounded to the closest value. (Round any difference >= 12
 	 * hours to the next day.)
 	 * 
-	 * @param other
-	 *            the other day with time
+	 * @param other the other day with time
 	 * @return the number of days that this day is away from the other (>0 if
 	 *         this day comes later)
 	 */
@@ -179,12 +170,9 @@ public class DayWithTime {
 	/**
 	 * Computes the Julian day number of the given day.
 	 * 
-	 * @param year
-	 *            a year
-	 * @param month
-	 *            a month
-	 * @param day
-	 *            a day of the month
+	 * @param year a year
+	 * @param month a month
+	 * @param day a day of the month
 	 * @return The Julian day number that begins at noon of the given day
 	 *         Positive year signifies CE, negative year BCE. Remember that the
 	 *         year after 1 BCE was 1 CE.
@@ -228,8 +216,7 @@ public class DayWithTime {
 	 * This algorithm is from Press et al., Numerical Recipes in C, 2nd ed.,
 	 * Cambridge University Press 1992
 	 * 
-	 * @param j
-	 *            the Julian day number
+	 * @param j the Julian day number
 	 * @return an array whose 0 entry is the year, 1 the month, and 2 the day of
 	 *         the month.
 	 */

@@ -1,3 +1,9 @@
+/**
+ * Some codes came from the book written by Professor Horstmann 
+ * source url: https://bitbucket.org/cayhorstmann/oodp3code/src/0e2bd7f0bd4ed0ec83f7265817bc49e93e33f586/ch03/day1/?at=master
+ * @author linxiaofan
+ *
+ */
 public class MutableDay {
 	/**
 	 * Constructs a day with a given year, month, and day of the
