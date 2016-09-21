@@ -1,4 +1,9 @@
-
+/**
+ * Some codes came from the book written by Professor Horstmann 
+ * Source url:https://bitbucket.org/cayhorstmann/oodp3code
+ * @author linxiaofan
+ *
+ */
 public class DayWithTime {
 	/**
 	 * Constructs a day with a given year, month, and day of the
