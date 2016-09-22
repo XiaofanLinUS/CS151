@@ -17,7 +17,10 @@ public class MutableDay {
 	 * @param aDayOfMonth
 	 *            a day of the month between 1 and 31
 	 */
-	public MutableDay(int aYear, int aMonth, int aDay) {
+	public MutableDay(int aYear, int aMonth, int aDay) throws IllegalStateException {
+		if(aDay > MutableDay.daysPerMonth(aYear, aMonth) || aDay < 1 || aMonth > 12 || aMonth < 1) {
+			throw new IllegalStateException("No such date");
+		}
 		year = aYear;
 		month = aMonth;
 		day = aDay;

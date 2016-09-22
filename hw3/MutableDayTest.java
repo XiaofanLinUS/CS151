@@ -64,5 +64,10 @@ public class MutableDayTest
 		MutableDay deadline = new MutableDay(2001, 2, 28);
 		deadline.setDayOfMonth(31); 
 		int month = deadline.getMonthValue();
-	}	
+	}
+	
+	@Test(expected=IllegalStateException.class) public void testConstructorException()
+	{
+		new MutableDay(2000, 2, 30);
+	}
 }
