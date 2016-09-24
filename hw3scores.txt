@@ -1,0 +1,155 @@
+Student: lin_xiaofan
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.013
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.016
+
+OK (8 tests)
+
+ 
+commit bde454c874736536c46e2042b54da12f35bcc4d5
+Author: XiaofanLin <XiaofanLin@XiaofanLindeMBP.hsd1.ca.comcast.net>
+Date:   Wed Sep 21 22:37:14 2016 -0700
+
+    Update my codes and Pass the new test cases
+
+:100644 100644 4d8b947... c4fee26... M	hw3/MutableDay.java
+:100644 100644 d78d156... 7e0aa1e... M	hw3/MutableDayTest.java
+
+commit 08bd839f73053117def81997fa6a6e4641cef620
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:28:29 2016 -0700
+
+    Update progress log
+
+:100644 100644 e2622d4... bbb011e... M	hw3/progress.txt
+
+commit 98152b8965ceded3835a46b80c79378a0149514a
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:25:17 2016 -0700
+
+    Formatize my code and add a citation to MutableDay
+
+:100644 100644 92a0c01... ac4a683... M	hw3/DayWithTime.java
+:100644 100644 10da9b4... 4d8b947... M	hw3/MutableDay.java
+
+commit f9137352034fded5494fa4b0b498b2bb7a2606ba
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:20:40 2016 -0700
+
+    Finsh part 2
+
+:000000 100644 0000000... 10da9b4... A	hw3/MutableDay.java
+:000000 100644 0000000... d78d156... A	hw3/MutableDayTest.java
+
+commit 1a944d62d314128d0c29169531d16863df197a22
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:54:29 2016 -0700
+
+    Add a citation
+
+:100644 100644 76f69fa... 92a0c01... M	hw3/DayWithTime.java
+
+commit f0599a1c9dffa2cf03f0d9670a172f7e6f2f3275
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:53:51 2016 -0700
+
+    Add a citation
+
+:100644 100644 e72365b... 76f69fa... M	hw3/DayWithTime.java
+
+commit 4505d3e922738ac085e9a003c27497cb9536421b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:48:26 2016 -0700
+
+    Remove some unnecessary codes
+
+:100644 000000 f6c5ceb... 0000000... D	hw3/Day.java
+:100644 000000 d9d2ec8... 0000000... D	hw3/DayTester.java
+:100644 100644 fb2453f... e72365b... M	hw3/DayWithTime.java
+:100644 000000 a84774a... 0000000... D	hw3/Tester.java
+
+commit 96dbe99ddf06438a7c7618be4e1016df68f8dc92
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 08:48:44 2016 -0700
+
+    Pass all the cases for part 1
+
+:100644 100644 a363a90... fb2453f... M	hw3/DayWithTime.java
+:100644 100644 ed71e7a... a84774a... M	hw3/Tester.java
+
+commit 66e50431de1189cdbca7fb8bd6ba1dd6ec41639b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 23:40:55 2016 -0700
+
+    Fix more bugs
+
+:100644 100644 46c0f1a... a363a90... M	hw3/DayWithTime.java
+:100644 100644 c81179a... ed71e7a... M	hw3/Tester.java
+
+commit 165a41cbabb5ab2ab08381778e842db3fb939fd4
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 23:03:00 2016 -0700
+
+    Fix some bugs
+
+:100644 100644 908357c... 46c0f1a... M	hw3/DayWithTime.java
+:100644 100644 7fbed29... c81179a... M	hw3/Tester.java
+
+commit 27e9d5cd87712fe6b3edd0be2716decadcddf6bd
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 22:24:50 2016 -0700
+
+    Still working on it, buggy
+
+:100644 100644 3c1e925... 545317d... M	.gitignore
+:100644 100644 b8a8c05... f6c5ceb... M	hw3/Day.java
+:000000 100644 0000000... 908357c... A	hw3/DayWithTime.java
+:000000 100644 0000000... 040e0fc... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 7fbed29... A	hw3/Tester.java
+
+commit 4db0424787c34cb0aec04f12ef4421e515f55ab7
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sun Sep 18 23:40:04 2016 -0700
+
+    Still do nothing
+
+:100644 100644 6807aba... e2622d4... M	hw3/progress.txt
+
+commit 5d99c34d4fdc37b6191592c21551b7c4db4a4eaf
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sat Sep 17 22:51:08 2016 -0700
+
+    Do nothing today
+
+:000000 100644 0000000... 6807aba... A	hw3/progress.txt
+
+commit 06c4ed8b3aaaa366013408752cd553e186b5e5d5
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Fri Sep 16 23:23:15 2016 -0700
+
+    Upload hw3 code and do nothing
+
+:000000 100644 0000000... b8a8c05... A	hw3/Day.java
+:000000 100644 0000000... d9d2ec8... A	hw3/DayTester.java
+
+commit 94f95a5beb0d5c9f1777db8afdfad98f10180b5e
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:55 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 0d0cd3e... A	hw2ascores.txt
+:000000 100644 0000000... e16508f... A	hw2bscores.txt
+ 
