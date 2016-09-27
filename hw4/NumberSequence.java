@@ -1,3 +1,5 @@
+import java.util.function.LongUnaryOperator;
+
 public interface NumberSequence
 {
 
@@ -12,4 +14,15 @@ public interface NumberSequence
 	default double average(int n) { return 0; }
 	default double average() { return 0; }
 	default long[] toArray(int i) { return null; }
+	static NumberSequence iterate(long seed, LongUnaryOperator f) {
+		return new InfiniteSequence(seed, f);
+	}
+	
+	static NumberSequence random(long seed) {
+		long m = (long) Math.pow(2, 31);
+		long a = 1103515245;
+		long c = 12345;
+		LongUnaryOperator f = x -> (x*a + c) % m;
+		return iterate(seed, f);
+	}
 }
