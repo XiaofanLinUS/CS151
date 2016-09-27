@@ -11,4 +11,5 @@ public interface NumberSequence
 	default boolean hasNext() { return true; }
 	default double average(int n) { return 0; }
 	default double average() { return 0; }
+	default long[] toArray(int i) { return null; }
 }

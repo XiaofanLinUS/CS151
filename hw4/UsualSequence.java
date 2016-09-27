@@ -39,4 +39,15 @@ public class UsualSequence implements NumberSequence {
 		}
 		return ((double) sum) / size;
 	}
+	
+	public long[] toArray(int n) {
+		if(n >= numberList.length) {
+			return numberList.clone();
+		}
+		long[] anArray = new long[n];
+		for(int i = 0; i < n; i++) {
+			anArray[i] = numberList[i];
+		}
+		return anArray;
+	}
 }
