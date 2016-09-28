@@ -1,3 +1,4 @@
+import java.util.function.LongPredicate;
 import java.util.function.LongUnaryOperator;
 
 public interface NumberSequence
@@ -11,8 +12,8 @@ public interface NumberSequence
 	
 	long next();
 	default boolean hasNext() { return true; }
-	default double average(int n) { return 0; }
-	default double average() { return 0; }
+	default double average(int n) { return -1; }
+	default double average() { return -1; }
 	default long[] toArray(int i) { return null; }
 	static NumberSequence iterate(long seed, LongUnaryOperator f) {
 		return new InfiniteSequence(seed, f);
@@ -25,4 +26,10 @@ public interface NumberSequence
 		LongUnaryOperator f = x -> (x*a + c) % m;
 		return iterate(seed, f);
 	}
+	
+	default NumberSequence filter(LongPredicate p) {
+		NumberSequence filteredSequence = new FilteredSequence(this, p);
+		return filteredSequence;
+	}
+
 }
