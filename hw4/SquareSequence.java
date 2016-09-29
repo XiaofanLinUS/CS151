@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.function.LongPredicate;
 
 public class SquareSequence implements NumberSequence {
 	private int currentIndex = 0;
@@ -16,7 +15,7 @@ public class SquareSequence implements NumberSequence {
 	
 		return result;
 	}
-	
+	/**
 	public double average(int n) {
 		long sum = 0;
 		for(int i = 0; i < n; i++) {
@@ -24,7 +23,7 @@ public class SquareSequence implements NumberSequence {
 		}
 		return ((double) sum) / n;
 	}
-
+	**/
 	
 
 	

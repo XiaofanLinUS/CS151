@@ -2,12 +2,17 @@ public class UsualSequence implements NumberSequence {
 	long[] numberList;
 	int currentIndex;
 	boolean next;
+	
 	public UsualSequence(long...args) {
 		numberList = args;
 		next = true;
 		currentIndex = 0;
 	}
+	
 	public long next() {
+		if (!hasNext()) {
+			return -1;
+		}
 		long currentElement = numberList[currentIndex];
 		currentIndex++;
 		if (currentIndex == numberList.length) {
@@ -16,8 +21,10 @@ public class UsualSequence implements NumberSequence {
 		return currentElement;
 	}
 	
-	public boolean hasNext() { return next; }
-	
+	public boolean hasNext() { 
+		return next; 
+	}
+/**	
 	public double average(int n) {
 		int size, sum = 0;
 		if (n > numberList.length) {
@@ -39,7 +46,7 @@ public class UsualSequence implements NumberSequence {
 		}
 		return ((double) sum) / size;
 	}
-	
+
 	public long[] toArray(int n) {
 		if(n >= numberList.length) {
 			return numberList.clone();
@@ -50,4 +57,5 @@ public class UsualSequence implements NumberSequence {
 		}
 		return anArray;
 	}
+	**/
 }
