@@ -1,0 +1,120 @@
+Student: lin_xiaofan
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 10
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:63:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 31 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+..
+Time: 0.1
+
+OK (2 tests)
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.108
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.4
+2
+4
+......
+Time: 0.109
+
+OK (7 tests)
+
+ 
+commit 9835c7fff0c98a9bb21fedcbd788f16b4bfc76f0
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Sep 28 22:07:34 2016 -0700
+
+    Improve my code by enhancing the polymorphism of my interface
+
+:100644 100644 b56f04d... f433e61... M	hw4/NumberSequence.java
+:100644 100644 f721b05... ea8e856... M	hw4/SquareSequence.java
+:100644 100644 59e7dc0... 852d9a2... M	hw4/UsualSequence.java
+
+commit def278349f3a24a6dd6c5b04fa76a5091940b52e
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 21:49:21 2016 -0700
+
+    Improve the filter method to make it usable by all other general sequences class by introducing a new class FilteredSequence
+
+:000000 100644 0000000... 7c76878... A	hw4/FilteredSequence.java
+:100644 100644 3da480e... b56f04d... M	hw4/NumberSequence.java
+:100644 100644 6548ce3... f721b05... M	hw4/SquareSequence.java
+
+commit d80bba24d235881dd64ce61fac8bef789f59af20
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 01:23:11 2016 -0700
+
+    Pass the sixth and seventh cases
+
+:000000 100644 0000000... 033f7fc... A	hw4/InfiniteSequence.java
+:100644 100644 65dd1fa... 3da480e... M	hw4/NumberSequence.java
+
+commit 8b6479db23f1781c575577c5089cc179f2262509
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 00:52:46 2016 -0700
+
+    Pass the fifth case
+
+:100644 100644 ba37faf... 6548ce3... M	hw4/SquareSequence.java
+
+commit a89786dfba650f73596b4898b7e3b36b435994ea
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 26 21:27:11 2016 -0700
+
+    Pass the fourth case
+
+:100644 100644 9d09f6e... 65dd1fa... M	hw4/NumberSequence.java
+:100644 100644 76faaf6... 59e7dc0... M	hw4/UsualSequence.java
+
+commit b34c2bff08f2f26c231fde8a3735d9c661920e4a
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 26 21:15:54 2016 -0700
+
+    Pass the first three cases
+
+:100644 100644 2253585... 9d09f6e... M	hw4/NumberSequence.java
+:100644 100644 ac95f6a... ba37faf... M	hw4/SquareSequence.java
+:000000 100644 0000000... 76faaf6... A	hw4/UsualSequence.java
+ 
