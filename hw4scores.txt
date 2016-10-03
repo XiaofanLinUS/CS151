@@ -1,6 +1,6 @@
 Student: lin_xiaofan
 At least 3 git commits (max. 5 points): 5
-10 test cases pass (2 per test case, max. 20 points): 10
+10 test cases pass (2 per test case, max. 20 points): 20
 All methods have javadoc (max. 5 points): 0
  
 Starting audit...
