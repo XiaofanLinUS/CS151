@@ -1,14 +1,25 @@
+/**
+ * A usual sequence with given numbers in it
+ * @author linxiaofan
+ *
+ */
 public class UsualSequence implements NumberSequence {
 	long[] numberList;
 	int currentIndex;
 	boolean next;
-	
+	/**
+	 * Construct a sequence with numbers in it
+	 * @param args numbers
+	 */
 	public UsualSequence(long...args) {
 		numberList = args;
 		next = true;
 		currentIndex = 0;
 	}
-	
+	/**
+	 * Get the next value in this sequence
+	 * @return the next value
+	 */
 	public long next() {
 		if (!hasNext()) {
 			return -1;
@@ -21,6 +32,10 @@ public class UsualSequence implements NumberSequence {
 		return currentElement;
 	}
 	
+	/**
+	 * Return true if this sequence has a next value
+	 * @return true if this sequence has a next value
+	 */
 	public boolean hasNext() { 
 		return next; 
 	}
