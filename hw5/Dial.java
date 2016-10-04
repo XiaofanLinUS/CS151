@@ -25,6 +25,7 @@ public class Dial implements Icon {
 		int smallTicker = 5 * mediumTicker;
 		int length = radius/5;
 		Graphics2D g2 = (Graphics2D) g;
+		g2.setColor(color);
 		drawTickers(true, largeTickers, length, x, y, g2);
 		drawTickers(false, mediumTicker, length/2, x, y, g2);
 		if(thirdTick) {
@@ -63,13 +64,13 @@ public class Dial implements Icon {
 		}
 		
 		if(number) {
-			n += length/3;
-			r -= length/3;
+			n += length/2;
+			r -= length/2;
 			for(int i = 0; i < tickers; i++) {
 				endX[i] = m + Math.sin(i*degree)*r; 
 				endY[i] = n + (1 - Math.cos(i*degree))*r;
 			}
-			g2.setFont(new Font("TimesRoman", Font.BOLD, 20));
+			g2.setFont(new Font("TimesRoman", Font.BOLD, length/2));
 			for(int i = 0; i < tickers; i++) {
 				int theNumber = units * i;
 				String text = Integer.toString(theNumber);
