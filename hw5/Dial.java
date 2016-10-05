@@ -1,12 +1,10 @@
 import java.awt.*;
 import java.awt.font.FontRenderContext;
 import java.awt.geom.*;
-import javax.swing.*;
 import java.util.ArrayList;
 
 import javax.swing.Icon;
 
-import com.sun.prism.paint.Color;
 
 public class Dial implements Icon {
 	private int radius;
@@ -78,7 +76,7 @@ public class Dial implements Icon {
 				FontRenderContext context = g2.getFontRenderContext();
 				Rectangle2D bounds = font.getStringBounds(text, context);
 				double ascent = -bounds.getY();
-				double descent = bounds.getHeight() - ascent;
+				//double descent = bounds.getHeight() - ascent;
 				double extent = bounds.getWidth();
 				g2.drawString(text, (float) (endX[i] - 0.5 * extent), (float) (endY[i] + 0.5 * ascent));
 			}
@@ -91,7 +89,6 @@ public class Dial implements Icon {
 
 	@Override
 	public int getIconHeight() {
-		// TODO Auto-generated method stub
 		return 2 * radius;
 	}
 

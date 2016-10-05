@@ -1,5 +1,7 @@
 import java.awt.*;
 import java.awt.geom.*;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.*;
 
 import javax.swing.Icon;
@@ -19,22 +21,22 @@ public class Stopwatch implements MoveableShape
    */
    public Stopwatch(int x, int y, int width)
    {
-	  running = true;
+	  running = false;
 	  frozen = false;
+	  totalDelay = 0;
       this.x = x;
       this.y = y;
       this.width = width;
       this.smallWidth = width / 3;
       this.dial1 = new Dial(width, true, Color.BLACK);
       this.dial2 = new Dial(smallWidth, false, Color.BLACK);
-      this.actualDegree = 0;
-      this.actualSmallDegree = 0;
       this.degree = 0;
       this.smallDegree = 0;
    }
 
    public Stopwatch(int width) {
-	   running = true;
+	   totalDelay = 0;
+	   running = false;
 	   frozen = false;
 	   x = 0;
 	   y = 0;
@@ -42,27 +44,29 @@ public class Stopwatch implements MoveableShape
 	   this.smallWidth = width / 3;
 	   this.dial1 = new Dial(width, true, Color.BLACK);
 	   this.dial2 = new Dial(smallWidth, false, Color.BLACK);
-	   this.actualDegree = 0;
-	   this.actualSmallDegree = 0;
 	   this.degree = 0;
 	   this.smallDegree = 0;
    }
 
    public void reset() {
-	   running = true;
+	   totalDelay = 0;
+	   running = false;
 	   frozen = false;
-	   actualDegree = 0;
-	   actualSmallDegree = 0;
 	   degree = 0;
 	   smallDegree = 0;
    }
+   
    public void move() {
 	   if(running) {
-		   actualDegree += (0.1/60)*(2*Math.PI);
-		   actualSmallDegree += (0.1/(60*60))*(2*Math.PI);
-		   if(!frozen) {
-			   degree = actualDegree;
-			   smallDegree = actualSmallDegree;
+		   Instant moment = Instant.now();
+		   Duration delay = Duration.between(thisMoment, moment);
+		   totalDelay += delay.getNano()/Math.pow(10, 9);
+		   if (!frozen) {
+			   thisMoment = moment;
+			   degree = ((totalDelay/60))*(2*Math.PI);
+			   smallDegree += (totalDelay/(60*60))*(2*Math.PI);
+			   degree %= 2*Math.PI;
+			   smallDegree %= 2*Math.PI;
 		   }
 	   }else {
 		   if(frozen) {
@@ -85,9 +89,12 @@ public class Stopwatch implements MoveableShape
 	   double sEndY = smallY + (1 - Math.cos(smallDegree))*smallWidth;
 	   Graphics g = (Graphics) g2;
 	   
+	   
 	   Line2D.Double bigLine = new Line2D.Double(midX, midY, endX, endY);
 	   Line2D.Double smallLine = new Line2D.Double(sMidX, sMidY, sEndX, sEndY);
+	   g2.setColor(Color.RED);
 	   g2.draw(bigLine);
+	   g2.setColor(Color.PINK);
 	   g2.draw(smallLine);
 	   dial1.paintIcon(null, g, x, y);
 	   dial2.paintIcon(null, g, smallX, smallY);
@@ -95,13 +102,22 @@ public class Stopwatch implements MoveableShape
    }
    
    public void topButtonPressed() {
-	   running = !running;
+	   
+	   if(!running) { 
+		   thisMoment = Instant.now();
+		   running = true;
+	   }else if(frozen) {
+		   frozen = !frozen;
+	   }else {
+		   running = false;
+	   }
    }
    
    public void secondButtonPressed() {
 	   frozen = !frozen;
    }
    
+   private double totalDelay;
    private boolean running;
    private boolean frozen;
    private int x;
@@ -110,8 +126,7 @@ public class Stopwatch implements MoveableShape
    private int smallWidth;
    private double degree;
    private double smallDegree;
-   private double actualDegree;
-   private double actualSmallDegree;
    private Icon dial1;
    private Icon dial2;
+   private Instant thisMoment;
 }
