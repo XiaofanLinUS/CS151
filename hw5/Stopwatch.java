@@ -140,7 +140,6 @@ public class Stopwatch implements MoveableShape {
 			thisMoment = Instant.now();
 			running = true;
 		} else if (frozen) {
-			frozen = !frozen;
 		} else {
 			running = false;
 		}
