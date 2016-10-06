@@ -9,8 +9,8 @@ import javax.swing.Icon;
 public class Dial implements Icon {
 	private int radius;
 	private boolean thirdTick;
-	private java.awt.Color color;
-	public Dial(int aRadius, boolean aThirdTick, java.awt.Color green) {
+	private Color color;
+	public Dial(int aRadius, boolean aThirdTick, Color green) {
 		radius = aRadius;
 		thirdTick = aThirdTick;
 		color = green;
@@ -68,7 +68,7 @@ public class Dial implements Icon {
 				endX[i] = m + Math.sin(i*degree)*r; 
 				endY[i] = n + (1 - Math.cos(i*degree))*r;
 			}
-			g2.setFont(new Font("TimesRoman", Font.BOLD, length/2));
+			g2.setFont(new Font("sans serif", Font.BOLD, (int) (length/1.7)));
 			for(int i = 0; i < tickers; i++) {
 				int theNumber = units * i;
 				String text = Integer.toString(theNumber);
