@@ -35,7 +35,11 @@ public class ShapeIcon implements Icon {
 	}
 
 	/**
-	 * Paint the icon
+	 * Paint the dial
+	 * @param c the component
+	 * @param g the graphics context
+	 * @param x the left of the bounding rectangle
+	 * @param y the top of the bounding rectangle
 	 */
 	public void paintIcon(Component c, Graphics g, int x, int y) {
 		Graphics2D g2 = (Graphics2D) g;
