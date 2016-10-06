@@ -69,8 +69,8 @@ public class Stopwatch implements MoveableShape {
 			Instant moment = Instant.now();
 			Duration delay = Duration.between(thisMoment, moment);
 			totalDelay += delay.getNano() / Math.pow(10, 9);
+			thisMoment = moment;
 			if (!frozen) {
-				thisMoment = moment;
 				degree = ((totalDelay / 60)) * (2 * Math.PI);
 				smallDegree = (totalDelay / (60 * 60)) * (2 * Math.PI);
 				degree %= 2 * Math.PI;
