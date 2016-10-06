@@ -3,54 +3,56 @@ import java.awt.geom.*;
 import java.awt.geom.GeneralPath;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.*;
-
 import javax.swing.Icon;
 
-import com.sun.prism.paint.Stop;
 
 /**
- * A car that can be moved around.
+ * A stopwatch with a movable pointer
+ * @author linxiaofan
  */
 public class Stopwatch implements MoveableShape {
 	/**
-	 * Constructs a car item.
+	 * Constructs a stopwatch item.
 	 * 
-	 * @param x
-	 *            the left of the bounding rectangle
-	 * @param y
-	 *            the top of the bounding rectangle
-	 * @param width
-	 *            the width of the bounding rectangle
+	 * @param x the left of the bounding circle
+	 * @param y the top of the bounding circle
+	 * @param radius the radius of the circle
 	 */
-	public Stopwatch(int x, int y, int width) {
+	public Stopwatch(int x, int y, int radius) {
 		running = false;
 		frozen = false;
 		totalDelay = 0;
 		this.x = x;
 		this.y = y;
-		this.width = width;
-		this.smallWidth = (int) (width / 2.7);
-		this.dial1 = new Dial(width, true, Color.BLACK);
-		this.dial2 = new Dial(smallWidth, false, Color.BLACK);
+		this.radius = radius;
+		this.smallradius = (int) (radius / 2.7);
+		this.dial1 = new Dial(radius, true, Color.BLACK);
+		this.dial2 = new Dial(smallradius, false, Color.BLACK);
 		this.degree = 0;
 		this.smallDegree = 0;
 	}
 
-	public Stopwatch(int width) {
+	/**
+	 * Constructs a stopwatch item.
+	 * @param radius the radius of the circle
+	 */
+	public Stopwatch(int radius) {
 		totalDelay = 0;
 		running = false;
 		frozen = false;
 		x = 0;
 		y = 0;
-		this.width = width;
-		this.smallWidth = (int) (width / 2.7);
-		this.dial1 = new Dial(width, true, Color.BLACK);
-		this.dial2 = new Dial(smallWidth, false, Color.BLACK);
+		this.radius = radius;
+		this.smallradius = (int) (radius / 2.7);
+		this.dial1 = new Dial(radius, true, Color.BLACK);
+		this.dial2 = new Dial(smallradius, false, Color.BLACK);
 		this.degree = 0;
 		this.smallDegree = 0;
 	}
 
+	/**
+	 * Reset this watch
+	 */
 	public void reset() {
 		totalDelay = 0;
 		running = false;
@@ -59,6 +61,9 @@ public class Stopwatch implements MoveableShape {
 		smallDegree = 0;
 	}
 
+	/**
+	 * Move pointers of this watch
+	 */
 	public void move() {
 		if (running) {
 			Instant moment = Instant.now();
@@ -78,6 +83,15 @@ public class Stopwatch implements MoveableShape {
 		}
 	}
 
+	/**
+	 * Draw a pointer for this watch
+	 * @param g2 the graphics context
+	 * @param startX the starting x value of the pointer
+	 * @param startY the starting y value of the pointer
+	 * @param length the length of the pointer
+	 * @param degree the degree between the pointer and a vertical line
+	 * @param aColor the color of the pointer
+	 */
 	public void drawPointer(Graphics2D g2, double startX, double startY, double length, double degree, Color aColor) {
 		double m = startX;
 		double n = startY - length;
@@ -97,23 +111,30 @@ public class Stopwatch implements MoveableShape {
 	    g2.fill(path);
 	}
 
+	/**
+	 * Draw a stopwatch
+	 * @param g2 the graphics context
+	 */
 	public void draw(Graphics2D g2) {
-		int smallX = x + width - smallWidth;
-		int smallY = (int) (y + width / 2.5);
-		double midX = x + width; // Mid point of the big dial
-		double midY = y + width;
-		double sMidX = smallX + smallWidth;// Mid point of the small dial
-		double sMidY = smallY + smallWidth;
+		int smallX = x + radius - smallradius;
+		int smallY = (int) (y + radius / 2.5);
+		double midX = x + radius; // Mid point of the big dial
+		double midY = y + radius;
+		double sMidX = smallX + smallradius;// Mid point of the small dial
+		double sMidY = smallY + smallradius;
 
 		Graphics g = (Graphics) g2;
 
 		dial1.paintIcon(null, g, x, y);
 		dial2.paintIcon(null, g, smallX, smallY);
 
-		drawPointer(g2, midX, midY, 20 * width / 21, degree, Color.RED);
-		drawPointer(g2, sMidX, sMidY, 20 * smallWidth / 21, smallDegree, Color.magenta);
+		drawPointer(g2, midX, midY, 20 * radius / 21, degree, Color.RED);
+		drawPointer(g2, sMidX, sMidY, 20 * smallradius / 21, smallDegree, Color.magenta);
 	}
 
+	/**
+	 * Press the top button
+	 */
 	public void topButtonPressed() {
 		if (!running) {
 			thisMoment = Instant.now();
@@ -125,6 +146,18 @@ public class Stopwatch implements MoveableShape {
 		}
 	}
 
+	/**
+	 * This code is modified on the basis of ArrowHead class in Violet program.
+	 * Violet program: http://horstmann.com/violet/
+	 * Dr. Horstmann, Cay S. Horstmann (http://horstmann.com), is the author of Violet
+	 * Get a path of an arrow head
+	 * @param startX the x value of the head
+	 * @param startY the y value of the head
+	 * @param endX the x value of the tail
+	 * @param endY the y value of the tail
+	 * @param arrowLength the length of axis of the arrow
+	 * @return the path of the arrow
+	 */
 	public GeneralPath getPath(double startX, double startY, double endX, double endY, double arrowLength) {
 		GeneralPath path = new GeneralPath();
 		final double ARROW_ANGLE = Math.PI / 3.1;
@@ -144,6 +177,9 @@ public class Stopwatch implements MoveableShape {
 		return path;
 	}
 
+	/**
+	 * Press the second button
+	 */
 	public void secondButtonPressed() {
 		frozen = !frozen;
 	}
@@ -153,8 +189,8 @@ public class Stopwatch implements MoveableShape {
 	private boolean frozen;
 	private int x;
 	private int y;
-	private int width;
-	private int smallWidth;
+	private int radius;
+	private int smallradius;
 	private double degree;
 	private double smallDegree;
 	private Icon dial1;
