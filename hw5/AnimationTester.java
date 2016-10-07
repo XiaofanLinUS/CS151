@@ -14,13 +14,13 @@ public class AnimationTester
     * A main method
     * 
     * @param args
-    *           it is just a thing
+    *           a thing
     */
    public static void main(String[] args)
    {
       JFrame frame = new JFrame();
-      int radius = 480;
-      // int radius = Integer.parseInt(args[0]);
+
+      int radius = Integer.parseInt(args[0]);
       Stopwatch stopwatch = new Stopwatch(radius);
 
       ShapeIcon icon = new ShapeIcon(stopwatch, 2 * radius, 2 * radius);
