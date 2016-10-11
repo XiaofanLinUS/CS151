@@ -1,15 +1,13 @@
-　－－－－－－－－－－－－－－－－－－－－－
-｜Name In Design  ｜ Actual Name      |
-｜　　　　　　　　　 ｜                  |
--------------------------------------
-｜Context      　  ｜JFileChooser      |
--------------------------------------
-｜Strategy        ｜FileFilter        |
--------------------------------------
-｜ConcreteStrategy｜                  |
-｜　　　　　　　　　 ｜                  |
-｜　　　　　　　　　 ｜                  |
-｜　　　　　　　　　 ｜                  |
-
-
+-------------------------------------------
+|Name In Design  | Actual Name                    
+-------------------------------------------
+|Context      　  |JFileChooser                        
+-------------------------------------------
+|Strategy        |FileFilter                              
+-------------------------------------------
+|ConcreteStrategy|FileNameExtensionFilter                 
+-------------------------------------------
+|doWork()        |accept(). A method of 
+|                |the FileFilter interface.
+      
 
