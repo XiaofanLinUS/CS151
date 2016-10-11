@@ -1,13 +1,16 @@
 /**
-   A message from a user.
-*/
+ * A message from a user.
+ */
 public class Message
 {
    /**
-    *  Construct a Message object.
-    *  @param sender the username of the sender
-    *  //TODO: Or the User to make Reply simple???
-    *  @param messageText the message text
+    * Construct a Message object.
+    * 
+    * @param sender
+    *           the username of the sender //TODO: Or the User to make Reply
+    *           simple???
+    * @param messageText
+    *           the message text
     */
    public Message(String sender, String messageText)
    {
@@ -17,6 +20,7 @@ public class Message
 
    /**
     * Get the message text.
+    * 
     * @return message text
     */
    public String getText()
@@ -25,5 +29,5 @@ public class Message
    }
 
    private String sender;
-   private String text;
+   private Text text;
 }
