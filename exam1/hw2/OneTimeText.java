@@ -11,6 +11,10 @@ public class OneTimeText implements Text
    @Override
    public String getContent()
    {
+      if (firstTime)
+      {
+         firstTime = false;
+      }
       return firstTime ? content : "";
    }
 
