@@ -78,6 +78,5 @@ public class Length
       }      
    }
    
-   private int feet;
    private int inches;
 }
