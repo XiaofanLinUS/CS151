@@ -1,0 +1,3 @@
+At least 3 git commits (max. 5 points): 
+10 test cases pass (2 per test case, max. 20 points): 
+All methods have javadoc (max. 5 points): 

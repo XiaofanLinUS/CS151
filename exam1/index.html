@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type'/>
+    <title>Exam 1</title> 
+  </head> 
+  <body>  
+
+    <h1>San Jose State University | CS 151 - OO Design Section 5 | Fall 2016</h1>
+    <h2>Exam 1</h2>
+
+    <h3>Exam Rules</h3>
+    <ul><li>You may put any files that you like on your laptop, including the textbook, the book code, your and my homework solutions.</li>
+      <li>You may NOT use the Internet for anything during the exam. </li>
+      <li>You may NOT communicate with anyone other than the exam proctor.</li>
+      <li>All your exam work must be in a folder called <code>exam1</code> in your repo.</li>
+      <li>You must run git commit every 10 minutes.</li>
+      <li>When the exam is over, run git push to push your repo.</li>
+      <li>The exam is 70 minutes long.</li>
+    </ul>
+    <h3>Exam Problems</h3>
+
+    <ol><li>[10 points] Draw an UML sequence diagram of the first call to <code>oddSquares.next()</code> in my test case <code>NumberSequenceTest.filterTest</code> of homework 4. You may trace through your or my solution—tell me which in a note on your diagram. Submit it on paper or in a file <code>sequence.png</code> in your <code>exam1</code> directory.</li>
+      <li>[8 points] Draw an UML class diagram of the classes and interfaces in the solution of homework 5. Indicate multiplicities as appropriate. You may use your or my solution—tell me which in a note on your diagram. Submit it on paper or in a file <code>hw5class.png</code> in your <code>exam1</code> directory.</li>
+      <li>[15 points] In homework 2b, the message text in the <code>Message</code> class was a <code>String</code> object. Change it to an interface <code>Text</code> with a single method to get the content. Supply two classes <code>PlainText</code> and <code>OneTimeText</code> that implement this interface. A <code>OneTimeText</code> message can be read once, and afterwards it yields an empty string. Make the appropriate changes so that a <code>Message</code> has a <code>Text</code> object, and so that its <code>getText</code> method returns the contents. Change the user interface so that, after the user has selected the <code>[S]end message</code> menu option, a menu
+        <pre>[P]lain text  [O]ne time text</pre>
+        is displayed, and construct a message with one or the other kind of text.</li>
+      <li>[10 points] Consider <a href='Length.java'>this class</a> that represents units in feet and inches. Change the internal representation to use only inches, without affecting clients of the class.</li>
+      <li>[8 points] As you can see from <a href='FileChooserDemo.java'>this program</a>, you can restrict the files that are displayed in a <code>JFileChooser</code> by passing a class that implements <code>FileFilter</code>. Make a table similar to those in Section 5.4.3 of your textbook to show why this is an example of the STRATEGY pattern. Submit as a plain text file <code>strategy.txt</code>.</li>
+    </ol>
+  </body>
+</html>

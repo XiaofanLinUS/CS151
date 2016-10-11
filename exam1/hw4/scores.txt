@@ -1,0 +1,3610 @@
+Student: barrett_lance
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 1
+ 
+Starting audit...
+[ERROR] /tmp/hw4/barrett_lance/NumberSequence.java:10: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/barrett_lance/NumberSequence.java:103: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/barrett_lance/NumberSequence.java:149: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/barrett_lance/SeqOf.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/barrett_lance/SquareSequence.java:8:4: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 5 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.069
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.068
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.076
+
+OK (7 tests)
+
+ 
+commit 9d6b4baa6c2081006c1f2756e6f2ecee507999c3
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Thu Sep 29 03:01:32 2016 -0700
+
+    Final check of javadocs, minor comment adjustments
+
+:100644 100644 7996fd8... c02ff15... M	hw4/NumberSequence.java
+:100644 100644 43a9936... b5563e4... M	hw4/SeqOf.java
+:100644 100644 98f4478... bdf4d96... M	hw4/SquareSequence.java
+
+commit 55701de0d56da050bbbfd84853874b5763d24b49
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Tue Sep 27 16:56:20 2016 -0700
+
+    All tests passed for hw4
+
+:100644 100644 b1156f4... 7996fd8... M	hw4/NumberSequence.java
+
+commit 9586695047637e6b62ffe823f032c31d6d08d552
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Tue Sep 27 03:14:44 2016 -0700
+
+    Added filter method
+
+:100644 100644 d1d5dd6... b1156f4... M	hw4/NumberSequence.java
+
+commit 383b3a5d1c316d34a48eb04937bf0013cebd7776
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Sun Sep 25 17:38:27 2016 -0700
+
+    Added of and toArray
+
+:100644 100644 0a6864b... d1d5dd6... M	hw4/NumberSequence.java
+:000000 100644 0000000... 43a9936... A	hw4/SeqOf.java
+ 
+Student: davla_anique
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/davla_anique/FilteredSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/FilteredSequence.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/FiniteSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/IterateSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:7: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/NumberSequenceTest.java:70:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/davla_anique/SquareSequence.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 13 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.118
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<1> but was:<9>
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:15)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+NumberSequenceTest.java
+JUnit version 4.11
+...
+ 
+commit e697c4359a1c2484a8d2f8af77ce862d28f65faa
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Thu Sep 29 05:58:39 2016 -0700
+
+    working all
+
+:100644 100644 b37a4f0... ceb8184... M	hw4/.idea/workspace.xml
+:100644 100644 c797b7b... 605aede... M	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... b0d6ad7... A	hw4/FilteredSequence.java
+:000000 100644 0000000... 46005ea... A	hw4/FiniteSequence.java
+:000000 100644 0000000... 9abe180... A	hw4/IterateSequence.java
+:000000 100644 0000000... 9d1eedb... A	hw4/NumberSequence.java
+:000000 100644 0000000... 3cd0df1... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... f0db076... A	hw4/SquareSequence.java
+:100644 100644 b92cff2... 8b6d9ab... M	hw4/out/production/hw4/FilteredSequence.class
+:100644 100644 f32118d... e360943... M	hw4/out/production/hw4/NumberSequence.class
+:000000 100644 0000000... 5008ddf... A	hw4/src/.DS_Store
+:100644 000000 77b8691... 0000000... D	hw4/src/FilteredSequence.java
+:100644 000000 46005ea... 0000000... D	hw4/src/FiniteSequence.java
+:100644 000000 9abe180... 0000000... D	hw4/src/IterateSequence.java
+:100644 000000 6aa8024... 0000000... D	hw4/src/NumberSequence.java
+:100644 000000 ce02c97... 0000000... D	hw4/src/NumberSequenceTest.java
+:100644 000000 f0db076... 0000000... D	hw4/src/SquareSequence.java
+
+commit 6159ffb7d6c071c8acf7d1106e228fe6aa23ccde
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Thu Sep 29 05:37:08 2016 -0700
+
+    working except filter
+
+:100644 100644 ffa686e... b37a4f0... M	hw4/.idea/workspace.xml
+:100644 100644 1379e7e... 2c7daac... M	hw4/.metadata/.mylyn/.tasks.xml.zip
+:100644 100644 dd1bb66... 0564d09... M	hw4/.metadata/.mylyn/tasks.xml.zip
+:000000 100644 0000000... 642e2ab... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/151codes/.location
+:000000 100644 0000000... 3beb61b... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/151codes/.markers.snap
+:000000 100644 0000000... 0b368ce... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/151codes/.syncinfo.snap
+:000000 100644 0000000... 3d667cd... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.markers.snap
+:000000 100644 0000000... 0b368ce... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.syncinfo.snap
+:000000 100644 0000000... 68378cf... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hwFour/.location
+:000000 100644 0000000... 91d6c54... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hwFour/.markers.snap
+:000000 100644 0000000... 91d6c54... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hwFour/.syncinfo.snap
+:100644 100644 c3cf83c... d5f3790... M	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+:000000 100644 0000000... 0b368ce... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+:100644 100644 3b4dc54... 6d2b430... M	hw4/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+:000000 100644 0000000... f007424... A	hw4/.metadata/.plugins/org.eclipse.core.resources/1.snap
+:100644 100644 4b46fa7... c797b7b... M	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... 564c8a3... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3839124114.index
+:000000 100644 0000000... 0ab3d4b... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/444281276.index
+:100644 100644 f53801f... 3614dbd... M	hw4/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+:100644 100644 5bf64a0... 29b53cb... M	hw4/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+:100644 100644 bc1078f... 315ada2... M	hw4/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+:000000 100644 0000000... b92cff2... A	hw4/out/production/hw4/FilteredSequence.class
+:100644 100644 f200960... 7ad2d4c... M	hw4/out/production/hw4/FiniteSequence.class
+:000000 100644 0000000... f4760e6... A	hw4/out/production/hw4/IterateSequence.class
+:100644 100644 9b31be1... f32118d... M	hw4/out/production/hw4/NumberSequence.class
+:100644 100644 c8e1c2f... a8a6841... M	hw4/out/production/hw4/NumberSequenceTest.class
+:100644 100644 7766339... 41aead1... M	hw4/out/production/hw4/SquareSequence.class
+:100644 100644 b95ab1f... 77b8691... M	hw4/src/FilteredSequence.java
+:100644 100644 e5b479c... 46005ea... M	hw4/src/FiniteSequence.java
+:000000 100644 0000000... 9abe180... A	hw4/src/IterateSequence.java
+:100644 100644 c90f9eb... 6aa8024... M	hw4/src/NumberSequence.java
+:100644 100644 c74543b... ce02c97... M	hw4/src/NumberSequenceTest.java
+:100644 100644 f726587... f0db076... M	hw4/src/SquareSequence.java
+
+commit 954b83f42296cd7ee1f361f22dd69e8212e88eeb
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Wed Sep 28 17:13:30 2016 -0700
+
+    working hw4 uptill random
+
+:100644 100644 6219101... ffa686e... M	hw4/.idea/workspace.xml
+:100644 100644 ee9f75c... 1379e7e... M	hw4/.metadata/.mylyn/.tasks.xml.zip
+:100644 100644 f40e68d... dd1bb66... M	hw4/.metadata/.mylyn/tasks.xml.zip
+:100644 100644 816340e... 4b46fa7... M	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... f200960... A	hw4/out/production/hw4/FiniteSequence.class
+:100644 100644 df1c3c9... 9b31be1... M	hw4/out/production/hw4/NumberSequence.class
+:100644 100644 e02a97a... c8e1c2f... M	hw4/out/production/hw4/NumberSequenceTest.class
+:100644 100644 bdb6ced... 7766339... M	hw4/out/production/hw4/SquareSequence.class
+:000000 100644 0000000... b95ab1f... A	hw4/src/FilteredSequence.java
+:100644 100644 1d1be47... e5b479c... M	hw4/src/FiniteSequence.java
+:100644 100644 f19c298... c90f9eb... M	hw4/src/NumberSequence.java
+:100644 100644 ec55b5d... c74543b... M	hw4/src/NumberSequenceTest.java
+:100644 100644 f116a4b... f726587... M	hw4/src/SquareSequence.java
+
+commit d6d927d531b2aba72e5024ac0bec0357f97c42fb
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Wed Sep 28 00:57:36 2016 -0700
+
+    mend
+
+:100644 100644 7050a7d... 6219101... M	hw4/.idea/workspace.xml
+:100644 100644 58d2c5c... ee9f75c... M	hw4/.metadata/.mylyn/.tasks.xml.zip
+:100644 100644 c7e675b... f40e68d... M	hw4/.metadata/.mylyn/tasks.xml.zip
+:100644 100644 1309120... 816340e... M	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:100644 100644 7d33f9b... 1d1be47... M	hw4/src/FiniteSequence.java
+:100644 100644 93243b1... f19c298... M	hw4/src/NumberSequence.java
+:100644 100644 aedcaab... ec55b5d... M	hw4/src/NumberSequenceTest.java
+
+commit d820ed04115e1fbba6928989c9700818258a36a2
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Wed Sep 28 00:01:41 2016 -0700
+
+    mend
+
+:100644 100644 f611a97... 162e58c... M	.DS_Store
+:100644 100644 9cc1c38... ff947e2... M	hw3/.idea/workspace.xml
+:100644 100644 db4c30f... 7050a7d... M	hw4/.idea/workspace.xml
+:100644 100644 e65df80... 1309120... M	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:100644 100644 e67a44c... bdb6ced... M	hw4/out/production/hw4/SquareSequence.class
+:100644 100644 968651d... f116a4b... M	hw4/src/SquareSequence.java
+
+commit b2e0bb041f1971c76e459b08f32332de9704a05d
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Tue Sep 27 23:53:37 2016 -0700
+
+    hw4 working SquareSequence
+
+:000000 100644 0000000... e380743... A	hw4/.DS_Store
+:000000 100644 0000000... 2d5ae63... A	hw4/.idea/libraries/hamcrest_core_1_3.xml
+:000000 100644 0000000... 3f0f4a4... A	hw4/.idea/libraries/junit_4_12.xml
+:000000 100644 0000000... e96534f... A	hw4/.idea/uiDesigner.xml
+:100644 100644 e1ddd27... db4c30f... M	hw4/.idea/workspace.xml
+:000000 100644 0000000... e69de29... A	hw4/.metadata/.lock
+:000000 100644 0000000... 2d1c72c... A	hw4/.metadata/.log
+:000000 100644 0000000... 63a7ec9... A	hw4/.metadata/.mylyn/.taskListIndex/segments.gen
+:000000 100644 0000000... ed33423... A	hw4/.metadata/.mylyn/.taskListIndex/segments_1
+:000000 100644 0000000... 58d2c5c... A	hw4/.metadata/.mylyn/.tasks.xml.zip
+:000000 100644 0000000... 797a42a... A	hw4/.metadata/.mylyn/repositories.xml.zip
+:000000 100644 0000000... c7e675b... A	hw4/.metadata/.mylyn/tasks.xml.zip
+:000000 100644 0000000... c48d54c... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.history/32/c04d94c13d8500161c0dc65004a7eda4
+:000000 100644 0000000... e69de29... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.history/51/e0cd45b13d8500161c0dc65004a7eda4
+:000000 100644 0000000... 0c68a61... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.history/a2/b06e855a2f8500161c0dc65004a7eda4
+:000000 100644 0000000... 8447e99... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.history/f2/6000a1b73d8500161c0dc65004a7eda4
+:000000 100644 0000000... 77bdb70... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.indexes/af/history.index
+:000000 100644 0000000... cd9357f... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.indexes/e4/e4/ee/history.index
+:000000 100644 0000000... 3844fa7... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.indexes/e4/history.index
+:000000 100644 0000000... 00a0788... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/.markers
+:000000 100644 0000000... a77310b... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.projects/hw4/org.eclipse.jdt.core/state.dat
+:000000 100644 0000000... 25cb955... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+:000000 100644 0000000... c3cf83c... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+:000000 100644 0000000... 6b2aaa7... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+:000000 100644 0000000... ff3b92c... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+:000000 100644 0000000... 3b4dc54... A	hw4/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+:000000 100644 0000000... dffc6b5... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+:000000 100644 0000000... a2e2ec3... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+:000000 100644 0000000... cebae9b... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... 0bbc2ca... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+:000000 100644 0000000... 88d2515... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... 67b1d96... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+:000000 100644 0000000... 43e97e4... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+:000000 100644 0000000... 8d462a6... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+:000000 100644 0000000... 2b60c21... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+:000000 100644 0000000... 56cd496... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+:000000 100644 0000000... 61f3bb8... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+:000000 100644 0000000... 1ec57ea... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+:000000 100644 0000000... 08076f2... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+:000000 100644 0000000... dd77496... A	hw4/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+:000000 100644 0000000... e65df80... A	hw4/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... d5abf41... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt
+:000000 100644 0000000... b8ee809... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx
+:000000 100644 0000000... 523c92e... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm
+:000000 100644 0000000... e69de29... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq
+:000000 100644 0000000... cf8dc75... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm
+:000000 100644 0000000... ebd518d... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii
+:000000 100644 0000000... ebd518d... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis
+:000000 100644 0000000... 63a7ec9... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen
+:000000 100644 0000000... 651c298... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1
+:000000 100644 0000000... e69de29... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock
+:000000 100644 0000000... 146c6ed... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt
+:000000 100644 0000000... d4706a9... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx
+:000000 100644 0000000... 2a431cb... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm
+:000000 100644 0000000... 9c6fe7a... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq
+:000000 100644 0000000... 85decf0... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm
+:000000 100644 0000000... d7126f8... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx
+:000000 100644 0000000... bfef714... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii
+:000000 100644 0000000... f71a124... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis
+:000000 100644 0000000... 225a55b... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen
+:000000 100644 0000000... 409714b... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2
+:000000 100644 0000000... 5413c2c... A	hw4/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+:000000 100644 0000000... 3816c53... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1176453598.index
+:000000 100644 0000000... 1721bbd... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1271342938.index
+:000000 100644 0000000... 6989d90... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1465443250.index
+:000000 100644 0000000... 7f92335... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1536384791.index
+:000000 100644 0000000... 326d3ae... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1732019476.index
+:000000 100644 0000000... e217c61... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/1790574510.index
+:000000 100644 0000000... 7ba0980... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/2048576420.index
+:000000 100644 0000000... ba8cbbf... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/2223494458.index
+:000000 100644 0000000... 384683b... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/2557735091.index
+:000000 100644 0000000... 7b70312... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/2574815864.index
+:000000 100644 0000000... ad25ed7... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3115564420.index
+:000000 100644 0000000... 6a298f0... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3201157021.index
+:000000 100644 0000000... ff6dd58... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3726369128.index
+:000000 100644 0000000... e594a39... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3782676943.index
+:000000 100644 0000000... 233151b... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3904120207.index
+:000000 100644 0000000... b5247b8... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3907999517.index
+:000000 100644 0000000... 274baa3... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/3941105200.index
+:000000 100644 0000000... 0ab3d4b... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/711401471.index
+:000000 100644 0000000... 593f470... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+:000000 100644 0000000... 12f749a... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+:000000 100644 0000000... f53801f... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+:000000 100644 0000000... 8586397... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+:000000 100644 0000000... 01c0edd... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+:000000 100644 0000000... 5bf64a0... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+:000000 100644 0000000... bc1078f... A	hw4/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+:000000 100644 0000000... c3d1910... A	hw4/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+:000000 100644 0000000... a04daf6... A	hw4/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+:000000 100644 0000000... a4ee3cb... A	hw4/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+:000000 100644 0000000... 9e390f5... A	hw4/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+:000000 100644 0000000... 03a9475... A	hw4/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+:000000 100644 0000000... f249069... A	hw4/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/hw4/2016/9/40/refactorings.history
+:000000 100644 0000000... 00f64ee... A	hw4/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/hw4/2016/9/40/refactorings.index
+:000000 100644 0000000... aa26784... A	hw4/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+:000000 100644 0000000... dc3ad17... A	hw4/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+:000000 100644 0000000... e33758c... A	hw4/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml
+:000000 100644 0000000... 1f73e14... A	hw4/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+:000000 100644 0000000... 95ca575... A	hw4/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+:000000 100644 0000000... f118f02... A	hw4/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml
+:000000 100644 0000000... 9de2721... A	hw4/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+:000000 100644 0000000... c858ac7... A	hw4/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+:000000 100644 0000000... a961355... A	hw4/.metadata/version.ini
+:100644 100644 c90834f... 68db467... M	hw4/hw4.iml
+:000000 100644 0000000... c63d52b... A	hw4/hw4/.DS_Store
+:000000 100644 0000000... fceb480... A	hw4/hw4/.classpath
+:000000 100644 0000000... 8b4a2a6... A	hw4/hw4/.project
+:000000 100644 0000000... 3a21537... A	hw4/hw4/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... e37cac1... A	hw4/hw4/bin/NumberSequence.class
+:000000 100644 0000000... fa5cd2e... A	hw4/hw4/bin/NumberSequenceTest.class
+:000000 100644 0000000... d705bee... A	hw4/hw4/bin/SquareSequence.class
+:000000 100644 0000000... c90834f... A	hw4/hw4/hw4.iml
+:000000 100644 0000000... 1f0f63e... A	hw4/hw4/src/NumberSequence.java
+:000000 100644 0000000... 6a561a4... A	hw4/hw4/src/NumberSequenceTest.java
+:000000 100644 0000000... 71d7655... A	hw4/hw4/src/SquareSequence.java
+:000000 100644 0000000... df1c3c9... A	hw4/out/production/hw4/NumberSequence.class
+:000000 100644 0000000... e02a97a... A	hw4/out/production/hw4/NumberSequenceTest.class
+:000000 100644 0000000... e67a44c... A	hw4/out/production/hw4/SquareSequence.class
+:000000 100644 0000000... 7d33f9b... A	hw4/src/FiniteSequence.java
+:100644 100644 ded9226... 93243b1... M	hw4/src/NumberSequence.java
+:000000 100644 0000000... aedcaab... A	hw4/src/NumberSequenceTest.java
+:100644 100644 71d7655... 968651d... M	hw4/src/SquareSequence.java
+
+commit bf67df134fde178e2c75950291245c870fe878cd
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Tue Sep 27 00:33:36 2016 -0700
+
+    base hw4
+
+:100644 100644 f563db5... e1ddd27... M	hw4/.idea/workspace.xml
+:100644 100644 8546c8f... ded9226... M	hw4/src/NumberSequence.java
+
+commit ebf34d058e0b76f00b10de0aefdbe5b2c2d8f73a
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Mon Sep 26 23:49:13 2016 -0700
+
+    base hw4
+
+:000000 100644 0000000... c9194b8... A	hw4/.idea/.name
+:000000 100644 0000000... 96cc43e... A	hw4/.idea/compiler.xml
+:000000 100644 0000000... e7bedf3... A	hw4/.idea/copyright/profiles_settings.xml
+:000000 100644 0000000... 97626ba... A	hw4/.idea/encodings.xml
+:000000 100644 0000000... 13de598... A	hw4/.idea/misc.xml
+:000000 100644 0000000... 60c3a11... A	hw4/.idea/modules.xml
+:000000 100644 0000000... f563db5... A	hw4/.idea/workspace.xml
+:000000 100644 0000000... c90834f... A	hw4/hw4.iml
+:000000 100644 0000000... 8546c8f... A	hw4/src/NumberSequence.java
+:000000 100644 0000000... 71d7655... A	hw4/src/SquareSequence.java
+ 
+Student: demong_micah
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 4
+ 
+Starting audit...
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/demong_micah/SquareSequence.java:11: Expected an @return tag. [JavadocMethod]
+Audit done.
+Checkstyle ends with 9 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.108
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.107
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.111
+
+OK (7 tests)
+
+ 
+commit 899016b3cee0da35240d06a7cc98e955c25e06de
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 03:41:40 2016 -0700
+
+    Added javadoc
+
+:100644 100644 d6d8aec... 466fb36... M	hw4/NumberSequence.java
+:100644 100644 582c12f... 6dbb5df... M	hw4/SquareSequence.java
+
+commit 0dc92f25b700b80c947a1271e3a426becd7808f2
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 03:34:59 2016 -0700
+
+    wrote random method
+
+:100644 100644 7d9ac76... d6d8aec... M	hw4/NumberSequence.java
+
+commit 35588ca548d5d4ab92cbf2e6970cbb6bc62c6bca
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 03:20:59 2016 -0700
+
+    wrote iterate method
+
+:100644 100644 e4d8e36... 7d9ac76... M	hw4/NumberSequence.java
+
+commit 65773893552b1c2f36b330d53063ef94b2f732e9
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 02:40:45 2016 -0700
+
+    wrote average methods
+
+:100644 100644 9b10418... e4d8e36... M	hw4/NumberSequence.java
+
+commit 6246bb147d048e785a2079d037cc0f7d906858a5
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 02:27:04 2016 -0700
+
+    finished toArray
+
+:100644 100644 b3a9f39... 9b10418... M	hw4/NumberSequence.java
+
+commit 7f79964ea19e7dda0a0cb5571a79be6158ec62a6
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 29 02:06:35 2016 -0700
+
+    finished NumberSequence.of()
+
+:100644 100644 0718b82... b3a9f39... M	hw4/NumberSequence.java
+
+commit 692c50a94e1ea0c8a8098817d5ddd673aa010e20
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 28 23:24:01 2016 -0700
+
+    Reformatted and added NumberSequence.of()
+
+:100644 100644 bb5db05... 0718b82... M	hw4/NumberSequence.java
+:100644 100644 b06ee02... 582c12f... M	hw4/SquareSequence.java
+
+commit a0c5c2674082a7b831b737af24d689653078e267
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 28 23:20:39 2016 -0700
+
+    Implemented SquareSequence.next()
+
+:100644 100644 cb412de... b06ee02... M	hw4/SquareSequence.java
+
+commit f974e7b5cb4a00632b62f35d675ea15828546c66
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 28 23:13:30 2016 -0700
+
+    Added method headers to interface
+
+:100644 100644 0a6864b... bb5db05... M	hw4/NumberSequence.java
+
+commit 0a6435dc1c7b245ec88a920ee0da24822821714f
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 28 23:02:01 2016 -0700
+
+    Added SquareSequence and NumberSequence
+
+:000000 100644 0000000... 0a6864b... A	hw4/NumberSequence.java
+:000000 100644 0000000... cb412de... A	hw4/SquareSequence.java
+
+commit 0193ccbc7d73c781f7d618656180843bbe57086c
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 28 22:45:09 2016 -0700
+
+    Added test case
+
+:000000 100644 0000000... 49ed48b... A	hw4/NumberSequenceTest.java
+ 
+Student: diliyaer_saifuding
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 5 
+ 
+Starting audit...
+Audit done.
+NumberSequenceTest2.java
+JUnit version 4.11
+..E
+Time: 0.102
+There was 1 failure:
+1) averageTest2(NumberSequenceTest2)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at NumberSequence$1.next(NumberSequence.java:49)
+	at NumberSequence.average(NumberSequence.java:112)
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.E
+Time: 0.11
+There was 1 failure:
+1) filterTest3(NumberSequenceTest3)
+java.lang.AssertionError: expected:<5694868678511409995> but was:<-5025562857975149833>
+	at NumberSequenceTest3.filterTest3(NumberSequenceTest3.java:13)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.107
+
+OK (7 tests)
+
+ 
+commit d65f537808e903ae6889b7764b9ccb215f6389d5
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Wed Sep 28 10:39:27 2016 -0700
+
+    Added javadoc
+
+:100644 100644 10e3f8d... 3bc0948... M	hw4/NumberSequence.java
+:100644 100644 13903fa... da8fa57... M	hw4/SquareSequence.java
+
+commit 5684601d45e1bfadf8b00c3137ed475e3144a86a
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Wed Sep 28 10:22:12 2016 -0700
+
+    Finished codes.
+
+:100644 100644 7571761... 10e3f8d... M	hw4/NumberSequence.java
+:100644 100644 3ca38dc... 13903fa... M	hw4/SquareSequence.java
+
+commit bec2ffca670537917e27fc2d9b06cf580bec0c69
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Tue Sep 27 21:04:23 2016 -0700
+
+    Partly finished hw4
+
+:100644 100644 fe4c177... 7571761... M	hw4/NumberSequence.java
+:100644 100644 536dc65... 3ca38dc... M	hw4/SquareSequence.java
+
+commit 6e13c7caf40bc909b6ae1eaf9e38e080b2694eaa
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Mon Sep 26 16:50:20 2016 -0700
+
+    Added hw4
+
+:000000 100644 0000000... fe4c177... A	hw4/NumberSequence.java
+:000000 100644 0000000... 536dc65... A	hw4/SquareSequence.java
+ 
+Student: gummidipundi_pradeep
+At least 3 git commits (max. 5 points): 0
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+No work
+Student: huff_craig
+At least 3 git commits (max. 5 points): 
+10 test cases pass (2 per test case, max. 20 points): 14
+All methods have javadoc (max. 5 points): 5
+ 
+Starting audit...
+[ERROR] /tmp/hw4/huff_craig/DefaultSequence.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/DefaultSequence.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/DefaultSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/DefaultSequence.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/DefaultSequence.java:102:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/FilteredSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/FilteredSequence.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:25:8: Unused @param tag for 'array'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:28:38: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:36:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:39:32: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:49:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:56:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:59:32: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:71:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:72:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:76:40: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:76:64: Expected @param tag for 'f'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:84:8: Unused @param tag for 'Lambda'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:87:56: Expected @param tag for 'p'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:97:8: Unused @param tag for 'the'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequence.java:101:39: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:49:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/NumberSequenceTest.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/RandomSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/RandomSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/RandomSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/RandomSequence.java:83:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:19:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/huff_craig/SquareSequence.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 43 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.112
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at DefaultSequence.average(DefaultSequence.java:42)
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.113
+
+OK (7 tests)
+
+ 
+commit ccb73a6f4c6858cd44a7586744816e7831e29631
+Author: cthuff <cthuff03@gmail.com>
+Date:   Wed Sep 28 20:10:57 2016 -0700
+
+    JavaDocs added
+
+:100644 100644 e30e2d8... 00ae008... M	hw4/NumberSequence.java
+
+commit 7f8a0dbae6c0cef5d6fe1a3d5514338e253cd2b4
+Author: cthuff <cthuff03@gmail.com>
+Date:   Wed Sep 28 19:42:14 2016 -0700
+
+    Working code for the random had to set the temp to the seed number
+
+:100644 100644 d58637b... a917390... M	hw4/.gitignore
+:100644 100644 12bdaed... c442892... M	hw4/DefaultSequence.java
+:100644 100644 f0c42ab... e30e2d8... M	hw4/NumberSequence.java
+:000000 100644 0000000... 1c6300e... A	hw4/RandomSequence.java
+
+commit 53cfdc7bda3c0d8e466923d11953cc9b87573529
+Author: cthuff <cthuff03@gmail.com>
+Date:   Tue Sep 27 22:11:11 2016 -0700
+
+    Iterator works
+
+:100644 100644 06b4be2... 12bdaed... M	hw4/DefaultSequence.java
+
+commit a3fa524f4dbb270982e66f7ad10ac1a518e0af44
+Author: cthuff <cthuff03@gmail.com>
+Date:   Tue Sep 27 22:03:52 2016 -0700
+
+    Working filter, iterator troubles
+
+:100644 100644 f4bf3ba... d58637b... M	hw4/.gitignore
+:000000 100644 0000000... 06b4be2... A	hw4/DefaultSequence.java
+:000000 100644 0000000... 360e11f... A	hw4/FilteredSequence.java
+:100644 100644 e612d42... f0c42ab... M	hw4/NumberSequence.java
+:100644 100644 c26db66... 419dc5e... M	hw4/SquareSequence.java
+
+commit d208b53c14f30bba5e5c198d2cd9f32bd5724d11
+Author: cthuff <cthuff03@gmail.com>
+Date:   Mon Sep 26 07:49:09 2016 -0700
+
+    Attenpt to get something working
+
+:100644 100644 625539b... e612d42... M	hw4/NumberSequence.java
+:100644 100644 9b0826a... a04e6a5... M	hw4/NumberSequenceTest.java
+:100644 100644 342dace... c26db66... M	hw4/SquareSequence.java
+ 
+Student: husain_daanish
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/husain_daanish/FilterSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/husain_daanish/FilterSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/FiniteSequence.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/husain_daanish/FiniteSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/FiniteSequence.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/IterateSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/husain_daanish/IterateSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:29:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:52:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/NumberSequence.java:69:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/SquareSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/husain_daanish/SquareSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/husain_daanish/SquareSequence.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 19 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.098
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.113
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.15
+
+OK (7 tests)
+
+ 
+commit 9ef827dda61679e9728f3e41b21556c372ee6b29
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 28 23:17:59 2016 -0700
+
+    added javadoc and some exceptions
+
+:100644 100644 dd6dbca... 223b68e... M	hw4/FilterSequence.java
+:100644 100644 8c617aa... a59c804... M	hw4/FiniteSequence.java
+:100644 100644 dee2578... 3c3f63d... M	hw4/IterateSequence.java
+:100644 100644 7a34061... c488537... M	hw4/NumberSequence.java
+:100644 100644 4af27b3... 5975cda... M	hw4/SquareSequence.java
+
+commit ca21b1b5f14e1c7d1f6ca07dea61a6c959ca04d6
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 28 00:04:44 2016 -0700
+
+    completed assignment just need to add the javadoc :D
+
+:000000 100644 0000000... dd6dbca... A	hw4/FilterSequence.java
+:100644 100644 5f2789e... 8c617aa... M	hw4/FiniteSequence.java
+:100644 100644 6cc0846... dee2578... M	hw4/IterateSequence.java
+:100644 100644 bbd4b84... 7a34061... M	hw4/NumberSequence.java
+:100644 100644 86199f4... 4af27b3... M	hw4/SquareSequence.java
+
+commit 5ced507c5638e059646b9c107c8c2037aeb96bb8
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Tue Sep 27 23:54:14 2016 -0700
+
+    fixed issue with random number generator
+
+:100644 100644 cb5786c... bbd4b84... M	hw4/NumberSequence.java
+
+commit 6aff027b61c486b7c6833c5ec0f5cc152c26dcee
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Mon Sep 26 23:53:09 2016 -0700
+
+    completed everything except for the random part
+
+:000000 100644 0000000... 5f2789e... A	hw4/FiniteSequence.java
+:000000 100644 0000000... 6cc0846... A	hw4/IterateSequence.java
+:100644 100644 b1d8889... cb5786c... M	hw4/NumberSequence.java
+:100644 100644 9b98293... 86199f4... M	hw4/SquareSequence.java
+
+commit cc1301b3bbd4258b8ddecb1cc780a8299ef308d6
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Sun Sep 25 18:13:13 2016 -0700
+
+    completed first method struggling with metod of(long... args)
+
+:000000 100644 0000000... b1d8889... A	hw4/NumberSequence.java
+:000000 100644 0000000... 9b98293... A	hw4/SquareSequence.java
+ 
+Student: lam_hing
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/lam_hing/finiteSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/finiteSequence.java:3:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/finiteSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/finiteSequence.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/finiteSequence.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/infiniteSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/infiniteSequence.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/infiniteSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/infiniteSequence.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:12:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:20:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequence.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/seqfilter.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/seqfilter.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/seqfilter.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lam_hing/SquareSequence.java:47:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 35 errors.
+NumberSequenceTest2.java
+NumberSequenceTest2.java:14: error: illegal static interface method call
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+                                                                       ^
+  the receiver expression should be replaced with the type qualifier 'NumberSequence'
+./NumberSequence.java:18: error: NumberSequence is abstract; cannot be instantiated
+		return new NumberSequence(new seqfilter(p));
+		       ^
+2 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest2
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+NumberSequenceTest3.java:12: error: illegal static interface method call
+      NumberSequence positiveRandoms = randomSequence.filter(n -> n > 0);
+                                                            ^
+  the receiver expression should be replaced with the type qualifier 'NumberSequence'
+./NumberSequence.java:18: error: NumberSequence is abstract; cannot be instantiated
+		return new NumberSequence(new seqfilter(p));
+		       ^
+3 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.001
+
+OK (0 tests)
+
+NumberSequenceTest.java
+./NumberSequence.java:18: error: NumberSequence is abstract; cannot be instantiated
+		return new NumberSequence(new seqfilter(p));
+		       ^
+1 error
+JUnit version 4.11
+Exception in thread "main" java.lang.NoClassDefFoundError: NumberSequence
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+Caused by: java.lang.ClassNotFoundException: NumberSequence
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+ 
+commit d26dd1d6054f5f3b7aa4dac6daae6d801ead77d9
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Wed Sep 28 20:34:39 2016 -0700
+
+    update
+
+:100644 100644 89f2239... db51bf3... M	hw4/NumberSequence.java
+:100644 100644 b70c44d... b246f0d... M	hw4/SquareSequence.java
+:100644 100644 50c9935... 7a3e6b5... M	hw4/finiteSequence.java
+:100644 100644 54458e4... 59c6bb3... M	hw4/infiniteSequence.java
+:000000 100644 0000000... 521c71b... A	hw4/seqfilter.java
+
+commit 4d8fa3bd8181daa76a98e34beab91053275660d7
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Wed Sep 28 01:27:46 2016 -0700
+
+    update
+
+:100644 100644 29bffc5... 89f2239... M	hw4/NumberSequence.java
+:100644 100644 20c4f3f... b70c44d... M	hw4/SquareSequence.java
+:000000 100644 0000000... 50c9935... A	hw4/finiteSequence.java
+:000000 100644 0000000... 54458e4... A	hw4/infiniteSequence.java
+
+commit fd06dea25026ecf05a51ad930e532bbe20b822a2
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Tue Sep 27 23:25:08 2016 -0700
+
+    create hw4
+
+:100644 000000 ff07a44... 0000000... D	hw1/Encoding.java
+:100644 000000 641c29e... 0000000... D	hw1/Strings.java
+:100644 000000 2207384... 0000000... D	hw1/aboutme.txt
+:100644 000000 90e5be0... 0000000... D	hw1scores.txt
+:100644 000000 341bb14... 0000000... D	hw2/.input.txt.swp
+:100644 000000 cde6a42... 0000000... D	hw2/Console.java
+:100755 000000 c57a403... 0000000... D	hw2/MailSystem.java
+:100755 000000 df5eaa1... 0000000... D	hw2/MailSystemTester.java
+:100755 000000 4de696b... 0000000... D	hw2/Mailbox.java
+:100755 000000 b5b7c34... 0000000... D	hw2/Message.java
+:100755 000000 ec30895... 0000000... D	hw2/MessageQueue.java
+:100644 000000 fb9f956... 0000000... D	hw2/User.java
+:100755 000000 3ed9578... 0000000... D	hw2/crc.jpg
+:100755 000000 ce65dd9... 0000000... D	hw2/crc.txt
+:100644 000000 cc982a3... 0000000... D	hw2/expected.txt
+:100644 000000 712c3d3... 0000000... D	hw2/expected2.txt
+:100644 000000 c13c133... 0000000... D	hw2/expected3.txt
+:100644 000000 86f4c40... 0000000... D	hw2/expected4.txt
+:100644 000000 5e63e64... 0000000... D	hw2/expected5.txt
+:100644 000000 6f70852... 0000000... D	hw2/expected6.txt
+:100644 000000 4379a01... 0000000... D	hw2/hw2b.txt
+:100644 000000 fadf719... 0000000... D	hw2/input.txt
+:100644 000000 89618df... 0000000... D	hw2/input2.txt
+:100644 000000 d095d14... 0000000... D	hw2/input3.txt
+:100644 000000 de960ed... 0000000... D	hw2/input4.txt
+:100644 000000 d005aa8... 0000000... D	hw2/input5.txt
+:100644 000000 398404b... 0000000... D	hw2/input6.txt
+:100644 000000 cc982a3... 0000000... D	hw2/output.txt
+:100644 000000 712c3d3... 0000000... D	hw2/output2.txt
+:100644 000000 c13c133... 0000000... D	hw2/output3.txt
+:100644 000000 86f4c40... 0000000... D	hw2/output4.txt
+:100644 000000 5e63e64... 0000000... D	hw2/output5.txt
+:100644 000000 6f70852... 0000000... D	hw2/output6.txt
+:100644 000000 c471375... 0000000... D	hw2/progress.txt
+:100644 000000 7cf5d70... 0000000... D	hw2/sequence.png
+:100755 000000 03d6bf6... 0000000... D	hw2/uml.png
+:100755 000000 39a9f5f... 0000000... D	hw2/uml.txt
+:100644 000000 7aed98a... 0000000... D	hw2ascores.txt
+:100644 000000 8b3c560... 0000000... D	hw2bscores.txt
+:100644 100644 dd08cdf... 2de9d2b... M	hw3/DayWithTime.class
+:100644 000000 0e5b7c4... 0000000... D	hw3/DayWithTime.java
+:100644 000000 dff68ba... 0000000... D	hw3/DayWithTimeTest.java
+:100644 000000 1b10624... 0000000... D	hw3/MutableDay.java
+:100644 000000 c798295... 0000000... D	hw3/MutableDayTest.java
+:100644 000000 92e7dc6... 0000000... D	hw3scores.txt
+:000000 100644 0000000... 29bffc5... A	hw4/NumberSequence.java
+:000000 100644 0000000... 8470c8b... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 20c4f3f... A	hw4/SquareSequence.java
+:100644 100644 1af3553... 7c699e9... M	lab2/Greeter.class
+:100644 000000 af31124... 0000000... D	lab2/Greeter.java
+:100644 100644 04d6f75... cbc3760... M	lab2/GreeterTester.class
+:100644 000000 6e9cba2... 0000000... D	lab2/GreeterTester.java
+:100644 000000 44a4ed6... 0000000... D	lab2/report.txt
+:100644 000000 82a2289... 0000000... D	lab4/Lab4sequentialDiagram.jpg
+:100644 000000 75fae96... 0000000... D	lab4/lab4crc-card.jpg
+ 
+Student: laskey_tyler
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 4
+ 
+Starting audit...
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequence.java:14: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequence.java:193:39: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/laskey_tyler/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 10 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.101
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at NumberSequence$1.average(NumberSequence.java:127)
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.098
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.105
+
+OK (7 tests)
+
+ 
+commit 127d55a2d7cb3a05f27736e3748a2213e1188faa
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Mon Sep 26 11:18:45 2016 -0700
+
+    Progress.txt
+
+:000000 100644 0000000... 6165d47... A	hw4/progress.txt
+ 
+Student: leung_christopher
+At least 3 git commits (max. 5 points): 
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:14: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:62:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:93:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/leung_christopher/NumberSequence.java:95: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 8 errors.
+NumberSequenceTest2.java
+./NumberSequence.java:12: error: <identifier> expected
+    static of(long... args)
+             ^
+./NumberSequence.java:12: error: cannot find symbol
+    static of(long... args)
+           ^
+  symbol:   class of
+  location: interface NumberSequence
+NumberSequenceTest2.java:8: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+                                              ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest2.java:14: error: cannot find symbol
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+                                                 ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+4 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest2
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest3.java
+./NumberSequence.java:12: error: <identifier> expected
+    static of(long... args)
+             ^
+./NumberSequence.java:12: error: cannot find symbol
+    static of(long... args)
+           ^
+  symbol:   class of
+  location: interface NumberSequence
+NumberSequenceTest3.java:12: error: cannot find symbol
+      NumberSequence positiveRandoms = randomSequence.filter(n -> n > 0);
+                                                     ^
+  symbol:   method filter((n)->n > 0)
+  location: variable randomSequence of type NumberSequence
+3 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+./NumberSequence.java:12: error: <identifier> expected
+    static of(long... args)
+             ^
+./NumberSequence.java:12: error: cannot find symbol
+    static of(long... args)
+           ^
+  symbol:   class of
+  location: interface NumberSequence
+NumberSequenceTest.java:23: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest.java:33: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest.java:41: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest.java:43: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                               ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest.java:45: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                               ^
+  symbol:   method of(int,int,int,int)
+  location: interface NumberSequence
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+                                                      ^
+  symbol:   method filter((n)->n % 2 != 0)
+  location: class SquareSequence
+NumberSequenceTest.java:69: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.random(42);
+                                              ^
+  symbol:   method random(int)
+  location: interface NumberSequence
+9 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest
+
+Time: 0.002
+
+OK (0 tests)
+
+ 
+commit 517886f5e8630940d557c77b8d487e0b0bf59966
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 28 20:48:41 2016 -0700
+
+    Create SquareSequence.java
+
+:000000 100644 0000000... 6e83950... A	hw4/SquareSequence.java
+
+commit b141fe540ab2630f8edbc6c0b15877733a654436
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 28 20:46:33 2016 -0700
+
+    Update NumberSequence.java
+
+:100644 100644 8b13789... 7ad54e9... M	hw4/NumberSequence.java
+
+commit 7989735b941d89c6eb918b903fcf4989d5cd420c
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 28 18:43:10 2016 -0700
+
+    Create NumberSequence.java
+
+:000000 100644 0000000... 8b13789... A	hw4/NumberSequence.java
+ 
+Student: liang_bing
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 20
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/liang_bing/FilterSeq.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liang_bing/FilterSeq.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/IterateSeq.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liang_bing/IterateSeq.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:22:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:46:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:79:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:89:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequence.java:98:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/SeqOf.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liang_bing/SeqOf.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liang_bing/SquareSequence.java:2: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 25 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+..
+Time: 0.109
+
+OK (2 tests)
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.128
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.106
+
+OK (7 tests)
+
+ 
+commit 7e85d591147eb30f6ac9af7555d5297de1015c20
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Wed Sep 28 22:33:03 2016 -0700
+
+    add commit
+
+:100644 100644 db03324... 251e68b... M	hw4/FilterSeq.java
+:100644 100644 1d63449... 5d36297... M	hw4/IterateSeq.java
+:100644 100644 b97b792... 775901f... M	hw4/NumberSequence.java
+:100644 100644 a9e8c4e... b73ad41... M	hw4/NumberSequenceTest.java
+:100644 100644 9efefc1... f57b15e... M	hw4/SeqOf.java
+:100644 100644 3c92f40... 9a0e538... M	hw4/SquareSequence.java
+
+commit 1c6052c0c8af8369fefd1aa122291ef268e36504
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Tue Sep 27 15:40:52 2016 -0700
+
+    pass all test case
+
+:000000 100644 0000000... db03324... A	hw4/FilterSeq.java
+:000000 100644 0000000... 1d63449... A	hw4/IterateSeq.java
+:000000 100644 0000000... b97b792... A	hw4/NumberSequence.java
+:000000 100644 0000000... a9e8c4e... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 9efefc1... A	hw4/SeqOf.java
+:000000 100644 0000000... 3c92f40... A	hw4/SquareSequence.java
+
+commit 51316d31675994192953e50a172b84b180b626f1
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Sun Sep 25 22:18:35 2016 -0700
+
+    09/25
+
+:100644 100644 cf40bc1... a679a32... M	hw4/progress
+ 
+Student: lin_xiaofan
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 20
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/FilteredSequence.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/InfiniteSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:30:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:44:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:63:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequence.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/SquareSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/lin_xiaofan/UsualSequence.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 31 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+..
+Time: 0.1
+
+OK (2 tests)
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.108
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.4
+2
+4
+......
+Time: 0.109
+
+OK (7 tests)
+
+ 
+commit 9835c7fff0c98a9bb21fedcbd788f16b4bfc76f0
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Sep 28 22:07:34 2016 -0700
+
+    Improve my code by enhancing the polymorphism of my interface
+
+:100644 100644 b56f04d... f433e61... M	hw4/NumberSequence.java
+:100644 100644 f721b05... ea8e856... M	hw4/SquareSequence.java
+:100644 100644 59e7dc0... 852d9a2... M	hw4/UsualSequence.java
+
+commit def278349f3a24a6dd6c5b04fa76a5091940b52e
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 21:49:21 2016 -0700
+
+    Improve the filter method to make it usable by all other general sequences class by introducing a new class FilteredSequence
+
+:000000 100644 0000000... 7c76878... A	hw4/FilteredSequence.java
+:100644 100644 3da480e... b56f04d... M	hw4/NumberSequence.java
+:100644 100644 6548ce3... f721b05... M	hw4/SquareSequence.java
+
+commit d80bba24d235881dd64ce61fac8bef789f59af20
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 01:23:11 2016 -0700
+
+    Pass the sixth and seventh cases
+
+:000000 100644 0000000... 033f7fc... A	hw4/InfiniteSequence.java
+:100644 100644 65dd1fa... 3da480e... M	hw4/NumberSequence.java
+
+commit 8b6479db23f1781c575577c5089cc179f2262509
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 27 00:52:46 2016 -0700
+
+    Pass the fifth case
+
+:100644 100644 ba37faf... 6548ce3... M	hw4/SquareSequence.java
+
+commit a89786dfba650f73596b4898b7e3b36b435994ea
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 26 21:27:11 2016 -0700
+
+    Pass the fourth case
+
+:100644 100644 9d09f6e... 65dd1fa... M	hw4/NumberSequence.java
+:100644 100644 76faaf6... 59e7dc0... M	hw4/UsualSequence.java
+
+commit b34c2bff08f2f26c231fde8a3735d9c661920e4a
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 26 21:15:54 2016 -0700
+
+    Pass the first three cases
+
+:100644 100644 2253585... 9d09f6e... M	hw4/NumberSequence.java
+:100644 100644 ac95f6a... ba37faf... M	hw4/SquareSequence.java
+:000000 100644 0000000... 76faaf6... A	hw4/UsualSequence.java
+ 
+Student: liu_qi
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 0 
+ 
+Starting audit...
+[ERROR] /tmp/hw4/liu_qi/FilteredSequence.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liu_qi/FilteredSequence.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/IteratedSequence.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liu_qi/IteratedSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NormalSequence.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liu_qi/NormalSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NormalSequence.java:28:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NormalSequence.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequence.java:8: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liu_qi/NumberSequence.java:10:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:7:6: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:22:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:32:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:41:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:51:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:60:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/NumberSequenceTest.java:69:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/liu_qi/SquareSequence.java:7: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 19 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.098
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.093
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.104
+
+OK (7 tests)
+
+ 
+commit ea8f4bcbd636ddeb3794b26ef0728ad291135bf3
+Author: QILIU67 <qi.liu@sjsu.edu>
+Date:   Thu Sep 29 01:19:26 2016 -0700
+
+    0928
+
+:100644 100644 cceda15... bfb4dca... M	hw4/.DS_Store
+:000000 100644 0000000... 1a56455... A	hw4/FilteredSequence.html
+:000000 100644 0000000... d3e9911... A	hw4/FilteredSequence.java
+:000000 100644 0000000... 64af1b4... A	hw4/IteratedSequence.html
+:000000 100644 0000000... 7496bb4... A	hw4/IteratedSequence.java
+:000000 100644 0000000... 6d1df2e... A	hw4/NormalSequence.html
+:000000 100644 0000000... 21a58fb... A	hw4/NormalSequence.java
+:000000 100644 0000000... c4dfc28... A	hw4/NumberSequence.html
+:100644 100644 7506ed7... bbb382e... M	hw4/NumberSequence.java
+:000000 100644 0000000... c8ebf6f... A	hw4/NumberSequenceTest.html
+:000000 100644 0000000... e021a5c... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 928d65b... A	hw4/SquareSequence.html
+:100644 100644 fcba48d... a3d3ef4... M	hw4/SquareSequence.java
+:000000 100644 0000000... 9e3a189... A	hw4/allclasses-frame.html
+:000000 100644 0000000... 6140263... A	hw4/allclasses-noframe.html
+:000000 100644 0000000... 6bb26c2... A	hw4/class-use/FilteredSequence.html
+:000000 100644 0000000... 05a06fb... A	hw4/class-use/IteratedSequence.html
+:000000 100644 0000000... 6d79f1f... A	hw4/class-use/NormalSequence.html
+:000000 100644 0000000... a62d4e6... A	hw4/class-use/NumberSequence.html
+:000000 100644 0000000... f2f1fbc... A	hw4/class-use/NumberSequenceTest.html
+:000000 100644 0000000... 9ea07cb... A	hw4/class-use/SquareSequence.html
+:000000 100644 0000000... f81ce1a... A	hw4/constant-values.html
+:000000 100644 0000000... 653526f... A	hw4/deprecated-list.html
+:000000 100644 0000000... b862617... A	hw4/help-doc.html
+:000000 100644 0000000... 2a9af36... A	hw4/index-files/index-1.html
+:000000 100644 0000000... 6b0244f... A	hw4/index-files/index-2.html
+:000000 100644 0000000... 3020721... A	hw4/index-files/index-3.html
+:000000 100644 0000000... 781c473... A	hw4/index-files/index-4.html
+:000000 100644 0000000... 102525f... A	hw4/index-files/index-5.html
+:000000 100644 0000000... 72f7808... A	hw4/index-files/index-6.html
+:000000 100644 0000000... 085d208... A	hw4/index-files/index-7.html
+:000000 100644 0000000... cf71a77... A	hw4/index-files/index-8.html
+:000000 100644 0000000... 0bfd290... A	hw4/index-files/index-9.html
+:000000 100644 0000000... b6e1cd8... A	hw4/index.html
+:000000 100644 0000000... 17d94a6... A	hw4/overview-tree.html
+:000000 100644 0000000... e9f5f5a... A	hw4/package-frame.html
+:000000 100644 0000000... 8b13789... A	hw4/package-list
+:000000 100644 0000000... 67429f7... A	hw4/package-summary.html
+:000000 100644 0000000... 115363b... A	hw4/package-tree.html
+:000000 100644 0000000... b037e9a... A	hw4/package-use.html
+:000000 100644 0000000... b346356... A	hw4/script.js
+:000000 100644 0000000... 98055b2... A	hw4/stylesheet.css
+
+commit a744666cb6c412ab9b4e0d5f172c1a53451bedc4
+Author: QILIU67 <qi.liu@sjsu.edu>
+Date:   Tue Sep 27 23:44:03 2016 -0700
+
+    0927
+
+:100644 100644 8f1ced1... cceda15... M	hw4/.DS_Store
+:100644 100644 5f479f5... 7506ed7... M	hw4/NumberSequence.java
+
+commit d0e47cc92cac6cb52a09b6c5ef8799c22d65aab8
+Author: QILIU67 <qi.liu@sjsu.edu>
+Date:   Mon Sep 26 23:53:55 2016 -0700
+
+    09-26
+
+:000000 100644 0000000... 8f1ced1... A	hw4/.DS_Store
+:000000 100644 0000000... 5f479f5... A	hw4/NumberSequence.java
+:000000 100644 0000000... fcba48d... A	hw4/SquareSequence.java
+ 
+Student: menon_parvathy
+At least 3 git commits (max. 5 points): 0
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:5:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:8:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:9:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:10:8: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:11:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/NumberSequence.java:13:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/menon_parvathy/SquareSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/menon_parvathy/SquareSequence.java:2:3: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 12 errors.
+NumberSequenceTest2.java
+./NumberSequence.java:11: error: cannot find symbol
+   NumberSequence filter(LongPredicate p);
+                         ^
+  symbol:   class LongPredicate
+  location: interface NumberSequence
+./NumberSequence.java:12: error: cannot find symbol
+   NumberSequence iterate(long seed, LongUnaryOperator f);
+                                     ^
+  symbol:   class LongUnaryOperator
+  location: interface NumberSequence
+NumberSequenceTest2.java:8: error: non-static method of(long...) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+                                              ^
+NumberSequenceTest2.java:14: error: non-static method of(long...) cannot be referenced from a static context
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+                                                 ^
+4 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest2
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest3.java
+./NumberSequence.java:11: error: cannot find symbol
+   NumberSequence filter(LongPredicate p);
+                         ^
+  symbol:   class LongPredicate
+  location: interface NumberSequence
+./NumberSequence.java:12: error: cannot find symbol
+   NumberSequence iterate(long seed, LongUnaryOperator f);
+                                     ^
+  symbol:   class LongUnaryOperator
+  location: interface NumberSequence
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+3 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+./NumberSequence.java:11: error: cannot find symbol
+   NumberSequence filter(LongPredicate p);
+                         ^
+  symbol:   class LongPredicate
+  location: interface NumberSequence
+./NumberSequence.java:12: error: cannot find symbol
+   NumberSequence iterate(long seed, LongUnaryOperator f);
+                                     ^
+  symbol:   class LongUnaryOperator
+  location: interface NumberSequence
+./SquareSequence.java:1: error: cannot find symbol
+public class SquareSequence implements NumberSquence {
+                                       ^
+  symbol: class NumberSquence
+NumberSequenceTest.java:8: error: incompatible types: SquareSequence cannot be converted to NumberSequence
+      NumberSequence sequence = new SquareSequence();
+                                ^
+NumberSequenceTest.java:23: error: non-static method of(long...) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+NumberSequenceTest.java:33: error: non-static method of(long...) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+NumberSequenceTest.java:35: error: incompatible types: SquareSequence cannot be converted to NumberSequence
+      sequence = new SquareSequence();
+                 ^
+NumberSequenceTest.java:41: error: non-static method of(long...) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                              ^
+NumberSequenceTest.java:43: error: non-static method of(long...) cannot be referenced from a static context
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                               ^
+NumberSequenceTest.java:45: error: non-static method of(long...) cannot be referenced from a static context
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                               ^
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+                                                      ^
+  symbol:   method filter((n)->n % 2 != 0)
+  location: class SquareSequence
+NumberSequenceTest.java:60: error: non-static method iterate(long,LongUnaryOperator) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
+                                              ^
+NumberSequenceTest.java:69: error: non-static method random(long) cannot be referenced from a static context
+      NumberSequence sequence = NumberSequence.random(42);
+                                              ^
+13 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest
+
+Time: 0.001
+
+OK (0 tests)
+
+ 
+commit 2fd249d02a788648ed5047203e5e521cc78893e7
+Author: Parvathy Menon <parvathy.menon1997@gmail.com>
+Date:   Mon Sep 26 21:33:10 2016 -0700
+
+    Modified hw4
+
+:100644 100644 665c409... 1bcbf85... M	hw4/NumberSequence.java
+:100644 100644 b312dd3... f5e0cd4... M	hw4/SquareSequence.java
+
+commit a2def196404dd529ba004121165c8e2a336a2b88
+Author: Parvathy Menon <parvathy.menon1997@gmail.com>
+Date:   Mon Sep 26 21:09:54 2016 -0700
+
+    Added hw4 files
+
+:000000 100644 0000000... 665c409... A	hw4/NumberSequence.java
+:000000 100644 0000000... b312dd3... A	hw4/SquareSequence.java
+ 
+Student: nguyen_ly
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/nguyen_ly/FilteredSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_ly/IterativeSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/SimpleSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_ly/SquareSequence.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_ly/SquareSequence.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_ly/SquareSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 14 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.117
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.101
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.121
+
+OK (7 tests)
+
+ 
+commit cbe16e9c079a19315c999721760bc09d1011be20
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Wed Sep 28 21:11:25 2016 -0700
+
+    remove unnecessary methods
+
+:100644 100644 82f2111... 9e4934a... M	hw4/FilteredSequence.java
+:100644 100644 40f3be0... 42991ab... M	hw4/IterativeSequence.java
+:100644 100644 8583957... 3fc69c8... M	hw4/NumberSequence.java
+:100644 100644 7cc516e... 6ca1390... M	hw4/SimpleSequence.java
+:100644 100644 f630a76... adef282... M	hw4/SquareSequence.java
+
+commit 379ab854cae5aad6ff621c49551d97c545223959
+Author: Ly Nguyen <yl.neyugn@gmail.com>
+Date:   Wed Sep 28 12:18:27 2016 -0700
+
+    adding javadoc
+
+:100644 100644 0b90ec9... 8583957... M	hw4/NumberSequence.java
+
+commit bf5d844d7815cb5063f6b3e80f059c80b669f0ca
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Wed Sep 28 00:52:12 2016 -0700
+
+    finished. Need javadoc
+
+:100644 100644 773742d... 0b90ec9... M	hw4/NumberSequence.java
+
+commit a03d0ae7acfe84c99612f016faa426bceecd5996
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Tue Sep 27 23:08:08 2016 -0700
+
+    one test left
+
+:000000 100644 0000000... 82f2111... A	hw4/FilteredSequence.java
+:000000 100644 0000000... 40f3be0... A	hw4/IterativeSequence.java
+:100644 100644 329913b... 773742d... M	hw4/NumberSequence.java
+:000000 100644 0000000... 7cc516e... A	hw4/SimpleSequence.java
+:100644 100644 d933e78... f630a76... M	hw4/SquareSequence.java
+
+commit 8f1dd869576524e7ebd7f759d4e868d00cd2df0c
+Author: Ly Nguyen <yl.neyugn@gmail.com>
+Date:   Tue Sep 27 14:23:41 2016 -0700
+
+    sep 27 14:23
+
+:100644 100644 785acc1... 329913b... M	hw4/NumberSequence.java
+:100644 100644 338e14b... d933e78... M	hw4/SquareSequence.java
+
+commit ce74cb268e81ff52d3460d5ba107d75b4e4e725c
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Tue Sep 27 03:13:16 2016 -0700
+
+    sep 27
+
+:100644 100644 1777898... 785acc1... M	hw4/NumberSequence.java
+:100644 100644 8ad70bc... 338e14b... M	hw4/SquareSequence.java
+
+commit acf217de0158adbb882f2982f8f965f916d2a01a
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Tue Sep 27 01:01:08 2016 -0700
+
+    sep 27 commit
+
+:100644 100644 7bfd499... 1777898... M	hw4/NumberSequence.java
+:100644 100644 cf72fc1... 8ad70bc... M	hw4/SquareSequence.java
+ 
+Student: nguyen_paul
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:9: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:14:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:21:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:32:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:44:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:59:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:71:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:86:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:99:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:110:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:117: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:140: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:168: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequence.java:195: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:7:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:23:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:33:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:41:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:51:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:60:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/NumberSequenceTest.java:69:3: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:5:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:15:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:25:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:36:2: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/nguyen_paul/SquareSequence.java:49:2: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 28 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+..E
+Time: 0.104
+There was 1 failure:
+1) averageTest2(NumberSequenceTest2)
+java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at NumberSequence.average(NumberSequence.java:62)
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.E
+Time: 0.098
+There was 1 failure:
+1) filterTest3(NumberSequenceTest3)
+java.util.NoSuchElementException
+	at java.util.LinkedList.removeFirst(LinkedList.java:270)
+	at java.util.LinkedList.remove(LinkedList.java:685)
+	at NumberSequence$filter.next(NumberSequence.java:212)
+	at NumberSequenceTest3.filterTest3(NumberSequenceTest3.java:13)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.11
+
+OK (7 tests)
+
+ 
+commit 6b64676d52a9b397d19d90bbbb89999a95e1dd8a
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 28 18:46:57 2016 -0700
+
+    9/28 commit
+
+:100644 100644 a42f55e... ed50455... M	hw4/SquareSequence.java
+
+commit 162bf1a6ab9a9cfb8996668f9bee1ce7daf6c2a6
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 28 18:45:52 2016 -0700
+
+    9/28 commit
+
+:100644 100644 f3fe087... 596d010... M	hw4/NumberSequence.java
+:100644 100644 ba1d904... a42f55e... M	hw4/SquareSequence.java
+
+commit f2670f1f88979c3dde879e02807861bedd1d358d
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 28 18:44:00 2016 -0700
+
+    9/28 commit
+
+:100644 100644 596d010... f3fe087... M	hw4/NumberSequence.java
+:100644 100644 a42f55e... ba1d904... M	hw4/SquareSequence.java
+
+commit 40016800c0ed4b182926c7558a41d191e81930a7
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 28 18:41:38 2016 -0700
+
+    9/27 commit
+
+:100644 100644 5ed5c1b... 596d010... M	hw4/NumberSequence.java
+:100644 100644 d1317a7... a42f55e... M	hw4/SquareSequence.java
+
+commit 9fe6799d77384434aba7642fb5a2bcf0de766338
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 28 16:54:56 2016 -0700
+
+    Commit 9/28
+
+:100644 100644 569d651... 5ed5c1b... M	hw4/NumberSequence.java
+
+commit 0b3183eaf2b0217e31ec823e76bcbab9d2e3d56a
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Tue Sep 27 23:34:48 2016 -0700
+
+    9/27 commit
+
+:100644 100644 2759aa5... 569d651... M	hw4/NumberSequence.java
+
+commit b5e275146db6aea9644515f58d0f56a86575a9e0
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Tue Sep 27 23:33:25 2016 -0700
+
+    9/27 commit
+
+:100644 100644 5c6a9c1... 2759aa5... M	hw4/NumberSequence.java
+
+commit c956399bbdcc6f66190d25930e5c916791707263
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Tue Sep 27 18:37:05 2016 -0700
+
+    Push 9/27
+
+:100644 100644 5c6a9c1... 46eb042... M	hw4/NumberSequence.java
+
+commit cf89f58f356573a5a93e467285894e624f06998f
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Tue Sep 27 12:36:57 2016 -0700
+
+    Pull 9/27
+
+:100644 100644 945164f... b5f40bd... M	hw4/NumberSequence.java
+:100644 100644 db311d8... f320cb7... M	hw4/SquareSequence.java
+
+commit 5c1ebf1f5c0d3259df5e606ff21f9a6c40404b19
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Tue Sep 27 10:49:43 2016 -0700
+
+    9/27 commit
+
+:100644 100644 b3f0001... 5c6a9c1... M	hw4/NumberSequence.java
+:100644 100644 47f976a... d1317a7... M	hw4/SquareSequence.java
+
+commit 9047dba6f6724d74aa26e5d04c328aff204f1fb1
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Mon Sep 26 23:23:57 2016 -0700
+
+    9/26 commit
+
+:100644 100644 5dbf8e8... b3f0001... M	hw4/NumberSequence.java
+:100644 100644 d837f94... 47f976a... M	hw4/SquareSequence.java
+
+commit 303e1e43322a85125f2679eeef1bbe547139682a
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Mon Sep 26 22:08:12 2016 -0700
+
+    9/26 commit
+
+:100644 100644 945164f... 5dbf8e8... M	hw4/NumberSequence.java
+:100644 100644 db311d8... d837f94... M	hw4/SquareSequence.java
+
+commit ed6e9098928f6bd0f0b07777413bcf6d3fdbfeb6
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Mon Sep 26 11:26:52 2016 -0700
+
+    9/26 commit
+
+:100644 100644 8429d38... 945164f... M	hw4/NumberSequence.java
+
+commit dc92af40fef10bbc4ba2f2904b6943e0ebe480d1
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Sun Sep 25 15:42:35 2016 -0700
+
+    9/25 commit
+
+:100644 100644 0ef1350... db311d8... M	hw4/SquareSequence.java
+ 
+Student: pan_yuliang
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 0
+ 
+You need to submit your files inside a hw4 directory. Unzip and push again, then email me.
+
+Files to process must be specified, found 0.
+NumberSequenceTest2.java
+NumberSequenceTest2.java:8: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:8: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 4, 9, 16);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:14: error: cannot find symbol
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest2
+NumberSequenceTest2.java:14: error: cannot find symbol
+      NumberSequence oddSquares2 = NumberSequence.of(0, 1, 4, 9).filter(n -> n % 2 != 0);
+                                   ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest2
+4 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest2
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: cannot find symbol
+      NumberSequence randomSequence = () -> gen.nextLong();
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest3
+NumberSequenceTest3.java:10: error: lambda expression not expected here
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+NumberSequenceTest3.java:12: error: cannot find symbol
+      NumberSequence positiveRandoms = randomSequence.filter(n -> n > 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest3
+3 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.001
+
+OK (0 tests)
+
+NumberSequenceTest.java
+NumberSequenceTest.java:8: error: cannot find symbol
+      NumberSequence sequence = new SquareSequence();
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:8: error: cannot find symbol
+      NumberSequence sequence = new SquareSequence();
+                                    ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:23: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:23: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:33: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:33: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:35: error: cannot find symbol
+      sequence = new SquareSequence();
+                     ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:41: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:41: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.of(1, 7, 2, 9);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:43: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                 ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:45: error: cannot find symbol
+      sequence = NumberSequence.of(1, 7, 2, 9);
+                 ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:51: error: cannot find symbol
+      NumberSequence oddSquares = new SquareSequence().filter(n -> n % 2 != 0);
+                                      ^
+  symbol:   class SquareSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:60: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:60: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.iterate(1, n -> 2 * n);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:69: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.random(42);
+      ^
+  symbol:   class NumberSequence
+  location: class NumberSequenceTest
+NumberSequenceTest.java:69: error: cannot find symbol
+      NumberSequence sequence = NumberSequence.random(42);
+                                ^
+  symbol:   variable NumberSequence
+  location: class NumberSequenceTest
+17 errors
+JUnit version 4.11
+Could not find class: NumberSequenceTest
+
+Time: 0.002
+
+OK (0 tests)
+
+ 
+commit 3faddbd0c8ab3f25795fed07f8f5c6f9fbbc8894
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:28 2016 -0700
+
+    Delete SquareSequence.java
+
+:100644 000000 cd0a4cf... 0000000... D	SquareSequence.java
+
+commit 064533d57d24dc747623e8e999c73563d3b6087e
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:21 2016 -0700
+
+    Delete NumberSequence.java
+
+:100644 000000 f20bfea... 0000000... D	NumberSequence.java
+
+commit d613f7d513f555d03e04053d2b0824cc7e1e5434
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:26:05 2016 -0700
+
+    Delete HW4!!!!
+
+:100644 000000 183c553... 0000000... D	HW4!!!!
+
+commit eb601f1ecf980cd48deceacf94e5d2ddd40aa918
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:25:31 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... 385d9c5... A	HW4.zip
+
+commit 9f41e46a08e58750bf3707a154327ec6c59b7870
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:23:15 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... f20bfea... A	NumberSequence.java
+:000000 100644 0000000... cd0a4cf... A	SquareSequence.java
+
+commit b26aaaca1f3c81c71d0898239d320e7d5b18f0e7
+Author: yuliangpan <yuliang.pan@sjsu.edu>
+Date:   Tue Sep 27 16:15:14 2016 -0700
+
+    Create HW4!!!!
+    
+    SJSU Yuliang Pan CS151 HW4
+
+:000000 100644 0000000... 183c553... A	HW4!!!!
+ 
+Student: pham_kiem
+At least 3 git commits (max. 5 points): 3
+10 test cases pass (2 per test case, max. 20 points): 9
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:13:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:19:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:50:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:61:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:75:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:90:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:91: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:133:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:134: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/pham_kiem/NumberSequence.java:152:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/pham_kiem/SquareSequence.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 13 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+..
+Time: 0.098
+
+OK (2 tests)
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.112
+
+OK (7 tests)
+
+ 
+commit 4eefae967a396a9de32778185c4f668ed6a27fb9
+Author: Khiem Pham <Khiem Pham>
+Date:   Wed Sep 28 21:53:52 2016 -0700
+
+    commit 09/28
+
+:100644 100644 afa773a... 990f851... M	hw4/NumberSequence.java
+:100644 100644 18526e4... 55ac011... M	hw4/SquareSequence.java
+
+commit 3168dd985e120a4aefeb7ed57039f3c7d74225bd
+Author: Khiem Pham <Khiem Pham>
+Date:   Wed Sep 28 21:43:52 2016 -0700
+
+    commit 09/28
+
+:100644 100644 c1f9872... afa773a... M	hw4/NumberSequence.java
+:100644 100644 578a3c0... 18526e4... M	hw4/SquareSequence.java
+
+commit 9f6c088c96d692208c5c8ab45d1709b0ce31abf6
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 27 23:29:49 2016 -0700
+
+    5th commit 09/27
+
+:100644 100644 b199f74... c1f9872... M	hw4/NumberSequence.java
+
+commit 8f6d56949e28e3419aec118569273ce49a0cc7fc
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 27 14:47:13 2016 -0700
+
+    4th commit 09/27
+
+:100644 100644 e74608e... b199f74... M	hw4/NumberSequence.java
+
+commit e670e58697c049ebcd17cca1785318b9496fcb1e
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 27 01:42:38 2016 -0700
+
+    3rd commit 09/27
+
+:100644 100644 83e65b5... e74608e... M	hw4/NumberSequence.java
+
+commit edafb6e4889f90dc96312efe2c71a34a86d47670
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 27 01:20:23 2016 -0700
+
+    second commit 09/26
+
+:100644 000000 88fa350... 0000000... D	hw4/FrameTester.java
+:100644 100644 e41e748... 83e65b5... M	hw4/NumberSequence.java
+:100644 100644 34560b2... 578a3c0... M	hw4/SquareSequence.java
+
+commit 8543e930cc04f9c4fbe57fe7b485682ae3581cfa
+Author: Khiem Pham <Khiem Pham>
+Date:   Mon Sep 26 23:57:22 2016 -0700
+
+    second commit 09/26
+
+:100644 100644 3988a36... e41e748... M	hw4/NumberSequence.java
+:100644 100644 2fa6f47... 34560b2... M	hw4/SquareSequence.java
+
+commit 2552a0a521bc199600aa7f9be8871cbb8734a3e6
+Author: Khiem Pham <Khiem Pham>
+Date:   Mon Sep 26 23:41:18 2016 -0700
+
+    commit 09/26
+
+:000000 100644 0000000... 3988a36... A	hw4/NumberSequence.java
+:000000 100644 0000000... 2fa6f47... A	hw4/SquareSequence.java
+
+commit 5ef4f4c69ec85601816678d144d0b35d90b55dd3
+Author: Khiem Pham <Khiem Pham>
+Date:   Sun Sep 25 23:48:56 2016 -0700
+
+    added hw4
+
+:000000 100644 0000000... 88fa350... A	hw4/FrameTester.java
+ 
+Student: prasad_vishaal
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/prasad_vishaal/CustomSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/prasad_vishaal/CustomSequence.java:9:35: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/FilteredSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/prasad_vishaal/IteratorSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:8:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:27:32: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/NumberSequence.java:57:40: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/prasad_vishaal/RandomSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/prasad_vishaal/SquareSequence.java:1: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 12 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.146
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.151
+
+OK (7 tests)
+
+ 
+commit b4f22fa17a0a02d090c89579420473e29ecf9a2e
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro-2.local>
+Date:   Tue Sep 27 19:51:30 2016 -0700
+
+    Small changes
+
+:100644 100644 a7f608f... 609e016... M	hw4/RandomSequence.java
+
+commit b0264d6d14905c3b50f15baba41335d38461f725
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro-2.local>
+Date:   Tue Sep 27 12:23:13 2016 -0700
+
+    adding javadoc comments
+
+:100644 100644 1d201d4... 53cb231... M	hw4/CustomSequence.java
+:100644 100644 80b426d... 5bba221... M	hw4/FilteredSequence.java
+:100644 100644 36506cc... 5700ec5... M	hw4/IteratorSequence.java
+:100644 100644 4581a01... 9aef1f3... M	hw4/NumberSequence.java
+:100644 100644 9119358... a7f608f... M	hw4/RandomSequence.java
+:100644 100644 28f5d1e... 352589d... M	hw4/SquareSequence.java
+
+commit 2ede622f1c5205669daf13abd240caa1198818bc
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Mon Sep 26 20:25:05 2016 -0700
+
+    all 7 tests work
+
+:100644 100644 ad2bc9d... 36506cc... M	hw4/IteratorSequence.java
+:100644 100644 acf308a... 4581a01... M	hw4/NumberSequence.java
+:100644 100644 e69de29... 9119358... M	hw4/RandomSequence.java
+
+commit c3d4a0f2271c7ca9d323763fdfcd7d50851d56ec
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Mon Sep 26 20:08:28 2016 -0700
+
+    Adding RandomSequence.java
+
+:000000 100644 0000000... e69de29... A	hw4/RandomSequence.java
+
+commit 1f157a0823ff53d9bb3c93c35105199eb795525e
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Mon Sep 26 20:05:56 2016 -0700
+
+    Renamed EquationSequence to IteratorSequence.java
+
+:100644 100644 72a5a74... 80b426d... M	hw4/FilteredSequence.java
+:000000 100644 0000000... ad2bc9d... A	hw4/IteratorSequence.java
+:100644 100644 8e0bcd7... acf308a... M	hw4/NumberSequence.java
+
+commit 219d96affcc90d0b908d36ac4685f442cd70bade
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Mon Sep 26 19:27:48 2016 -0700
+
+    Adding FilteredSequence.java
+
+:000000 100644 0000000... 72a5a74... A	hw4/FilteredSequence.java
+:100644 100644 74772a7... 8e0bcd7... M	hw4/NumberSequence.java
+
+commit 95641a6fd3f84270648397ee73471dbcadf1f9b6
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Sun Sep 25 21:54:05 2016 -0700
+
+    Made some progress, still need to fix last three tests
+
+:100644 100644 5357b13... 74772a7... M	hw4/NumberSequence.java
+ 
+Student: qiu_jiabao
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 14
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/qiu_jiabao/FilteredSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/qiu_jiabao/FilteredSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/FilteredSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/FilteredSequence.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/IteratedSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/qiu_jiabao/IteratedSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/IteratedSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/IteratedSequence.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SequenceOf.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/qiu_jiabao/SequenceOf.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SequenceOf.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SequenceOf.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SequenceOf.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SquareSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/qiu_jiabao/SquareSequence.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SquareSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/qiu_jiabao/SquareSequence.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 25 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.107
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<7.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.108
+
+OK (7 tests)
+
+ 
+commit d6d76f6e89de4f03425ff3376bafc6d0de7633e3
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Wed Sep 28 11:37:31 2016 -0700
+
+    finish hw4
+
+:000000 100644 0000000... aea8b99... A	hw4/FilteredSequence.java
+:000000 100644 0000000... 6634b7e... A	hw4/IteratedSequence.java
+:100644 100644 d201e82... d0be012... M	hw4/NumberSequence.java
+:000000 100644 0000000... d100d41... A	hw4/SequenceOf.java
+:100644 100644 b0e0665... a28beca... M	hw4/SquareSequence.java
+:100644 100644 26904a3... d505f75... M	hw4/progress.txt
+
+commit f1a64e6686859ea84478ca2e7b2852a6ce76a2f5
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Tue Sep 27 15:22:16 2016 -0700
+
+    daily commit
+
+:100644 100644 c9116f2... d201e82... M	hw4/NumberSequence.java
+:100644 100644 81e3d2a... b0e0665... M	hw4/SquareSequence.java
+
+commit 41bbcfbeda04867dd73a7fd83e0c412c2a789c9d
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Mon Sep 26 11:42:29 2016 -0700
+
+    hw4 set up
+
+:000000 100644 0000000... c9116f2... A	hw4/NumberSequence.java
+:000000 100644 0000000... b73ad41... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 81e3d2a... A	hw4/SquareSequence.java
+:100644 100644 0785a2a... 26904a3... M	hw4/progress.txt
+
+commit 4c20e532d1473256d7997e1f4d2e80687a28df23
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Sun Sep 25 16:30:22 2016 -0700
+
+    daily commit
+
+:100644 100644 14a42c4... 0785a2a... M	hw4/progress.txt
+ 
+Student: shah_shariq
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/shah_shariq/NumberSequence.java:12:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequence.java:16:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequence.java:18:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:31:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:39:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:49:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:58:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/NumberSequenceTest.java:67:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:17:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:25:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:43:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SeqOf.java:57:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SquareSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shah_shariq/SquareSequence.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SquareSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shah_shariq/SquareSequence.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 23 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.115
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.003
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.146
+
+OK (7 tests)
+
+ 
+commit 91547e157c96c8fbb4130be17b3a1afb6b78281b
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Wed Sep 28 21:15:59 2016 -0700
+
+    Finished all methods and javadoc
+
+:100644 100644 3c033b3... 093f32c... M	hw4/NumberSequence.java
+:100644 100644 840794a... f184f13... M	hw4/NumberSequenceTest.java
+:100644 100644 f26697a... cedef6d... M	hw4/SeqOf.java
+:100644 100644 e6e436f... 16fe4e0... M	hw4/SquareSequence.java
+:000000 100644 0000000... 23e310e... A	hw4/doc/NumberSequenceTest.html
+:000000 100644 0000000... 36ae779... A	hw4/doc/allclasses-frame.html
+:000000 100644 0000000... 43a9dfc... A	hw4/doc/allclasses-noframe.html
+:000000 100644 0000000... 8793408... A	hw4/doc/class-use/NumberSequenceTest.html
+:000000 100644 0000000... 2736851... A	hw4/doc/constant-values.html
+:000000 100644 0000000... af28dad... A	hw4/doc/deprecated-list.html
+:000000 100644 0000000... 96e6d76... A	hw4/doc/help-doc.html
+:000000 100644 0000000... 244ef03... A	hw4/doc/index-files/index-1.html
+:000000 100644 0000000... faa2a29... A	hw4/doc/index-files/index-2.html
+:000000 100644 0000000... 2698b25... A	hw4/doc/index-files/index-3.html
+:000000 100644 0000000... 48f9b4f... A	hw4/doc/index-files/index-4.html
+:000000 100644 0000000... 15c88ea... A	hw4/doc/index-files/index-5.html
+:000000 100644 0000000... c948f0d... A	hw4/doc/index-files/index-6.html
+:000000 100644 0000000... 14fdde1... A	hw4/doc/index-files/index-7.html
+:000000 100644 0000000... 1fdcbbb... A	hw4/doc/index-files/index-8.html
+:000000 100644 0000000... e9154ef... A	hw4/doc/index.html
+:000000 100644 0000000... 6fcd1ec... A	hw4/doc/overview-tree.html
+:000000 100644 0000000... 67f14db... A	hw4/doc/package-frame.html
+:000000 100644 0000000... 8b13789... A	hw4/doc/package-list
+:000000 100644 0000000... 9bfe21c... A	hw4/doc/package-summary.html
+:000000 100644 0000000... 2c3604f... A	hw4/doc/package-tree.html
+:000000 100644 0000000... 17f40ff... A	hw4/doc/package-use.html
+:000000 100644 0000000... b346356... A	hw4/doc/script.js
+:000000 100644 0000000... 98055b2... A	hw4/doc/stylesheet.css
+
+commit 6ef2227cd724c7317616c63d955284bbf906c134
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Wed Sep 28 03:25:58 2016 -0700
+
+    Removed System.Out
+
+:100644 100644 376d0e0... f26697a... M	hw4/SeqOf.java
+:100644 100644 c47a16d... e6e436f... M	hw4/SquareSequence.java
+
+commit 5e6441ad53ec49b784733b7b467d63252e94c2ba
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Tue Sep 27 00:54:42 2016 -0700
+
+    Completed methods: next, has next, of, average, toArray
+
+:000000 100644 0000000... 3c033b3... A	hw4/NumberSequence.java
+:000000 100644 0000000... 840794a... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 376d0e0... A	hw4/SeqOf.java
+:000000 100644 0000000... c47a16d... A	hw4/SquareSequence.java
+ 
+Student: shi_hengyi
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 14
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:8:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:10:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:11:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:20:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequence.java:24:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/NumberSequenceTester.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqFil.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/SeqFil.java:7:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqIter.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/SeqIter.java:6:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqOf.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/SeqOf.java:5:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqOf.java:15:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqOf.java:21:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqOf.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SeqRan.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/shi_hengyi/SeqRan.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/shi_hengyi/SquareSequence.java:4: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 29 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.102
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at SeqOf.average(SeqOf.java:24)
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTester.java
+NumberSequenceTester.java:4: error: class NumberSequenceTest is public, should be declared in a file named NumberSequenceTest.java
+public class NumberSequenceTest
+       ^
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTester
+
+Time: 0.002
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.107
+
+OK (7 tests)
+
+ 
+commit 1b3aa9083b78b59b5562acbf8492e0f0e2b1cc93
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Tue Sep 27 21:33:50 2016 -0700
+
+    9/27 homework done
+
+:100644 100644 fc4d0d0... 69374d9... M	hw4/NumberSequence.java
+:000000 100644 0000000... a6d4aa5... A	hw4/SeqFil.java
+:000000 100644 0000000... 675b176... A	hw4/SeqIter.java
+:100644 100644 dcc870d... cfa6dd3... M	hw4/SeqOf.java
+:100644 100644 f8f3cb8... 16bcb49... M	hw4/SeqRan.java
+:100644 100644 b928c31... 137efeb... M	hw4/SquareSequence.java
+:100644 100644 a904abe... 1670077... M	hw4/hw4.txt
+
+commit 8c7e8787511420b080daafc6e64e2de724f8efb2
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Mon Sep 26 23:58:22 2016 -0700
+
+    9/26 4 test cases passed
+
+:100644 100644 b52a8fd... a904abe... M	hw4/hw4.txt
+
+commit 48c031d686fe173492bec8070dd576458d6f885a
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Mon Sep 26 23:57:53 2016 -0700
+
+    9/26 4 test cases passed
+
+:000000 100644 0000000... fc4d0d0... A	hw4/NumberSequence.java
+:000000 100644 0000000... 8470c8b... A	hw4/NumberSequenceTester.java
+:000000 100644 0000000... dcc870d... A	hw4/SeqOf.java
+:000000 100644 0000000... f8f3cb8... A	hw4/SeqRan.java
+:000000 100644 0000000... b928c31... A	hw4/SquareSequence.java
+
+commit 05f70586b6552bad38d753c9363cb1785b4b78d2
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Mon Sep 26 20:57:52 2016 -0700
+
+    9/25 did nothing
+
+:100644 100644 53721d4... b52a8fd... M	hw4/hw4.txt
+ 
+Student: sterpka_michael
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 5
+ 
+Starting audit...
+[ERROR] /tmp/hw4/sterpka_michael/NumberSequence.java:10:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 1 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.106
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.14
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.103
+
+OK (7 tests)
+
+ 
+commit 285dc7fa12160179296101505bd351a12e837e40
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Wed Sep 28 21:10:27 2016 -0700
+
+    Daily commit
+
+:100644 100644 7c344e5... 6ba529c... M	progress.txt
+
+commit 0f87ab13c935519b87c645d27b5d2ea53cdf4262
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Tue Sep 27 16:23:00 2016 -0700
+
+    Daily commit
+
+:100644 100644 e8b43c3... 7c344e5... M	progress.txt
+
+commit cd7603b17beada6a6dc9fcd263264368dc56d1d3
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Mon Sep 26 14:05:47 2016 -0700
+
+    Daily commit
+
+:100644 100644 c13448c... e8b43c3... M	progress.txt
+ 
+Student: swerdon_matthew
+At least 3 git commits (max. 5 points): 0
+10 test cases pass (2 per test case, max. 20 points): 0
+All methods have javadoc (max. 5 points): 3
+ 
+Starting audit...
+[ERROR] /tmp/hw4/swerdon_matthew/NumberSequence.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/swerdon_matthew/NumberSequence.java:26: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/swerdon_matthew/NumberSequence.java:112: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/swerdon_matthew/NumberSequence.java:174: Missing a Javadoc comment. [JavadocType]
+Audit done.
+Checkstyle ends with 4 errors.
+NumberSequenceTest2.java
+./NumberSequence.java:24: error: cannot find symbol
+	  return new FiniteSequence();
+	             ^
+  symbol:   class FiniteSequence
+  location: interface NumberSequence
+./NumberSequence.java:93: error: cannot find symbol
+         result[count] = next();
+         ^
+  symbol:   variable result
+  location: interface NumberSequence
+./NumberSequence.java:153: error: cannot find symbol
+               hasMoreElements = false;
+               ^
+  symbol:   variable hasMoreElements
+  location: class FilteredSequence
+3 errors
+JUnit version 4.11
+.E.E
+Time: 0.009
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.NoClassDefFoundError: NumberSequence
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:14)
+Caused by: java.lang.ClassNotFoundException: NumberSequence
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+2) averageTest2(NumberSequenceTest2)
+java.lang.NoClassDefFoundError: NumberSequence
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:8)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+./NumberSequence.java:24: error: cannot find symbol
+	  return new FiniteSequence();
+	             ^
+  symbol:   class FiniteSequence
+  location: interface NumberSequence
+./NumberSequence.java:93: error: cannot find symbol
+         result[count] = next();
+         ^
+  symbol:   variable result
+  location: interface NumberSequence
+./NumberSequence.java:153: error: cannot find symbol
+               hasMoreElements = false;
+               ^
+  symbol:   variable hasMoreElements
+  location: class FilteredSequence
+3 errors
+JUnit version 4.11
+.E
+Time: 0.045
+There was 1 failure:
+1) filterTest3(NumberSequenceTest3)
+java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: NumberSequence
+	at NumberSequenceTest3.filterTest3(NumberSequenceTest3.java:10)
+Caused by: java.lang.NoClassDefFoundError: NumberSequence
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: NumberSequence
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+NumberSequenceTest.java
+./NumberSequence.java:24: error: cannot find symbol
+	  return new FiniteSequence();
+	             ^
+  symbol:   class FiniteSequence
+  location: interface NumberSequence
+./NumberSequence.java:93: error: cannot find symbol
+         result[count] = next();
+         ^
+  symbol:   variable result
+  location: interface NumberSequence
+./NumberSequence.java:153: error: cannot find symbol
+               hasMoreElements = false;
+               ^
+  symbol:   variable hasMoreElements
+  location: class FilteredSequence
+3 errors
+JUnit version 4.11
+Exception in thread "main" java.lang.NoClassDefFoundError: NumberSequence
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+Caused by: java.lang.ClassNotFoundException: NumberSequence
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 5 more
+ 
+commit 2ba7064383a6980269015720be6ed3cc10cabde6
+Author: user <matthew.swerdon@sjsu.edu>
+Date:   Thu Sep 29 02:28:18 2016 -0700
+
+    hw4final
+
+:000000 100644 0000000... 1e995ec... A	hw4/NumberSequence.java
+:000000 100644 0000000... 96469e6... A	hw4/SquareSequence.java
+ 
+Student: ubaldo_gideon
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 14
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/ubaldo_gideon/FilteredSequence.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/ubaldo_gideon/FilteredSequence.java:37:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/FilteredSequence.java:64:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:9:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:27:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:37:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:45:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:56:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:68:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:72:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/NumberSequence.java:76:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/ubaldo_gideon/SquareSequence.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/SquareSequence.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/ubaldo_gideon/SquareSequence.java:36:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 17 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.108
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.E
+Time: 0.114
+There was 1 failure:
+1) filterTest3(NumberSequenceTest3)
+java.lang.AssertionError: expected:<5694868678511409995> but was:<1>
+	at NumberSequenceTest3.filterTest3(NumberSequenceTest3.java:13)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.109
+
+OK (7 tests)
+
+ 
+commit 853934474077caec347a83e61aa86aa227a78627
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 28 22:34:12 2016 -0700
+
+    Delete NumberSequenceTest.java
+
+:100644 000000 90210ca... 0000000... D	hw4/NumberSequenceTest.java
+
+commit 91da3cbd9dbb334103a2fb6d7003a5fc818cfc21
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 28 17:28:49 2016 -0700
+
+    Delete empty
+
+:100644 000000 8b13789... 0000000... D	hw4/empty
+
+commit 0b20d2188e94e55265e5caac29c63986b0371d2c
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 28 17:28:15 2016 -0700
+
+    Delete Main.java
+
+:100644 000000 4693f83... 0000000... D	hw4/Main.java
+
+commit c8601a8b7c4176cf7a8c1c44ac87b8b3c2d0661c
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 28 17:27:59 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... e80a656... A	hw4/FilteredSequence.java
+:100644 100644 a83af0f... 074491a... M	hw4/NumberSequence.java
+:100644 100644 01ba6b8... 90210ca... M	hw4/NumberSequenceTest.java
+:100644 100644 ab979a7... 0df91ba... M	hw4/SquareSequence.java
+
+commit 3a0cfe4d6b06cc7668d903b0568076001cc5d430
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Tue Sep 27 13:32:58 2016 -0700
+
+    Add files via upload
+
+:000000 100644 0000000... 4693f83... A	hw4/Main.java
+:100644 100644 2c29c88... a83af0f... M	hw4/NumberSequence.java
+:000000 100644 0000000... 01ba6b8... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... ab979a7... A	hw4/SquareSequence.java
+ 
+Student: wang_ruiyang
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 0
+
+Note that NumberSequenceTest2 didn't complete!
+ 
+Starting audit...
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequence.java:72:8: Duplicate @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/wang_ruiyang/SquareSequence.java:1: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/wang_ruiyang/SquareSequence.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 11 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.134
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.143
+
+OK (7 tests)
+
+ 
+commit 8d974ecf22b244bb36c1c5f35d92885c86c29e4c
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Thu Sep 29 00:05:21 2016 -0700
+
+    final1
+
+:100644 100644 0b786b0... 7917537... M	hw4/NumberSequence.java
+
+commit 415b132ef7d212a13dfcc2b39ecbed67a9c09492
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Wed Sep 28 23:15:59 2016 -0700
+
+    finalWithOutJavaDoc
+
+:100644 100644 701d20e... 0b786b0... M	hw4/NumberSequence.java
+
+commit a1c2a025b911bb1257d896ff0dd89638dd0e7e58
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Wed Sep 28 22:45:56 2016 -0700
+
+    draft2
+
+:100644 100644 642e7db... 701d20e... M	hw4/NumberSequence.java
+
+commit fae8b1d9adbe6cf9e4612dc2fbee674ca74b518c
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Wed Sep 28 21:53:17 2016 -0700
+
+    draft
+
+:000000 100644 0000000... 642e7db... A	hw4/NumberSequence.java
+:000000 100644 0000000... b73ad41... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... b1bc732... A	hw4/SquareSequence.java
+
+commit 15d10c4ea0030905e74ef8d068bfa003df3a675b
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Wed Sep 28 00:21:37 2016 -0700
+
+    0927
+
+:100644 100644 86979a6... 91e5807... M	hw4/dailycommit.txt
+
+commit 776d15c7756b9541cc3b547df68db1ab495cba93
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Tue Sep 27 02:32:11 2016 -0700
+
+    0926
+
+:100644 100644 841f1a5... 86979a6... M	hw4/dailycommit.txt
+
+commit 0e339849fb33144c2083fd3da73e30ca8af4e726
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Mon Sep 26 02:12:42 2016 -0700
+
+    0925
+
+:100644 100644 ca927d9... 841f1a5... M	hw4/dailycommit.txt
+ 
+Student: xiao_weihang
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 14
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/xiao_weihang/FilteredSequence.java:9: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/FilteredSequence.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/FilteredSequence.java:26:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/FilteredSequence.java:32:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/iterateSequence.java:9: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/iterateSequence.java:18:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/iterateSequence.java:27:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/iterateSequence.java:33:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:8: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:10:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:17:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:25:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:43:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:57:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:66:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:74:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequence.java:82:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:7: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:14:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:20:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:38:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:48:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:60:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/OfSequence.java:71:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/xiao_weihang/SquareSequence.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/xiao_weihang/SquareSequence.java:9:5: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 34 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.154
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.E
+Time: 0.117
+There was 1 failure:
+1) filterTest3(NumberSequenceTest3)
+java.lang.AssertionError: expected:<5694868678511409995> but was:<1>
+	at NumberSequenceTest3.filterTest3(NumberSequenceTest3.java:13)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.138
+
+OK (7 tests)
+
+ 
+commit e7ee222847c15c82ad7bd72f939a34a9bbf0d1ed
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Wed Sep 28 23:07:02 2016 -0700
+
+    9.28 progress
+
+:100644 000000 27c2a55... 0000000... D	hw4/FilteredSequence.class
+:100644 100644 4e0426b... b544b77... M	hw4/FilteredSequence.java
+:100644 000000 54eb2a8... 0000000... D	hw4/NumberSequence.class
+:100644 100644 24769cf... 7492dcf... M	hw4/NumberSequence.java
+:100644 000000 190f3fe... 0000000... D	hw4/NumberSequenceTest.class
+:100644 100644 8a0fce3... eea77ef... M	hw4/NumberSequenceTest.java
+:100644 000000 965fb6a... 0000000... D	hw4/OfSequence.class
+:100644 100644 5b9e991... af873ad... M	hw4/OfSequence.java
+:100644 000000 6998906... 0000000... D	hw4/SquareSequence.class
+:100644 100644 32d276d... 23f6309... M	hw4/SquareSequence.java
+:000000 100644 0000000... 431b5c7... A	hw4/iterateSequence.java
+:100644 000000 f3960a2... 0000000... D	hw4/someSequence.class
+:100644 000000 f6d3d58... 0000000... D	hw4/someSequence.java
+
+commit 22f1e1c957b869084babc63fac73c8f95cec676b
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Wed Sep 28 00:50:47 2016 -0700
+
+    9.28 progress
+
+:000000 100644 0000000... 27c2a55... A	hw4/FilteredSequence.class
+:000000 100644 0000000... 4e0426b... A	hw4/FilteredSequence.java
+:000000 100644 0000000... 54eb2a8... A	hw4/NumberSequence.class
+:100644 100644 993ae12... 24769cf... M	hw4/NumberSequence.java
+:000000 100644 0000000... 190f3fe... A	hw4/NumberSequenceTest.class
+:100644 100644 2b32df3... 8a0fce3... M	hw4/NumberSequenceTest.java
+:000000 100644 0000000... 965fb6a... A	hw4/OfSequence.class
+:100644 100644 fea5fbf... 5b9e991... M	hw4/OfSequence.java
+:000000 100644 0000000... 6998906... A	hw4/SquareSequence.class
+:100644 100644 f42b425... 32d276d... M	hw4/SquareSequence.java
+:000000 100644 0000000... f3960a2... A	hw4/someSequence.class
+:000000 100644 0000000... f6d3d58... A	hw4/someSequence.java
+
+commit 52e170b0664ea8d37ab4f2068b52e2bff4a23c2d
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Sun Sep 25 22:06:10 2016 -0700
+
+    9.25 progress
+
+:000000 100644 0000000... 993ae12... A	hw4/NumberSequence.java
+:000000 100644 0000000... 2b32df3... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... fea5fbf... A	hw4/OfSequence.java
+:000000 100644 0000000... f42b425... A	hw4/SquareSequence.java
+ 
+Student: yan_xin
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 0
+ 
+Starting audit...
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:15:37: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:42: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:51: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:51:31: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:67: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:82: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:82:31: Expected @param tag for 'n'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:99: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:99:48: Expected @param tag for 'p'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:128: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:128:39: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:128:63: Expected @param tag for 'f'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:146: Expected an @return tag. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequence.java:146:38: Expected @param tag for 'seed'. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:21:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:31:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:39:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:49:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:58:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/NumberSequenceTest.java:67:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw4/yan_xin/SquareSequence.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw4/yan_xin/SquareSequence.java:7:4: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 26 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.123
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.127
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.15
+
+OK (7 tests)
+
+ 
+commit 23971bdc4f4e4a1256534f31ee64732122b6b4e0
+Author: joy yan <joyyan@joys-mbp.attlocal.net>
+Date:   Wed Sep 28 23:01:45 2016 -0700
+
+    changed hw4/SquareSequence.java
+
+:100644 100644 857919e... 603f092... M	hw4/SquareSequence.java
+
+commit eb4b3778c842a6049c47bcc212d7a6aaa9aa78cd
+Author: joy yan <joyyan@joys-mbp.attlocal.net>
+Date:   Wed Sep 28 22:59:23 2016 -0700
+
+    update hw4
+
+:100644 100644 b9b4cfa... 17c7629... M	hw4/NumberSequence.java
+:100644 100644 a9c54fa... 857919e... M	hw4/SquareSequence.java
+
+commit cfd8927ed47eaa8f857c2a479ef44d9d54c29487
+Author: joy yan <joyyan@joys-mbp.attlocal.net>
+Date:   Wed Sep 28 08:37:44 2016 -0700
+
+    was not able to work much
+
+:100644 100644 56275a8... 65e0338... M	hw4/progress.txt
+ 
+Student: young_charlene
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 16
+All methods have javadoc (max. 5 points): 5
+ 
+Starting audit...
+[ERROR] /tmp/hw4/young_charlene/NumberSequence.java:31: Expected an @return tag. [JavadocMethod]
+Audit done.
+Checkstyle ends with 1 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.E
+Time: 0.174
+There were 2 failures:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:17)
+2) averageTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<7.5> but was:<6.0>
+	at NumberSequenceTest2.averageTest2(NumberSequenceTest2.java:9)
+
+FAILURES!!!
+Tests run: 2,  Failures: 2
+
+NumberSequenceTest3.java
+JUnit version 4.11
+.
+Time: 0.135
+
+OK (1 test)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.148
+
+OK (7 tests)
+
+ 
+commit e09db4499389f3a96b0290a665fb4a8f98d2f9cc
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Wed Sep 28 19:02:49 2016 -0700
+
+    daily commit
+
+:000000 100644 0000000... 14ead05... A	hw4/progress.txt
+
+commit 32a121dbd3541322f1ee05b2e589d4127b43e406
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 27 23:31:27 2016 -0700
+
+    removed unnecessary lines
+
+:100644 100644 49ecf41... 12215d1... M	hw4/NumberSequence.java
+
+commit 8e29ef9f7aff16800dd610928f5a5c84f83f4d02
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 27 23:28:16 2016 -0700
+
+    finished hw4 code
+
+:100644 100644 6972347... 49ecf41... M	hw4/NumberSequence.java
+
+commit ba993dd345186213c2b6bacc4903e44b8c67fc31
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 27 20:33:49 2016 -0700
+
+    updated hw4, added IterateSequence.java
+
+:100644 100644 5269f2a... 7eb4db4... M	hw4/.gitignore
+:100644 100644 30c1546... d3b4428... M	hw4/FilterSequence.java
+:000000 100644 0000000... 8737835... A	hw4/IterateSequence.java
+:100644 100644 64f0be8... 6972347... M	hw4/NumberSequence.java
+
+commit a2c941047f929cce2b1642589cb5196e25d936d5
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 27 01:53:40 2016 -0700
+
+    updated hw4 - finished filter()
+
+:100644 100644 384d393... 30c1546... M	hw4/FilterSequence.java
+:100644 100644 8e49a09... 64f0be8... M	hw4/NumberSequence.java
+
+commit 0cc18573eeaa5c11e30e86c2531deb7f63d6f3ab
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 27 01:43:25 2016 -0700
+
+    updated hw4
+
+:100644 100644 c2946f8... 5269f2a... M	hw4/.gitignore
+:000000 100644 0000000... 384d393... A	hw4/FilterSequence.java
+:100644 100644 ca42717... 8e49a09... M	hw4/NumberSequence.java
+
+commit cc615c75c4ce9c9e489860077f89ab767485e022
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Mon Sep 26 23:07:49 2016 -0700
+
+    updated hw4
+
+:000000 100644 0000000... 5f87568... A	hw4.zip
+:100644 100644 72defc2... ca42717... M	hw4/NumberSequence.java
+
+commit 91f6d8e86272f22ac63aa26c9bb1d6aea112bf45
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Sun Sep 25 19:15:48 2016 -0700
+
+    updated hw4
+
+:100644 100644 2fec5b5... 72defc2... M	hw4/NumberSequence.java
+:100644 100644 200ceaa... f631b35... M	hw4/SquareSequence.java
+
+commit b72400857ecff67c64f9e9c4dd3275ce19002501
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Sun Sep 25 18:02:25 2016 -0700
+
+    updated hw4, added OfSequence.java
+
+:100644 100644 dd7e2da... c2946f8... M	hw4/.gitignore
+:100644 100644 9e44da9... 2fec5b5... M	hw4/NumberSequence.java
+:000000 100644 0000000... ce4b6df... A	hw4/OfSequence.java
+ 
+Student: zheng_eeyieng
+At least 3 git commits (max. 5 points): 5
+10 test cases pass (2 per test case, max. 20 points): 18
+All methods have javadoc (max. 5 points): 5
+ 
+Starting audit...
+[ERROR] /tmp/hw4/zheng_eeyieng/NumberSequence.java:20:38: Expected @param tag for 'args'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 1 errors.
+NumberSequenceTest2.java
+JUnit version 4.11
+.E.
+Time: 0.109
+There was 1 failure:
+1) filterTest2(NumberSequenceTest2)
+java.lang.AssertionError: expected:<1> but was:<0>
+	at NumberSequenceTest2.filterTest2(NumberSequenceTest2.java:15)
+
+FAILURES!!!
+Tests run: 2,  Failures: 1
+
+NumberSequenceTest3.java
+NumberSequenceTest3.java:10: error: incompatible types: NumberSequence is not a functional interface
+      NumberSequence randomSequence = () -> gen.nextLong();
+                                      ^
+    multiple non-overriding abstract methods found in interface NumberSequence
+1 error
+JUnit version 4.11
+Could not find class: NumberSequenceTest3
+
+Time: 0.001
+
+OK (0 tests)
+
+NumberSequenceTest.java
+JUnit version 4.11
+.......
+Time: 0.152
+
+OK (7 tests)
+
+ 
+commit cf5fb68816c259b76c8ba86875a71e657cafa0d2
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Wed Sep 28 17:19:07 2016 -0700
+
+    Combined CustomSequence into NumberSequence interface. Added comments.
+
+:100644 000000 7921569... 0000000... D	hw4/CustomSequence.java
+:100644 100644 79ac62a... c6c7c43... M	hw4/NumberSequence.java
+:100644 100644 07e9008... e5f316d... M	hw4/SquareSequence.java
+
+commit 424ac72922c136a17820d3d5b33f4039d2ef166a
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Mon Sep 26 22:31:28 2016 -0700
+
+    Took out anonymous class and made it a public class. Passed all tests. Still need Javadoc
+
+:000000 100644 0000000... 7921569... A	hw4/CustomSequence.java
+:100644 100644 f02093e... 79ac62a... M	hw4/NumberSequence.java
+:100644 100644 1d94684... 07e9008... M	hw4/SquareSequence.java
+
+commit 8c90971efa1c5c2e0a4226313f9466c966f97543
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Sun Sep 25 22:33:40 2016 -0700
+
+    filtering an infinite sequence... how do?
+
+:100644 100644 d016cb5... f02093e... M	hw4/NumberSequence.java
+:100644 100644 7b2ee8c... 1d94684... M	hw4/SquareSequence.java
+ 

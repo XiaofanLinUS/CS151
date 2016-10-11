@@ -1,0 +1,268 @@
+Student: barrett_lance
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5
+ 
+Student: davla_anique
+crc.jpg (max. 5 points): 3
+
+Next time, could you please put them in one file and name it
+the way I requested, i.e. crc.jpg with lowercase jpg?
+
+crc.txt (max. 5 points): 0
+
+That's not a plain text file.
+
+uml.png (max. 5 points): 3
+
+Why does the console store the mailboxes? That should be the job of the mail system. And in fact, that's what you indicate in your MailSystem class.
+
+Don't use uppercase extensions (PNG).
+
+uml.txt (max. 5 points): 0
+
+That's not a plain text file.
+ 
+Student: demong_micah
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: diliyaer_saifuding
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: gummidipundi_pradeep
+crc.jpg (max. 5 points): 0
+crc.txt (max. 5 points): 0
+uml.png (max. 5 points): 0
+uml.txt (max. 5 points): 0
+ 
+Student: huff_craig
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: husain_daanish
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: lam_hing
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 3
+
+Where is the User class?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: laskey_tyler
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 3
+
+The connection makes sense for the phone simulation, but
+now we just have a Console.
+
+uml.txt (max. 5 points): 5
+ 
+Student: leung_christopher
+crc.jpg (max. 5 points): 0
+crc.txt (max. 5 points): 0
+uml.png (max. 5 points): 0
+uml.txt (max. 5 points): 0 
+ 
+Student: liang_bing
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: lin_xiaofan
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: liu_qi
+crc.jpg (max. 5 points): 0
+crc.txt (max. 5 points): 0
+uml.png (max. 5 points): 0
+uml.txt (max. 5 points): 0
+ 
+Student: menon_parvathy
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 4
+
+Next time, when I ask for a png, could I please get one?
+And don't use uppercase extensions.
+
+At this level of design, you need not put in all those
+attributes and responsibilities (fields and methods).
+
+uml.txt (max. 5 points): 5 
+ 
+Student: nguyen_ly
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: nguyen_paul
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 4
+
+Next time, when I ask for a png, could I please get one?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: pan_yuliang
+crc.jpg (max. 5 points): 0
+crc.txt (max. 5 points): 0 
+uml.png (max. 5 points): 0
+uml.txt (max. 5 points): 0
+ 
+Student: pham_kiem
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: prasad_vishaal
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 2
+
+It doesn't seem right that nobody has users.
+
+Next time, when I ask for a png, could I please get one?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: qiu_jiabao
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+uml.txt (max. 5 points): 5 
+ 
+Student: shah_shariq
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 1
+
+I don't understand the arrows between Console, User, and MailSystem.
+You indicate that a Mailbox HAS a MailSystem, and a Message HAS a Mailbox. That is clearly wrong.
+Don't use uppercase extensions (PNG).
+
+uml.txt (max. 5 points): 5 
+ 
+Student: shi_hengyi
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 4
+
+Who stores the mailboxes?
+
+mul.png???
+
+uml.txt (max. 5 points): 5 
+ 
+Student: sterpka_michael
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 3
+
+Who stores the users?
+
+The connection makes sense for the phone simulation, but
+now we just have a Console.
+
+uml.txt (max. 5 points): 5 
+ 
+Student: swerdon_matthew
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 2
+
+It doesn't seem right that the console doesn't use anything.
+
+Next time, when I ask for a png, could I please get one?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: ubaldo_gideon
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 2
+
+Don't include Scanner and other library classes.
+
+Who stores the messages? The message queue?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: wang_ruiyang
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 3
+
+Don't include Scanner and other library classes.
+
+Who stores the mailboxes?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: xiao_weihang
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 2
+
+What is the <>--- arrow with a diamond and dashed lines?
+Why is a MessageQueue associated with a mailbox?
+Who stores the mailboxes and users?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: yan_xin
+crc.jpg (max. 5 points): 4
+
+Next time, when I ask for a jpg, could I please get one?
+
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 4
+
+Who stores the users?
+
+uml.txt (max. 5 points): 5 
+ 
+Student: young_charlene
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 4
+
+Who stores the users?
+
+At this level of design, you should not put in all those
+attributes and responsibilities (fields and methods).
+
+uml.txt (max. 5 points): 5 
+ 
+Student: zheng_eeyieng
+crc.jpg (max. 5 points): 5
+crc.txt (max. 5 points): 5
+uml.png (max. 5 points): 5
+
+At this level of design, you should not put in all those
+attributes and responsibilities (fields and methods).
+
+uml.txt (max. 5 points): 5 
+ 

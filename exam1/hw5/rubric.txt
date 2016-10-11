@@ -1,0 +1,15 @@
+Running java AnimationTester 600 yields two dials (max. 2 points):
+Small dial horizontally centered in large dial (max. 2 points): 
+Large, medium, small tick marks on outer dial (max. 2 points): 
+Large, medium ticks on inner dial (max. 2 points):
+Numbers 0...55 placed next to large ticks (max. 2 points): 
+Outer dial numbers in larger font than inner dial (max. 2 points): 
+Large hand red, small hand purple (max. 2 points):
+When clicking Top, clock starts running (max. 2 points):
+Arrow triangles rotate correctly (max. 2 points):
+When clicking Second, clock stops running (max. 2 points):
+When clicking Second again, clock jumps to catch up (max. 2 points):
+When clicking Top, clock stops, and when clicking Second, resets (max. 2 points):
+When running java AnimationTester 100, everything properly scaled (max. 2 points): 
+At least 3 git commits (max. 2 points): 
+checkstyle reports no errors (max. 2 points): 

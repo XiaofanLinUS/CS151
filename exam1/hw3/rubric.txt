@@ -1,0 +1,3 @@
+At least 3 git commits (max. 5 points): 
+DayWithTime compiles, passes tests (max. 10 points): 
+MutableDay compiles, passes tests (max. 10 points): 

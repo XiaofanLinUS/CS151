@@ -1,0 +1,3 @@
+Program compiles and passes test cases (max. 10 points): 
+sequence.png (max. 5 points): 
+hw2b.txt (max. 5 points): 

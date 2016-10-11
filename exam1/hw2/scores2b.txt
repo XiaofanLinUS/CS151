@@ -1,0 +1,2191 @@
+Student: barrett_lance
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: davla_anique
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+javac: file not found: *.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: demong_micah
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: diliyaer_saifuding
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: gummidipundi_pradeep
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+javac: file not found: *.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: huff_craig
+Program compiles and passes test cases (max. 10 points): 3
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+3d2
+< Welcome to TextChat.
+5d3
+< Welcome to TextChat.
+16d13
+< Welcome to TextChat.
+Exception in thread "main" java.lang.NullPointerException
+	at Console.userLogin(Console.java:67)
+	at Console.run(Console.java:32)
+	at MailSystemTester.main(MailSystemTester.java:11)
+... diff -w output3.txt expected3.txt ...
+13a14,17
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at Console.readNextMessage(Console.java:121)
+	at Console.userLogin(Console.java:72)
+	at Console.run(Console.java:32)
+	at MailSystemTester.main(MailSystemTester.java:11)
+... diff -w output6.txt expected6.txt ...
+31,32c31,33
+< From: mary
+< Hi Mary, what's up?Etc. Etc..Hi Mary, here is another message..
+---
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+35,36c36,37
+< From: mary
+< Hi Mary, what's up?Etc. Etc..Hi Mary, here is another message..
+---
+> From: fred
+> Hi Mary, here is another message.
+39,41c40,42
+< [N]ext  [D]one with messages:
+< [N]ext  [D]one with messages:
+< [N]ext  [D]one with messages:
+---
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output.txt expected.txt ...
+28c28,29
+< Hi Mary, what's up?Etc. Etc..
+---
+> Hi Mary, what's up?
+> Etc. Etc.
+ 
+Student: husain_daanish
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 3
+
+Those back arrows are wrong. For example, getGreeting does not call mailboxMenu on a Console instance.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: lam_hing
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 1
+
+This doesn't look like you used a sequence diagram tool.
+
+The getMessage arrow from Mailbox to Console can't be right. There is no getMessage method in your Console class.
+
+The Erase call from the Console to the Mailbox is wrong.
+
+The timeline of the mailbox is wrong. You would expect multiple smaller timelines, one for each call.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: laskey_tyler
+Program compiles and passes test cases (max. 10 points): 8
+
+Works after fix
+
+sequence.png (max. 5 points): 5
+
+Don't do those return arrows.
+
+hw2b.txt (max. 5 points): 5
+
+Ok, I'll take this on faith, but it would be more convincing if your program worked as expected.
+ 
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at MailSystemTester.main(MailSystemTester.java:18)
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: leung_christopher
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+javac: file not found: *.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: liang_bing
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+That doesn't look like it was drawn with a sequence diagram tool.
+
+Your MailSystem doesn't even have a login method.
+Your User doesn't have a checkUserPassword class, and its checkPassword method does NOT call checkPassword on the mailbox.
+
+MessageQueue does not call peek on a Message object.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: lin_xiaofan
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 1
+
+It would be better to use a tool that doesn't draw incorrect sequence diagrams. Look at the timeline in MailSystem. You can't have an unbroken timeline with multiple calls into it. Same for the User timeline.
+
+You should use the correct method names. keepIt and erase aren't methods of your MailSystem class.
+
+The getMailbox method does NOT call getCurrentMessage or saveCurrentMessage, but that's what you are indicating in your diagram.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: liu_qi
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+Note: MessageQueue.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output2.txt expected2.txt ...
+1c1,14
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output3.txt expected3.txt ...
+1c1,17
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output4.txt expected4.txt ...
+1c1,17
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output5.txt expected5.txt ...
+1c1,12
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output6.txt expected6.txt ...
+1c1,42
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+java.io.FileNotFoundException: str (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.util.Scanner.<init>(Scanner.java:611)
+	at Console.run(Console.java:11)
+	at MailSystemTester.main(MailSystemTester.java:14)
+... diff -w output.txt expected.txt ...
+1c1,34
+< can't find the input file
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: menon_parvathy
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+
+I asked you to use a sequence diagram tool.
+
+Your diagram only traces a single call.
+
+hw2b.txt (max. 5 points): 0
+ 
+Console.java:113: error: cannot find symbol
+    String input = scan.nextLine();
+                   ^
+  symbol:   variable scan
+  location: class Console
+1 error
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: nguyen_ly
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: nguyen_paul
+Program compiles and passes test cases (max. 10 points): 7
+sequence.png (max. 5 points): 1
+
+When I ask for a .png, could you please provide that?
+
+You indicate that a User method calls login on a Console object, but in your User class, there is no such call. You then indicate that Console.login calls User.readMenu, but it actually calls readMenu on itself.
+
+You indicate that a User method calls keep on a Console object, and again there is no such call. Same for erase.
+
+When I first glanced at your diagram, I didn't believe it to be truthful because it doesn't make sense that you already have a User object when the login happens. WHICH user? One first needs to find the right one.
+
+hw2b.txt (max. 5 points): 3
+
+I am looking at your Console class. It is using Mailbox, but your UML diagram for homework 2A indicated that Console doesn't use it. That's a change you should have explained.
+ 
+... diff -w output2.txt expected2.txt ...
+2,4c2,4
+< [L]ogin [N]ew User [Q]uit:
+< [L]ogin [N]ew User [Q]uit:
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+9c9
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+12,13c12,14
+< [L]ogin [N]ew User [Q]uit:
+< [L]ogin [N]ew User [Q]uit:
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output3.txt expected3.txt ...
+2c2
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+7c7
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+10c10
+< Welcome fred
+---
+> Welcome fred.
+14c14
+< Message not sent
+---
+> Message not sent.
+17c17
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output4.txt expected4.txt ...
+2c2
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+7c7
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+10c10,11
+< [L]ogin [N]ew User [Q]uit:
+---
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+13c14
+< Welcome fred
+---
+> Welcome fred.
+16c17
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output5.txt expected5.txt ...
+2c2
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+7c7
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+12c12
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output6.txt expected6.txt ...
+2c2
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+7c7
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+12c12
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+15c15
+< Welcome fred
+---
+> Welcome fred.
+26c26
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+29c29
+< Welcome mary
+---
+> Welcome mary.
+42c42
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output.txt expected.txt ...
+2c2
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+7c7
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+12c12
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+15c15
+< Welcome fred
+---
+> Welcome fred.
+22c22
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+25c25
+< Welcome mary
+---
+> Welcome mary.
+34c34
+< [L]ogin [N]ew User [Q]uit:
+---
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: pan_yuliang
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+javac: file not found: *.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: pham_kiem
+Program compiles and passes test cases (max. 10 points): 8
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+10c10
+< User added.
+---
+> User not added.
+... diff -w output6.txt expected6.txt ...
+40d39
+< Mailbox is empty.
+... diff -w output.txt expected.txt ...
+ 
+Student: prasad_vishaal
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 4
+
+Mostly it looks good, but that <<create>> arrow makes no sense.
+
+hw2b.txt (max. 5 points): 5
+ 
+MailBox.java:6: error: class Mailbox is public, should be declared in a file named Mailbox.java
+public class Mailbox {
+       ^
+1 error
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: qiu_jiabao
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+The "speak" backwards arrows don't make sense.
+
+You indicate that a Console object calls login on a MailSystem object. But that's not true in your Console.java file.
+
+You indicate that a Console object calls read, keep, and erase on a Mailbox object. But that's not true in your Console.java file.
+
+You indicate that a MessageQueue object calls peek, add, delete, on a Message object. But that's not true in your MessageQueue.java file.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: shah_shariq
+Program compiles and passes test cases (max. 10 points): 8
+sequence.png (max. 5 points): 0
+
+Can I please get a .png (with lowercase png) file when I ask for one?
+
+This doesn't look like it's been drawn with a sequence diagram tool.
+
+The left part makes no sense. What do those boxes mean?
+
+The timelines make no sense.
+
+What are those reverse arrows from Message to Mailbox? 
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+6a7
+> User added.
+... diff -w output3.txt expected3.txt ...
+4a5
+> User added.
+8a10
+> Welcome fred.
+... diff -w output4.txt expected4.txt ...
+4a5
+> User added.
+12a14
+> Welcome fred.
+... diff -w output5.txt expected5.txt ...
+4a5
+> User added.
+8a10
+> User not added.
+... diff -w output6.txt expected6.txt ...
+4a5
+> User added.
+8a10
+> User added.
+12a15
+> Welcome fred.
+25a29
+> Welcome mary.
+34d37
+< 
+... diff -w output.txt expected.txt ...
+4a5
+> User added.
+8a10
+> User added.
+12a15
+> Welcome fred.
+21a25
+> Welcome mary.
+ 
+Student: shi_hengyi
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+Was this drawn with a sequence diagram tool???
+
+You say that you call "use system" on a MailSystem. I see no such call in your Console.java.
+
+The reverse arrows make no sense.
+
+The "send message" self-call in Mailbox makes no sense. And your Mailbox.java has no such call.
+
+hw2b.txt (max. 5 points): 3
+
+In your initial design, a User didn't have a Mailbox. In your solution, it does.
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: sterpka_michael
+Program compiles and passes test cases (max. 10 points): 9
+sequence.png (max. 5 points): 5
+
+Don't do those reverse arrows. Every method returns its result, and you don't indicate that.
+
+There is an unlabeled self-call in :Connection.
+
+When I first looked at your diagram, I said "this has got to be wrong--what does the Connection know about the new and kept messages? But when I looked at your source code, I saw that's exactly what you implemented. That's not optimal--remember the law of Demeter. That's an advantage of these diagrams. They make it easy to spot such issues.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+3d2
+< Welcome to TextChat.
+5d3
+< Welcome to TextChat.
+14d11
+< [L]ogin  [N]ew user  [Q]uit:
+15a13
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+9a10
+> Welcome to TextChat.
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: swerdon_matthew
+Program compiles and passes test cases (max. 10 points): 0
+sequence.png (max. 5 points): 0
+hw2b.txt (max. 5 points): 0
+ 
+MailSystem.java:68: error: 'else' without 'if'
+				else if (command.equalsIgnoreCase("d"))
+				^
+1 error
+Error: Could not find or load main class MailSystemTester
+... diff -w output2.txt expected2.txt ...
+0a1,14
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output3.txt expected3.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message not sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output4.txt expected4.txt ...
+0a1,17
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output5.txt expected5.txt ...
+0a1,12
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User not added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output6.txt expected6.txt ...
+0a1,42
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> From: fred
+> Hi Mary, here is another message.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+Error: Could not find or load main class MailSystemTester
+... diff -w output.txt expected.txt ...
+0a1,34
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> Select a user name:
+> Select a password:
+> User added.
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome fred.
+> [S]end message  [R]ead messages  [L]ogout:
+> To:
+> Message text, . to end:
+> Message sent.
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+> User name:
+> Password:
+> Welcome mary.
+> [S]end message  [R]ead messages  [L]ogout:
+> From: fred
+> Hi Mary, what's up?
+> Etc. Etc.
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+ 
+Student: ubaldo_gideon
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+That's a state diagram (maybe). I don't understand it.
+
+hw2b.txt (max. 5 points): 3
+
+In your original UML diagram, MailSystem didn't use Message, but now you do.
+
+In your original UML diagram, Mailbox didn't use MessageQueue, but now you do.
+
+
+
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+18a19
+> Message sent.
+21a23
+> Message sent.
+32,33c34,35
+< [K]eep  [E]rase
+< [N]ext  [D]one with messages
+---
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+36,37c38,39
+< [S]end message  [R]ead messages  [L]ogout:
+< [S]end message  [R]ead messages  [L]ogout:
+---
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+... diff -w output.txt expected.txt ...
+18a19
+> Message sent.
+29,30c30,31
+< [K]eep  [E]rase
+< [N]ext  [D]one with messages
+---
+> [K]eep  [E]rase:
+> [N]ext  [D]one with messages:
+ 
+Student: wang_ruiyang
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+This wasn't produced with a sequence diagram tool.
+
+You should not have arrows going backwards.
+
+The MailSystem doesn't make a call "find that user" on a User object.
+
+A User doesn't make a call "find that mailbox" on a Mailbox object.
+
+A Mailbox doesn't make a call "find the message" on a MessageQueue object.
+
+I looked into your MailSystem, User, and Mailbox classes, and none of those calls were there.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: xiao_weihang
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+This doesn't look like it was drawn with a sequence diagram tool.
+
+You say that the MailSystem calls addUser on a User object. That makes no sense.
+
+What is the unnamed call from User to Mailbox?
+
+Th call to addMessage should be BELOW that call.
+
+And it makes no sense that addMessage is invoked on a Message object.
+
+What is that lonely piece of timeline in MessageQueue?
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: yan_xin
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 2
+
+I like the numbering of the calls. That makes it easy to refer to them.
+
+Your call #2 doesn't start from anywhere. It should start in the timeline of call #1. Same for call #5, 14, 20.
+
+In #7, peek does not call create to create a message.
+
+#15 doesn't call create either.
+
+Message1 and Message2 aren't class or object names.
+
+Your #3 isn't what is happening in your MailSystem.java. You aren't creating a mailbox.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+10c10
+< User exists already.
+---
+> User not added.
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at Console.getInput(Console.java:45)
+	at MailSystem.getMessageMenuLevel2(MailSystem.java:195)
+	at Console.run(Console.java:35)
+	at MailSystemTester.main(MailSystemTester.java:10)
+... diff -w output6.txt expected6.txt ...
+40,42c40,42
+< [N]ext  [D]one with messages:
+< [N]ext  [D]one with messages:
+< [N]ext  [D]one with messages:
+---
+> [S]end message  [R]ead messages  [L]ogout:
+> Welcome to TextChat.
+> [L]ogin  [N]ew user  [Q]uit:
+... diff -w output.txt expected.txt ...
+ 
+Student: young_charlene
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 5
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 
+Student: zheng_eeyieng
+Program compiles and passes test cases (max. 10 points): 10
+sequence.png (max. 5 points): 0
+
+Don't do those backwards arrows.
+
+I see what you are trying to do with the humanUser. But it is confusing since a human is clearly not an object in a programming language, and a human doesn't call methods. That's why I left the human on the side in my diagrams and used the notes to represent the human steps.
+
+You say that a Console object calls the Authenticate method on a MailSystem object, but I looked in your Console class. It doesn't.
+
+You say that a MailSystem object calls the Authenticate method on a User object, but I looked at your MailSystem class. It doesn't.
+
+You say that a MessageQueue object calls the "this one" method on itself, but I looked at your MessageQueue class. It doesn't.
+
+hw2b.txt (max. 5 points): 5
+ 
+... diff -w output2.txt expected2.txt ...
+... diff -w output3.txt expected3.txt ...
+... diff -w output4.txt expected4.txt ...
+... diff -w output5.txt expected5.txt ...
+... diff -w output6.txt expected6.txt ...
+... diff -w output.txt expected.txt ...
+ 

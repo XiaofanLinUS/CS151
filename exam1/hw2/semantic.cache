@@ -1,0 +1,15 @@
+;; Object mail/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "mail/"
+  :tables (list 
+   (semanticdb-table "MailSystem.java"
+    :major-mode 'jde-mode
+    :tags '(("java.util.ArrayList" include nil nil [1 28]) ("MailSystem" type (:typemodifiers ("public") :members (("MailSystem" function (:constructor-flag t :typemodifiers ("public") :arguments (("mailboxCount" variable (:type "int") (reparse-symbol formal_parameters) [244 260]))) (reparse-symbol class_member_declaration) [226 625]) ("findMailbox" function (:typemodifiers ("public") :arguments (("ext" variable (:type "String") (reparse-symbol formal_parameters) [779 789])) :type "Mailbox") (reparse-symbol class_member_declaration) [752 943])) :type "class") nil [70 987]))
+    :file "MailSystem.java"
+    :pointmax 988
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0beta3"
+  :semanticdb-version "2.0beta3"
+  )

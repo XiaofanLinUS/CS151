@@ -1,0 +1,3830 @@
+Student: barrett_lance
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 9
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.01
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.009
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit 00e590008b40a256b3041cd35d33db20ec955d5c
+Author: Lance Barrett <lance.barrett@sjsu.edu>
+Date:   Thu Sep 22 01:27:27 2016 +0000
+
+    Day.java deleted online with Bitbucket
+
+:100644 000000 b8a8c05... 0000000... D	hw3/Day.java
+
+commit 13620784e7cb828bce411cfdf1195afd9232c8e5
+Author: Lance Barrett <lance.barrett@sjsu.edu>
+Date:   Thu Sep 22 01:27:05 2016 +0000
+
+    DayTester.java deleted online with Bitbucket
+
+:100644 000000 069dfc6... 0000000... D	hw3/DayTester.java
+
+commit f8c366be7b16cf3f6872bd0466e16a7b8102d356
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Wed Sep 21 18:22:31 2016 -0700
+
+    All 14 tests passed
+
+:100644 100644 2c32557... 34b6fdb... M	hw3/DayWithTime.java
+:100644 100644 999fe11... 5a95ac2... M	hw3/MutableDay.java
+
+commit 21ce44c3e026e1ed1d326ea775d114e19f63a524
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Tue Sep 20 18:34:52 2016 -0700
+
+    Prep-work for MutableDay
+
+:000000 100644 0000000... 999fe11... A	hw3/MutableDay.java
+
+commit 4e7f9565ff7826e5ce807c8e87404e9716a6e9b1
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Tue Sep 20 17:44:38 2016 -0700
+
+    All 7 tests passed
+
+:100644 100644 cfd7f81... 2c32557... M	hw3/DayWithTime.java
+
+commit 6de959ac6bd9e2c7035d696d5527afb9f82879dd
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Mon Sep 19 20:27:24 2016 -0700
+
+    DayWithTime 5 of 6 tests passed
+
+:100644 100644 fc692ca... 069dfc6... M	hw3/DayTester.java
+:100644 100644 5311dfc... cfd7f81... M	hw3/DayWithTime.java
+
+commit 66024524c0ea739ae2be272acababbe82f7b3a30
+Author: Lanceb247 <lance.barrett@sjsu.edu>
+Date:   Sat Sep 17 22:37:08 2016 -0700
+
+    Updated toJulian method: correctly stores Julian w/ Time
+
+:000000 100644 0000000... b8a8c05... A	hw3/Day.java
+:000000 100644 0000000... fc692ca... A	hw3/DayTester.java
+:000000 100644 0000000... 5311dfc... A	hw3/DayWithTime.java
+
+commit efe598dce90dd16bb81bf6af5ecfa91b17d0f85c
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:20 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 4e18248... A	hw2ascores.txt
+:000000 100644 0000000... b79d29e... A	hw2bscores.txt
+ 
+Student: davla_anique
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 3
+
+Please see me during office hours next week (TuTh 12:45).
+ 
+DayWithTimeTest.java
+./DayWithTime.java:98: error: missing return statement
+	}
+	^
+./DayWithTime.java:110: error: missing return statement
+	}
+	^
+2 errors
+JUnit version 4.11
+.E.E.E.E.E.E.E
+Time: 0.006
+There were 7 failures:
+1) testNegativeDaysFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testNegativeDaysFrom(DayWithTimeTest.java:56)
+Caused by: java.lang.ClassNotFoundException: DayWithTime
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+2) testAddMinutes(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testAddMinutes(DayWithTimeTest.java:17)
+3) testDaysFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testDaysFrom(DayWithTimeTest.java:45)
+4) testGetters(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testGetters(DayWithTimeTest.java:67)
+5) testAddWholeDays(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testAddWholeDays(DayWithTimeTest.java:10)
+6) testSubtractMinutes(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testSubtractMinutes(DayWithTimeTest.java:27)
+7) testMinutesFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testMinutesFrom(DayWithTimeTest.java:37)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+
+MutableDayTest.java
+JUnit version 4.11
+.E...E.E.E..E
+Time: 0.009
+There were 5 failures:
+1) testAccessors(MutableDayTest)
+java.lang.AssertionError: expected:<2017> but was:<2016>
+	at MutableDayTest.testAccessors(MutableDayTest.java:31)
+2) testFebruary(MutableDayTest)
+java.lang.IllegalStateException
+	at MutableDay.checkDay(MutableDay.java:71)
+	at MutableDay.setDayOfMonth(MutableDay.java:35)
+	at MutableDayTest.testFebruary(MutableDayTest.java:41)
+3) testMarchException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+4) testMutatingPlusDays(MutableDayTest)
+org.junit.ComparisonFailure: expected:<201[7-09-01]> but was:<201[6-09-16]>
+	at MutableDayTest.testMutatingPlusDays(MutableDayTest.java:12)
+5) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 5
+
+ 
+commit 5c37554a9471d6fe58f6066446358d6fd4f85ac6
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Thu Sep 22 06:01:08 2016 -0700
+
+    hw3
+
+:100644 100644 d061321... 9cc1c38... M	hw3/.idea/workspace.xml
+:100644 100644 bc1b924... 817cba3... M	hw3/DayWithTime.java
+:100644 100644 236c4db... 1795cb2... M	hw3/MutableDay.java
+:000000 100644 0000000... a52cead... A	hw3/MutableDayTest.java
+:000000 100644 0000000... 5008ddf... A	hw3/src/.DS_Store
+
+commit 434aff374f98b10581e9d40d04149f497ebfa0dc
+Author: Anique <aniquedavla@Aniques-MacBook-Pro.local>
+Date:   Wed Sep 21 23:54:49 2016 -0700
+
+    hw3
+
+:000000 100644 0000000... 5172429... A	hw3/.DS_Store
+:000000 100644 0000000... d60b6cd... A	hw3/.idea/.name
+:000000 100644 0000000... 96cc43e... A	hw3/.idea/compiler.xml
+:000000 100644 0000000... e7bedf3... A	hw3/.idea/copyright/profiles_settings.xml
+:000000 100644 0000000... 97626ba... A	hw3/.idea/encodings.xml
+:000000 100644 0000000... e4aa7e2... A	hw3/.idea/misc.xml
+:000000 100644 0000000... 1771c6c... A	hw3/.idea/modules.xml
+:000000 100644 0000000... e96534f... A	hw3/.idea/uiDesigner.xml
+:000000 100644 0000000... d061321... A	hw3/.idea/workspace.xml
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.lock
+:000000 100644 0000000... a37fe37... A	hw3/.metadata/.log
+:000000 100644 0000000... 63a7ec9... A	hw3/.metadata/.mylyn/.taskListIndex/segments.gen
+:000000 100644 0000000... 4cfa5a7... A	hw3/.metadata/.mylyn/.taskListIndex/segments_1
+:000000 100644 0000000... 6574c30... A	hw3/.metadata/.mylyn/repositories.xml.zip
+:000000 100644 0000000... bce4b3b... A	hw3/.metadata/.mylyn/tasks.xml.zip
+:000000 100644 0000000... 25cb955... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+:000000 100644 0000000... 7ea7946... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+:000000 100644 0000000... 6b2aaa7... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+:000000 100644 0000000... 8a1fc9e... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+:000000 100644 0000000... 511fd7b... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+:000000 100644 0000000... dffc6b5... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+:000000 100644 0000000... 67819d1... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... 0bbc2ca... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+:000000 100644 0000000... 1768a1e... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... 67b1d96... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+:000000 100644 0000000... 43e97e4... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+:000000 100644 0000000... 8d462a6... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+:000000 100644 0000000... 2b60c21... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+:000000 100644 0000000... 1ec57ea... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+:000000 100644 0000000... 08076f2... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+:000000 100644 0000000... dd77496... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+:000000 100644 0000000... fd291e9... A	hw3/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... d5abf41... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdt
+:000000 100644 0000000... b8ee809... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fdx
+:000000 100644 0000000... 523c92e... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.fnm
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.frq
+:000000 100644 0000000... cf8dc75... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.nrm
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tii
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/_0.tis
+:000000 100644 0000000... 63a7ec9... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments.gen
+:000000 100644 0000000... 9f08540... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/segments_1
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history/write.lock
+:000000 100644 0000000... d5abf41... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt
+:000000 100644 0000000... b8ee809... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx
+:000000 100644 0000000... 523c92e... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq
+:000000 100644 0000000... cf8dc75... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis
+:000000 100644 0000000... 63a7ec9... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen
+:000000 100644 0000000... 9f08540... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1
+:000000 100644 0000000... e4ee9ac... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+:000000 100644 0000000... 1f3af22... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+:000000 100644 0000000... c3d1910... A	hw3/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+:000000 100644 0000000... a04daf6... A	hw3/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+:000000 100644 0000000... a4ee3cb... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+:000000 100644 0000000... 9e390f5... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+:000000 100644 0000000... bbf15f2... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+:000000 100644 0000000... e33758c... A	hw3/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.6.2.20150902-0002.xml
+:000000 100644 0000000... 1f73e14... A	hw3/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+:000000 100644 0000000... 851c296... A	hw3/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+:000000 100644 0000000... d6e6438... A	hw3/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+:000000 100644 0000000... 8cfb88c... A	hw3/.metadata/version.ini
+:000000 100644 0000000... bc1b924... A	hw3/DayWithTime.java
+:000000 100644 0000000... b0fefa8... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 236c4db... A	hw3/MutableDay.java
+:000000 100644 0000000... c90834f... A	hw3/hw3.iml
+
+commit e7a89c08f76078189cc579b921e670d159c06838
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:23 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... e3c1423... A	hw2ascores.txt
+:000000 100644 0000000... 903d3bf... A	hw2bscores.txt
+ 
+Student: demong_micah
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.008
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.007
+
+OK (8 tests)
+
+ 
+commit f4a42e35d96624d2dfaede661cc71e40d5639cf7
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 03:11:56 2016 -0700
+
+    Added error handling
+
+:100644 100644 5313c37... 36ef929... M	hw3/MutableDay.java
+
+commit 3a30ab116932219f800c6cc9b7504ffdb1cc3322
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 03:07:40 2016 -0700
+
+    Modified daysFrom and added constructor
+
+:100644 100644 6f1caff... 5313c37... M	hw3/MutableDay.java
+
+commit 5856e0568ade8ad59246d5b501a028791411b81a
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 03:03:25 2016 -0700
+
+    implemented plusDays
+
+:100644 100644 0ca580d... 6f1caff... M	hw3/MutableDay.java
+
+commit a5bbca2cbb9d63e1f74ca00a7e4687d833615566
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 03:00:31 2016 -0700
+
+    basic getters and setters
+
+:100644 100644 dfccc99... 0ca580d... M	hw3/MutableDay.java
+
+commit d59586cdb87ee615364cc1aa5b671b1f95263ea8
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:58:09 2016 -0700
+
+    Re-added MutableDay public methods
+
+:100644 100644 b4e11f7... dfccc99... M	hw3/MutableDay.java
+
+commit bb72389eef538787c7d97e9b1c88880bdab97e61
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:55:07 2016 -0700
+
+    Restarted MutableDay from day1/Day
+
+:100644 100644 dfdc471... b4e11f7... M	hw3/MutableDay.java
+
+commit 1e7be19a6d1974d8f87ff3e72350853551a4f1eb
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:41:30 2016 -0700
+
+    Implemented setters
+
+:100644 100644 0c369ad... dfdc471... M	hw3/MutableDay.java
+
+commit 04dd3a9f00ff10d8cfce98f883578afc5820af31
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:30:04 2016 -0700
+
+    Updated MutableDayTest
+
+:100644 100644 5019f3e... 4f49bf3... M	hw3/MutableDayTest.java
+
+commit b8f8bb50dfc32a41b580bda6bdff9a28b11e0f5c
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:25:39 2016 -0700
+
+    Added methods from Day to MutableDay
+
+:100644 100644 11872a3... 0c369ad... M	hw3/MutableDay.java
+
+commit e7a71771a40514ffec42b5c2e1d1275c4ed694b6
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 02:06:47 2016 -0700
+
+    Finished DayWithTime
+
+:100644 100644 5ae23b8... da42561... M	hw3/DayWithTime.java
+
+commit 7377aa0c4879751c4532641ea2662fb1df9420d2
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 00:59:26 2016 -0700
+
+    Added minutesFrom
+
+:100644 100644 eaab002... 5ae23b8... M	hw3/DayWithTime.java
+
+commit bdd3aa3a9e7f3eb178f07d0bf4da0fe4b3cff753
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 00:56:25 2016 -0700
+
+    Fixed daysFrom to deal with negative hour diff
+
+:100644 100644 1484085... eaab002... M	hw3/DayWithTime.java
+
+commit 04db8d8ef97e1fd6def2aa851fe3536cb549fe74
+Author: mdemong <mdemong1@gmail.com>
+Date:   Thu Sep 22 00:49:40 2016 -0700
+
+    Finished DayWithTime.plusMinutes and began daysFrom
+
+:100644 100644 0e894a8... 1484085... M	hw3/DayWithTime.java
+
+commit a156a27f64e8999f24c0b4042e688eb94ee80183
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 21 21:43:54 2016 -0700
+
+    Added methods from oodp3code/ch03/day2
+
+:100644 100644 b0160ad... 0e894a8... M	hw3/DayWithTime.java
+
+commit cb2cd8f6e09b86438065b930c6f375afd4b6420f
+Author: mdemong <mdemong1@gmail.com>
+Date:   Wed Sep 21 21:34:22 2016 -0700
+
+    Added DayWithTimeTest
+
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+
+commit 675e9545283bb33f78158a5d33fcd78a2184abdd
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:26 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 4e52447... A	hw2ascores.txt
+:000000 100644 0000000... a7eec6e... A	hw2bscores.txt
+
+commit 39cc51874a48c3562ad88d508fc1800b9e198f6f
+Author: mdemong <mdemong1@gmail.com>
+Date:   Fri Sep 16 19:31:08 2016 -0700
+
+    Added starter files from prompt
+
+:000000 100644 0000000... b0160ad... A	hw3/DayWithTime.java
+:000000 100644 0000000... 11872a3... A	hw3/MutableDay.java
+:000000 100644 0000000... 5019f3e... A	hw3/MutableDayTest.java
+ 
+Student: diliyaer_saifuding
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.007
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.007
+
+OK (8 tests)
+
+ 
+commit a4c315036fee70900a31978bacee6a74e050a176
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Thu Sep 22 00:31:46 2016 -0700
+
+    Fixed a small bug in DayWithTime class
+
+:100644 100644 5bf8053... 4945a2d... M	hw3/Day.java
+:100644 100644 e9502b8... c8abe8e... M	hw3/DayWithTime.java
+:100644 100644 9b6803b... ded7310... M	hw3/MutableDay.java
+
+commit cbe1a05ea3fc3730b1bacb219fdc1c914881a091
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Wed Sep 21 23:58:56 2016 -0700
+
+    Finished codes.
+
+:100644 100644 1e2a9ac... 5bf8053... M	hw3/Day.java
+:100644 100644 b85013a... e9502b8... M	hw3/DayWithTime.java
+:100644 100644 9e45c01... 9b6803b... M	hw3/MutableDay.java
+
+commit b79683abe8033f9a2eb945d6646a5948bf497c61
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Wed Sep 21 20:00:22 2016 -0700
+
+    Finshed DayWithTime class
+
+:000000 100644 0000000... 1e2a9ac... A	hw3/Day.java
+:100644 100644 b525d22... b85013a... M	hw3/DayWithTime.java
+:100644 100644 e8f7b0e... 9e45c01... M	hw3/MutableDay.java
+
+commit 26e8f140de19bb14decd392912404ba44cc19feb
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Mon Sep 19 23:38:15 2016 -0700
+
+    Daily Commit
+
+:000000 100644 0000000... 7eda680... A	hw3/hw3progress.txt
+
+commit bdf20bdf410ec44ef5e96aa1fa2a7e3e453def2b
+Author: Dilyar85 <dilyar.safudin@gmail.com>
+Date:   Sun Sep 18 22:16:36 2016 -0700
+
+    Added hw3
+
+:000000 100644 0000000... b525d22... A	hw3/DayWithTime.java
+:000000 100644 0000000... e8f7b0e... A	hw3/MutableDay.java
+
+commit 2071f1b54ecbadbc0311c6ef270842559399ecaa
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:31 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... b3f9a24... A	hw2ascores.txt
+:000000 100644 0000000... 13ce133... A	hw2bscores.txt
+ 
+Student: gummidipundi_pradeep
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+
+Please see me during office hours next week (TuTh 12:45).
+
+ 
+DayWithTimeTest.java
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:11: error: cannot find symbol
+      DayWithTime d2 = d.plusDays(30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:18: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:28: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(-720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:48: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:59: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+25 errors
+JUnit version 4.11
+Could not find class: DayWithTimeTest
+
+Time: 0.001
+
+OK (0 tests)
+
+MutableDayTest.java
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		                    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:71: error: cannot find symbol
+		new MutableDay(2000, 2, 30);
+		    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+17 errors
+JUnit version 4.11
+Could not find class: MutableDayTest
+
+Time: 0.001
+
+OK (0 tests)
+
+ 
+commit cc69b5e54d45dcd8aa2adbeefa284abaaecf806f
+Author: Pradeep Gummidipundi <pradeep.gummidipundi@sjsu.edu>
+Date:   Wed Sep 21 23:49:53 2016 -0700
+
+    hw3
+
+:160000 000000 b8cf60f... 0000000... D	hw3
+
+commit 97c35b6078de769277bc8ff30b2c6b70f5ee0d0d
+Author: Pradeep Gummidipundi <pradeep.gummidipundi@sjsu.edu>
+Date:   Wed Sep 21 23:43:10 2016 -0700
+
+    add hw1
+
+:000000 100644 0000000... 70d0e63... A	hw1/Strings.java
+:000000 100644 0000000... c9a13e0... A	hw1/Strings.signed.zip
+
+commit c5f2344de4052ee8d40f6c3f4cae4b8b176e67a8
+Author: Pradeep Gummidipundi <pradeep.gummidipundi@sjsu.edu>
+Date:   Wed Sep 21 23:42:13 2016 -0700
+
+    add hw2
+
+:000000 100644 0000000... c99779b... A	hw2/Console.java
+:000000 100644 0000000... 5e5cfb4... A	hw2/MailSystem.java
+:000000 100644 0000000... 26032d6... A	hw2/MailSystemTester.java
+:000000 100644 0000000... 221879f... A	hw2/Mailbox.java
+:000000 100644 0000000... a0da80e... A	hw2/Message.java
+:000000 100644 0000000... 057accb... A	hw2/MessageQueue.java
+:000000 100644 0000000... 3e39137... A	hw2/User.java
+
+commit 2153627ed01012ae85cf59f8924d450a7b4202f9
+Author: Pradeep Gummidipundi <pradeep.gummidipundi@sjsu.edu>
+Date:   Wed Sep 21 23:30:19 2016 -0700
+
+    Add hw3
+
+:000000 160000 0000000... b8cf60f... A	hw3
+
+commit 5618da68a2f447334af644335399ff1f51686533
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:34 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... a913587... A	hw2ascores.txt
+:000000 100644 0000000... d839410... A	hw2bscores.txt
+ 
+Student: huff_craig
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 5
+MutableDay compiles, passes tests (max. 10 points): 5
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.E.E.E....
+Time: 0.009
+There were 3 failures:
+1) testNegativeDaysFrom(DayWithTimeTest)
+java.lang.AssertionError: expected:<-366> but was:<-365>
+	at DayWithTimeTest.testNegativeDaysFrom(DayWithTimeTest.java:62)
+2) testAddMinutes(DayWithTimeTest)
+org.junit.ComparisonFailure: expected:<2017-09-02 [07]:30> but was:<2017-09-02 [19]:30>
+	at DayWithTimeTest.testAddMinutes(DayWithTimeTest.java:22)
+3) testDaysFrom(DayWithTimeTest)
+java.lang.AssertionError: expected:<366> but was:<365>
+	at DayWithTimeTest.testDaysFrom(DayWithTimeTest.java:51)
+
+FAILURES!!!
+Tests run: 7,  Failures: 3
+
+MutableDayTest.java
+JUnit version 4.11
+..E.E.....
+Time: 0.014
+There were 2 failures:
+1) testMarch(MutableDayTest)
+java.lang.IllegalStateException
+	at MutableDay.setDayOfMonth(MutableDay.java:86)
+	at MutableDayTest.testMarch(MutableDayTest.java:56)
+2) testFebruaryException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 2
+
+ 
+commit 61d19dbe2741f02cfcc48bc5b0d76d082555a370
+Author: cthuff <cthuff03@gmail.com>
+Date:   Wed Sep 21 22:29:06 2016 -0700
+
+    Added the day class to the DayWithTime class
+
+:100644 100644 c1f89b2... ca3c2cf... M	hw3/.gitignore
+:100644 100644 12e85e5... b8b4376... M	hw3/DayWithTime.java
+
+commit 8970a111b92f331dd9481146c5d08a2e083a8920
+Author: cthuff <cthuff03@gmail.com>
+Date:   Wed Sep 21 22:24:05 2016 -0700
+
+    Attempt to solve both excpetions
+
+:100644 100644 7938d48... 52b0537... M	hw3/MutableDay.java
+
+commit 6c77383af2801e77b1ccaabdc7604ee9331decfa
+Author: cthuff <cthuff03@gmail.com>
+Date:   Wed Sep 21 22:11:27 2016 -0700
+
+    Second Part of homework 3
+
+:100644 100644 3ef1cc4... c1f89b2... M	hw3/.gitignore
+:100644 100644 e4b55d9... 12e85e5... M	hw3/DayWithTime.java
+:100644 100644 73ebd69... 1bfac61... M	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 7938d48... A	hw3/MutableDay.java
+:000000 100644 0000000... df61bbf... A	hw3/MutableDayTest.java
+
+commit 5d9eb66e8c43ed63a5e998bc6eed337c74bde031
+Author: cthuff <cthuff03@gmail.com>
+Date:   Tue Sep 20 22:04:17 2016 -0700
+
+    part 1 70% complete
+
+:100644 100644 233be1d... 9bdc64c... M	hw3/.classpath
+:100644 100644 d752ddf... 3ef1cc4... M	hw3/.gitignore
+:100644 100644 b0160ad... e4b55d9... M	hw3/DayWithTime.java
+:100644 100644 e6c8406... 73ebd69... M	hw3/DayWithTimeTest.java
+
+commit 615f77b6786dff54ea982758c4e8972169dc9da8
+Author: cthuff <cthuff03@gmail.com>
+Date:   Sun Sep 18 12:18:00 2016 -0700
+
+    Creation of classes
+
+:000000 100644 0000000... 233be1d... A	hw3/.classpath
+:000000 100644 0000000... d752ddf... A	hw3/.gitignore
+:000000 100644 0000000... cfbcb59... A	hw3/.project
+:000000 100755 0000000... 0fb5770... A	hw3/Day.java
+:000000 100755 0000000... 1746cad... A	hw3/DayTester.java
+:000000 100644 0000000... b0160ad... A	hw3/DayWithTime.java
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+
+commit 5e5d40000f62ab63330f67c533243774af48f201
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:37 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... e50848d... A	hw2ascores.txt
+:000000 100644 0000000... c07046b... A	hw2bscores.txt
+
+commit 045ba36e11bdeeb01c754a348a444659edaf3093
+Author: cthuff <cthuff03@gmail.com>
+Date:   Thu Sep 15 13:50:25 2016 -0700
+
+    Fixed whitespace issue
+
+:100644 100644 08b3530... a203052... M	hw2/Console.java
+ 
+Student: husain_daanish
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.011
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.011
+
+OK (8 tests)
+
+ 
+commit 709a6a06812c21f678e7f6e325a7271f2759a678
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 21 23:15:52 2016 -0700
+
+    finished MutableDay.java
+
+:100644 100644 e9e2c5b... aa7b314... M	hw3/DayWithTime.java
+:100644 100644 54493f0... dffcc8c... M	hw3/MutableDay.java
+
+commit b80a8f8b5858d745ef6d84ea700a1101c13fca70
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 21 14:19:36 2016 -0700
+
+    Need to complete last 2 methods for mutableday
+
+:000000 100644 0000000... 54493f0... A	hw3/MutableDay.java
+
+commit 2e508844e29b029098f5ccb55654784bc3319d11
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 21 00:32:47 2016 -0700
+
+    Completed DayWithTime.java
+
+:100644 100644 d57e9e9... e9e2c5b... M	hw3/DayWithTime.java
+
+commit ea80629bbb313c74a97bf0f05d425db399cab9a1
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Wed Sep 21 00:00:04 2016 -0700
+
+    debugging issue with DayWithTime
+
+:100644 100644 9ae7aaf... d57e9e9... M	hw3/DayWithTime.java
+
+commit d3fd5f1e9ddbb476f8a3313b63fcf662d516c992
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Mon Sep 19 21:17:53 2016 -0700
+
+    almost done with DayWithTime.java
+
+:100644 100644 e43cee6... 9ae7aaf... M	hw3/DayWithTime.java
+
+commit 90106f9f8683c00f9273d4e17d39dea72bca8af8
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Sun Sep 18 15:52:56 2016 -0700
+
+    Did nothing on sunday
+
+:000000 100644 0000000... e5af36d... A	hw3/progress.txt
+
+commit cad5e3c050098878c7186fd66ba5be051996f960
+Author: Daanish Husain <daanish.husain@gmail.com>
+Date:   Sat Sep 17 17:28:10 2016 -0700
+
+    Added DayWithTime.java and filled out some of the incomplete methods
+
+:000000 100644 0000000... e43cee6... A	hw3/DayWithTime.java
+
+commit 8a0920f21dd8a76da161d9afdcbe1bb501f71f46
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:40 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... ab0d579... A	hw2ascores.txt
+:000000 100644 0000000... d87206b... A	hw2bscores.txt
+ 
+Student: lam_hing
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.022
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.012
+
+OK (8 tests)
+
+ 
+commit 86841f12c99d3f1da1787fec3eb2d6c155060497
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Thu Sep 22 00:50:49 2016 -0700
+
+    update
+
+:100644 100644 3e81096... 1b10624... M	hw3/MutableDay.java
+
+commit 8d5c23ffd643589d32e0cc2ee54af3e7cbf54b0f
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Thu Sep 22 00:04:14 2016 -0700
+
+    update
+
+:100644 100644 e34dd5f... dd08cdf... M	hw3/DayWithTime.class
+:000000 100644 0000000... dff68ba... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 3e81096... A	hw3/MutableDay.java
+:000000 100644 0000000... c798295... A	hw3/MutableDayTest.java
+
+commit 16412886ea3f75842d955d3cfe04f4441f5a3820
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Wed Sep 21 01:45:54 2016 -0700
+
+    update
+
+:100644 100644 5e63ef8... e34dd5f... M	hw3/DayWithTime.class
+:100644 100644 f4265af... 0e5b7c4... M	hw3/DayWithTime.java
+:100644 000000 44c2493... 0000000... D	hw3/DayWithTimeTest.java
+
+commit 2ac766885b131e8263927e037f279b232e172b5a
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Tue Sep 20 23:08:39 2016 -0700
+
+    update
+
+:100644 000000 b8a8c05... 0000000... D	hw3/Day.java
+:000000 100644 0000000... 5e63ef8... A	hw3/DayWithTime.class
+:000000 100644 0000000... f4265af... A	hw3/DayWithTime.java
+
+commit faad0e1ee486b6f98a5a549784803a1e38dba523
+Author: bennylam <hinglung.lam@sjsu.edu>
+Date:   Tue Sep 20 19:39:03 2016 -0700
+
+    add hw3
+
+:000000 100644 0000000... b8a8c05... A	hw3/Day.java
+:000000 100644 0000000... 44c2493... A	hw3/DayWithTimeTest.java
+
+commit a028f5bc89c7cf1ba6802f79269915798cb68c69
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:43 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 7aed98a... A	hw2ascores.txt
+:000000 100644 0000000... 8b3c560... A	hw2bscores.txt
+ 
+Student: laskey_tyler
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 9
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.011
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.014
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit d328b0d1c124ee3a6a61efed49aa17866d2b0b9a
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Wed Sep 21 02:34:18 2016 -0700
+
+    Update
+
+:100644 100644 c98a14d... 4821dce... M	hw3/DayWithTime.java
+
+commit 36feae539e2d891cec71846a3a0799c0ff7bcc1b
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Wed Sep 21 02:26:16 2016 -0700
+
+    Update
+
+:100644 100644 1a17169... c98a14d... M	hw3/DayWithTime.java
+
+commit ed7d23132c00d2aa9057d1f60fef4466adebab12
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Wed Sep 21 01:53:06 2016 -0700
+
+    Update
+
+:100644 100644 daf658b... 1a17169... M	hw3/DayWithTime.java
+:100644 100644 1b694f8... 08b67e5... M	hw3/MutableDay.java
+
+commit dd348072c1c2da82d5372f65e26dd5402a38d46c
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Tue Sep 20 22:09:50 2016 -0700
+
+    Update MutableDay
+
+:100644 100644 e72a8c9... daf658b... M	hw3/DayWithTime.java
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+:100644 100644 8c022d7... 1b694f8... M	hw3/MutableDay.java
+:000000 100644 0000000... 5019f3e... A	hw3/MutableDayTest.java
+
+commit c5410b1fef67eba3ceb1d5f635800254396b24da
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:46 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... ac573cf... A	hw2ascores.txt
+:000000 100644 0000000... 2498ea9... A	hw2bscores.txt
+
+commit 0210dfa8497b7b64ba473165b56b5c29b6461872
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Fri Sep 16 03:19:03 2016 -0700
+
+    Add homework 3 to github
+
+:000000 100644 0000000... e72a8c9... A	hw3/DayWithTime.java
+:000000 100644 0000000... 8c022d7... A	hw3/MutableDay.java
+
+commit 31e41fca9c06b8c9b2a5f927d16f5467704ec3fe
+Author: Tyler Laskey <tlaskey3@gmail.com>
+Date:   Thu Sep 15 16:12:30 2016 -0700
+
+    9/15 progress.
+
+:100644 100644 92a8465... 7a44c1b... M	hw2/progress.txt
+ 
+Student: leung_christopher
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+
+DayWithTimeTest.java
+DayWithTimeTest.java:10: error: cannot access DayWithTime
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+      ^
+  bad source file: ./DayWithTime.java
+    file does not contain class DayWithTime
+    Please remove or make sure it appears in the correct subdirectory of the sourcepath.
+1 error
+JUnit version 4.11
+Could not find class: DayWithTimeTest
+
+Time: 0.002
+
+OK (0 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+.
+ 
+commit 21750acb9bc83b8781cdaaf921c18025bc7dacfd
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 21 23:55:20 2016 -0700
+
+    Create MutableDay.java
+
+:000000 100644 0000000... 6e9606c... A	hw3/MutableDay.java
+
+commit f2502ef6c46892fa1b0189afe5e07de554abf73f
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 21 23:42:10 2016 -0700
+
+    Update DayWithTime.java
+
+:100644 100644 90c17bf... b9ba243... M	hw3/DayWithTime.java
+
+commit ef27c9b3e3c11c887465e4e1b3a75ab044bbab52
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 21 23:39:48 2016 -0700
+
+    Update DayWithTime.java
+
+:100644 100644 30881e5... 90c17bf... M	hw3/DayWithTime.java
+
+commit 0c44a9334a8c56bfabc2ba751cd741330bc75446
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Wed Sep 21 21:17:55 2016 -0700
+
+    Update DayWithTime.java
+
+:100644 100644 8b13789... 30881e5... M	hw3/DayWithTime.java
+
+commit aff807364d17513e02ced6fa3e5095b4432f262a
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Tue Sep 20 22:17:14 2016 -0700
+
+    Create DayWithTime.java
+
+:000000 100644 0000000... 8b13789... A	hw3/DayWithTime.java
+
+commit b0fd32eba434d79f425fe6d917934e2caff132e2
+Author: cleung494 <christopher.leung@sjsu.edu>
+Date:   Tue Sep 20 22:14:20 2016 -0700
+
+    Create Day.java
+
+:000000 100644 0000000... 8b13789... A	hw3/Day.java
+
+commit 29436ac33bce750cd01e539abfba0c1b7c1ea029
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:49 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 03d9cef... A	hw2ascores.txt
+:000000 100644 0000000... f65d501... A	hw2bscores.txt
+ 
+Student: liang_bing
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 9
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.011
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.015
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit 8c3cbaac9ed949d4c73b4c5591d03a9e65a6c067
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Thu Sep 22 01:11:01 2016 -0700
+
+    submit2
+
+:100644 100644 cd9df40... dc39fa3... M	hw3/MutableDay.java
+
+commit cc7d168757601bb482eb8d7513f2cb412f050246
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Wed Sep 21 23:28:57 2016 -0700
+
+    submit
+
+:100644 100644 a969ba6... 6ea3905... M	hw3/DayWithTime.java
+
+commit 4544e5a487d7e99d4943cc550446b6c9b4fadf1c
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Tue Sep 20 12:50:02 2016 -0700
+
+    finished second part
+
+:000000 100644 0000000... cd9df40... A	hw3/MutableDay.java
+:000000 100644 0000000... 90621ca... A	hw3/MutableDayTest.java
+
+commit dff8bf3a2d76007cfbb286449fc303bea45a1cb4
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Mon Sep 19 14:43:57 2016 -0700
+
+    finished first part
+
+:000000 100644 0000000... a969ba6... A	hw3/DayWithTime.java
+:000000 100644 0000000... 1a006cf... A	hw3/DayWithTimeTest.java
+
+commit 955b14f735e53810a2a55fa3e456627b349c1226
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Sun Sep 18 20:34:57 2016 -0700
+
+    09/18
+
+:100644 100644 f8a956e... 72a7614... M	hw3/progress.txt
+
+commit a0e8cfb0ce7c12e6c1569708329c004614282226
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Sat Sep 17 23:02:23 2016 -0700
+
+    09/17
+
+:100644 100644 bfe3aea... f8a956e... M	hw3/progress.txt
+
+commit 19b0c57e77caecdf524d9f82a891c359dc0be1c3
+Author: Marco Liang <marcoliangbing@gmail.com>
+Date:   Fri Sep 16 23:32:47 2016 -0700
+
+    hw3 first commit
+
+:000000 100644 0000000... bfe3aea... A	hw3/progress.txt
+
+commit 5302420da8d93c00fdfb0264d3de2ac1a8819b67
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:52 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 380ab3f... A	hw2ascores.txt
+:000000 100644 0000000... 3de2f45... A	hw2bscores.txt
+ 
+Student: lin_xiaofan
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.013
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.016
+
+OK (8 tests)
+
+ 
+commit bde454c874736536c46e2042b54da12f35bcc4d5
+Author: XiaofanLin <XiaofanLin@XiaofanLindeMBP.hsd1.ca.comcast.net>
+Date:   Wed Sep 21 22:37:14 2016 -0700
+
+    Update my codes and Pass the new test cases
+
+:100644 100644 4d8b947... c4fee26... M	hw3/MutableDay.java
+:100644 100644 d78d156... 7e0aa1e... M	hw3/MutableDayTest.java
+
+commit 08bd839f73053117def81997fa6a6e4641cef620
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:28:29 2016 -0700
+
+    Update progress log
+
+:100644 100644 e2622d4... bbb011e... M	hw3/progress.txt
+
+commit 98152b8965ceded3835a46b80c79378a0149514a
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:25:17 2016 -0700
+
+    Formatize my code and add a citation to MutableDay
+
+:100644 100644 92a0c01... ac4a683... M	hw3/DayWithTime.java
+:100644 100644 10da9b4... 4d8b947... M	hw3/MutableDay.java
+
+commit f9137352034fded5494fa4b0b498b2bb7a2606ba
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 19:20:40 2016 -0700
+
+    Finsh part 2
+
+:000000 100644 0000000... 10da9b4... A	hw3/MutableDay.java
+:000000 100644 0000000... d78d156... A	hw3/MutableDayTest.java
+
+commit 1a944d62d314128d0c29169531d16863df197a22
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:54:29 2016 -0700
+
+    Add a citation
+
+:100644 100644 76f69fa... 92a0c01... M	hw3/DayWithTime.java
+
+commit f0599a1c9dffa2cf03f0d9670a172f7e6f2f3275
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:53:51 2016 -0700
+
+    Add a citation
+
+:100644 100644 e72365b... 76f69fa... M	hw3/DayWithTime.java
+
+commit 4505d3e922738ac085e9a003c27497cb9536421b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 18:48:26 2016 -0700
+
+    Remove some unnecessary codes
+
+:100644 000000 f6c5ceb... 0000000... D	hw3/Day.java
+:100644 000000 d9d2ec8... 0000000... D	hw3/DayTester.java
+:100644 100644 fb2453f... e72365b... M	hw3/DayWithTime.java
+:100644 000000 a84774a... 0000000... D	hw3/Tester.java
+
+commit 96dbe99ddf06438a7c7618be4e1016df68f8dc92
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Sep 20 08:48:44 2016 -0700
+
+    Pass all the cases for part 1
+
+:100644 100644 a363a90... fb2453f... M	hw3/DayWithTime.java
+:100644 100644 ed71e7a... a84774a... M	hw3/Tester.java
+
+commit 66e50431de1189cdbca7fb8bd6ba1dd6ec41639b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 23:40:55 2016 -0700
+
+    Fix more bugs
+
+:100644 100644 46c0f1a... a363a90... M	hw3/DayWithTime.java
+:100644 100644 c81179a... ed71e7a... M	hw3/Tester.java
+
+commit 165a41cbabb5ab2ab08381778e842db3fb939fd4
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 23:03:00 2016 -0700
+
+    Fix some bugs
+
+:100644 100644 908357c... 46c0f1a... M	hw3/DayWithTime.java
+:100644 100644 7fbed29... c81179a... M	hw3/Tester.java
+
+commit 27e9d5cd87712fe6b3edd0be2716decadcddf6bd
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Sep 19 22:24:50 2016 -0700
+
+    Still working on it, buggy
+
+:100644 100644 3c1e925... 545317d... M	.gitignore
+:100644 100644 b8a8c05... f6c5ceb... M	hw3/Day.java
+:000000 100644 0000000... 908357c... A	hw3/DayWithTime.java
+:000000 100644 0000000... 040e0fc... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 7fbed29... A	hw3/Tester.java
+
+commit 4db0424787c34cb0aec04f12ef4421e515f55ab7
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sun Sep 18 23:40:04 2016 -0700
+
+    Still do nothing
+
+:100644 100644 6807aba... e2622d4... M	hw3/progress.txt
+
+commit 5d99c34d4fdc37b6191592c21551b7c4db4a4eaf
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sat Sep 17 22:51:08 2016 -0700
+
+    Do nothing today
+
+:000000 100644 0000000... 6807aba... A	hw3/progress.txt
+
+commit 06c4ed8b3aaaa366013408752cd553e186b5e5d5
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Fri Sep 16 23:23:15 2016 -0700
+
+    Upload hw3 code and do nothing
+
+:000000 100644 0000000... b8a8c05... A	hw3/Day.java
+:000000 100644 0000000... d9d2ec8... A	hw3/DayTester.java
+
+commit 94f95a5beb0d5c9f1777db8afdfad98f10180b5e
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:55 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 0d0cd3e... A	hw2ascores.txt
+:000000 100644 0000000... e16508f... A	hw2bscores.txt
+ 
+Student: liu_qi
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.017
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.012
+
+OK (8 tests)
+
+ 
+commit a890d28a04aeb82469534dda3c12d39743edd12a
+Author: QILIU67 <qi.liu@sjsu.edu>
+Date:   Thu Sep 22 03:04:22 2016 -0700
+
+    hw3-2
+
+:100644 000000 8266897... 0000000... D	hw3/.DS_Store
+:000000 100644 0000000... 3f51817... A	hw3/Day.java
+:000000 100644 0000000... d956b13... A	hw3/DayWithTime.java
+
+commit 5e782c0098bfb4d65d4ae51977dc4d672b5e8cec
+Author: QILIU67 <qi.liu@sjsu.edu>
+Date:   Thu Sep 22 02:18:23 2016 -0700
+
+    hw3
+
+:000000 100644 0000000... 8266897... A	hw3/.DS_Store
+:000000 100644 0000000... 140488c... A	hw3/MutableDay.java
+
+commit ed85348b0a26e60fb447af261c18fb732319d860
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:55:57 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 6acac45... A	hw2ascores.txt
+:000000 100644 0000000... 976a4ca... A	hw2bscores.txt
+ 
+Student: menon_parvathy
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+
+Please see me during office hours next week (TuTh 12:45).
+ 
+DayWithTimeTest.java
+./DayWithTime.java:88: error: missing return statement
+   }
+   ^
+./DayWithTime.java:100: error: missing return statement
+   }
+   ^
+./DayWithTime.java:111: error: missing return statement
+   }
+   ^
+./DayWithTime.java:123: error: missing return statement
+   }
+   ^
+./DayWithTime.java:136: error: missing return statement
+   }
+   ^
+5 errors
+JUnit version 4.11
+.E.E.E.E.E.E.E
+Time: 0.014
+There were 7 failures:
+1) testNegativeDaysFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testNegativeDaysFrom(DayWithTimeTest.java:56)
+Caused by: java.lang.ClassNotFoundException: DayWithTime
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+2) testAddMinutes(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testAddMinutes(DayWithTimeTest.java:17)
+3) testDaysFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testDaysFrom(DayWithTimeTest.java:45)
+4) testGetters(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testGetters(DayWithTimeTest.java:67)
+5) testAddWholeDays(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testAddWholeDays(DayWithTimeTest.java:10)
+6) testSubtractMinutes(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testSubtractMinutes(DayWithTimeTest.java:27)
+7) testMinutesFrom(DayWithTimeTest)
+java.lang.NoClassDefFoundError: DayWithTime
+	at DayWithTimeTest.testMinutesFrom(DayWithTimeTest.java:37)
+
+FAILURES!!!
+Tests run: 7,  Failures: 7
+
+MutableDayTest.java
+./MutableDay.java:97: error: cannot find symbol
+       result = result.nextDay();
+                      ^
+  symbol:   method nextDay()
+  location: variable result of type MutableDay
+./MutableDay.java:101: error: cannot find symbol
+       result = result.previousDay();
+                      ^
+  symbol:   method previousDay()
+  location: variable result of type MutableDay
+./MutableDay.java:104: error: incompatible types: unexpected return value
+      return result;
+             ^
+./MutableDay.java:118: error: cannot find symbol
+     while (d.compareTo(other) > 0) {
+             ^
+  symbol:   method compareTo(MutableDay)
+  location: variable d of type MutableDay
+./MutableDay.java:119: error: cannot find symbol
+       d = d.previousDay();
+            ^
+  symbol:   method previousDay()
+  location: variable d of type MutableDay
+./MutableDay.java:122: error: cannot find symbol
+     while (d.compareTo(other) < 0) {
+             ^
+  symbol:   method compareTo(MutableDay)
+  location: variable d of type MutableDay
+./MutableDay.java:123: error: cannot find symbol
+       d = d.nextDay();
+            ^
+  symbol:   method nextDay()
+  location: variable d of type MutableDay
+7 errors
+JUnit version 4.11
+.E.E.E.E.E.E.E.E
+Time: 0.013
+There were 8 failures:
+1) testAccessors(MutableDayTest)
+java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testAccessors(MutableDayTest.java:29)
+Caused by: java.lang.ClassNotFoundException: MutableDay
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 32 more
+2) testMarch(MutableDayTest)
+java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testMarch(MutableDayTest.java:55)
+3) testFebruaryException(MutableDayTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.NoClassDefFoundError>
+Caused by: java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testFebruaryException(MutableDayTest.java:48)
+	... 23 more
+4) testFebruary(MutableDayTest)
+java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testFebruary(MutableDayTest.java:39)
+5) testMarchException(MutableDayTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.NoClassDefFoundError>
+Caused by: java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testMarchException(MutableDayTest.java:64)
+	... 23 more
+6) testMutatingPlusDays(MutableDayTest)
+java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testMutatingPlusDays(MutableDayTest.java:10)
+7) testDaysFromNotMutating(MutableDayTest)
+java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testDaysFromNotMutating(MutableDayTest.java:19)
+8) testConstructorException(MutableDayTest)
+java.lang.Exception: Unexpected exception, expected<java.lang.IllegalStateException> but was<java.lang.NoClassDefFoundError>
+Caused by: java.lang.NoClassDefFoundError: MutableDay
+	at MutableDayTest.testConstructorException(MutableDayTest.java:71)
+	... 23 more
+
+FAILURES!!!
+Tests run: 8,  Failures: 8
+
+ 
+commit 60f919f40a1c5b8ee55548ed2b396486832053d7
+Author: Parvathy Menon <parvathy.menon1997@gmail.com>
+Date:   Wed Sep 21 22:45:44 2016 -0700
+
+    Made changes to files
+
+:100644 100644 3075ebe... 6cfced3... M	hw3/MutableDay.java
+
+commit 58519aff879ccdb314bb59e7f09e9d251c8bdbc8
+Author: Parvathy Menon <parvathy.menon1997@gmail.com>
+Date:   Tue Sep 20 19:35:48 2016 -0700
+
+    Modified hw3 files
+
+:100644 100644 b0160ad... fa69934... M	hw3/DayWithTime.java
+:100644 100644 ce294ba... 3075ebe... M	hw3/MutableDay.java
+
+commit 632bea945b0f6248da14d6a783852136ec4cc86b
+Author: Parvathy Menon <parvathy.menon1997@gmail.com>
+Date:   Tue Sep 20 19:12:17 2016 -0700
+
+    Added hw3
+
+:000000 100644 0000000... b0160ad... A	hw3/DayWithTime.java
+:000000 100644 0000000... ce294ba... A	hw3/MutableDay.java
+
+commit 0c0c2c7d521fc73679414be169a0e2211a8262e3
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:01 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 418ea1c... A	hw2ascores.txt
+:000000 100644 0000000... d147cb0... A	hw2bscores.txt
+ 
+Student: nguyen_ly
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.012
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.012
+
+OK (8 tests)
+
+ 
+commit a8ecb009afab1d69a1a5a72ac1ba8c8b0c418854
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Thu Sep 22 01:48:09 2016 -0700
+
+    hw4 initial
+
+:000000 100644 0000000... 7bfd499... A	hw4/NumberSequence.java
+:000000 100644 0000000... 49ed48b... A	hw4/NumberSequenceTest.java
+:000000 100644 0000000... cf72fc1... A	hw4/SquareSequence.java
+
+commit 19e2b355a4bcecd2008d36cffde518a8bfbc865f
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Wed Sep 21 21:30:21 2016 -0700
+
+    adding exception case of 31-day months
+
+:100644 100644 95a5e1b... e170b67... M	hw3/MutableDay.java
+
+commit 6b96925fbd319ed2cc58f9d48e058421d9f21252
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Wed Sep 21 09:20:20 2016 -0700
+
+    adding exception check for MutableDay's constructor
+
+:100644 100644 f271d60... 040e0fc... M	hw3/DayWithTimeTest.java
+:100644 100644 11b3d43... 95a5e1b... M	hw3/MutableDay.java
+:100644 100644 d78d156... 7e0aa1e... M	hw3/MutableDayTest.java
+
+commit e72793be6f3600e66004ab9e437ad954b306f8ea
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Mon Sep 19 21:35:28 2016 -0700
+
+    sep 19 night
+
+:100644 100644 946b7bf... 927c129... M	hw3/DayWithTime.java
+:100644 100644 040e0fc... f271d60... M	hw3/DayWithTimeTest.java
+:100644 100644 8ab9d3e... 11b3d43... M	hw3/MutableDay.java
+
+commit 02f4ef343aacf55f461d99840fa56665c60586c1
+Author: Ly Nguyen <yl.neyugn@gmail.com>
+Date:   Mon Sep 19 16:13:36 2016 -0700
+
+    sep 19
+
+:100644 100644 3a58d5d... 946b7bf... M	hw3/DayWithTime.java
+
+commit 5809da7a895fdf5f8c0054fcf718a538781c08c2
+Author: Ly Nguyen <yl.neyugn@gmail.com>
+Date:   Mon Sep 19 13:20:58 2016 -0700
+
+    sep 19 code update
+
+:100644 100644 e5bd0db... 3a58d5d... M	hw3/DayWithTime.java
+:000000 100644 0000000... 040e0fc... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... d78d156... A	hw3/MutableDayTest.java
+
+commit 8bca8b8bad1b764f0528b4e7a6b68cc00c0a7826
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Mon Sep 19 00:31:42 2016 -0700
+
+    sep 19 update
+
+:100644 100644 5b026cb... e5bd0db... M	hw3/DayWithTime.java
+
+commit ac1fde555df5509c0b0273cd2f1b7c9d7cfc0659
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Sat Sep 17 22:40:19 2016 -0700
+
+    sep 17 update
+
+:100644 100644 05adce6... 5b026cb... M	hw3/DayWithTime.java
+:100644 000000 040e0fc... 0000000... D	hw3/DayWithTimeTest.java
+:100644 100644 ca1084d... 8ab9d3e... M	hw3/MutableDay.java
+:100644 000000 d78d156... 0000000... D	hw3/MutableDayTest.java
+
+commit 3d7a9fc4b814051b3db25715871d84b5d4bbdd2d
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:10 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 966693a... A	hw2ascores.txt
+:000000 100644 0000000... 985e57b... A	hw2bscores.txt
+
+commit 0e574bd8e84a805b340d9219d41a973d2fbdcaf7
+Author: Ataring <yl.neyugn@gmail.com>
+Date:   Thu Sep 15 23:15:35 2016 -0700
+
+    hw3 initial commit
+
+:000000 100644 0000000... 05adce6... A	hw3/DayWithTime.java
+:000000 100644 0000000... 040e0fc... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... ca1084d... A	hw3/MutableDay.java
+:000000 100644 0000000... d78d156... A	hw3/MutableDayTest.java
+ 
+Student: nguyen_paul
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.014
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.013
+
+OK (8 tests)
+
+ 
+commit 83fe319810e520f4b225fb4afbbae31b07b1ad46
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 21 10:22:51 2016 -0700
+
+    9/20 push
+
+:100644 100644 c2741d5... e6296f9... M	hw3/MutableDay.java
+
+commit 10f07937e141b6202d76a5f8c3c9f468f168f320
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Wed Sep 21 10:21:27 2016 -0700
+
+    9/19 push
+
+:100644 100644 d55302e... c2741d5... M	hw3/MutableDay.java
+:100644 100644 de17596... 091457d... M	hw3/MutableDayTest.java
+
+commit bf9f09567d25c46be1e799d527ff1d31ab39b705
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Mon Sep 19 22:09:13 2016 -0700
+
+    9/19 push
+
+:100644 100644 dffa294... a4577b9... M	hw3/DayWithTime.java
+:100644 100644 7a73f16... 4d664ff... M	hw3/DayWithTimeTest.java
+
+commit 54be22a9f9e235721e6119afe4880af46e551fec
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Sun Sep 18 22:08:16 2016 -0700
+
+    revert
+
+:100644 100644 a522315... dffa294... M	hw3/DayWithTime.java
+
+commit 12ddad1fa6470bdc9c07679af4c4dee45e5c8440
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Sun Sep 18 22:04:32 2016 -0700
+
+    HW3 9/18
+
+:100644 100644 dffa294... a522315... M	hw3/DayWithTime.java
+
+commit a3301b26c6be97a05b40580161eb900d7bff7625
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Sat Sep 17 21:27:50 2016 -0700
+
+    HW3 9/17 push
+
+:100644 100644 be7c82b... dffa294... M	hw3/DayWithTime.java
+:100644 100644 3c8090b... 7a73f16... M	hw3/DayWithTimeTest.java
+:100644 100644 2336dc4... d55302e... M	hw3/MutableDay.java
+
+commit 5608b4b8a5b110c6281f67ebd221ab72efc9aee4
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:14 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... d54428b... A	hw2ascores.txt
+:000000 100644 0000000... 583f6a7... A	hw2bscores.txt
+
+commit 69a46cff79542a32b6a77ad993928aee86913f55
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Fri Sep 16 19:13:12 2016 -0700
+
+    HW3 initial push 9/16
+
+:100644 100644 8399968... f84ee76... M	.gitignore
+:000000 100644 0000000... be7c82b... A	hw3/DayWithTime.java
+:000000 100644 0000000... 3c8090b... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 2336dc4... A	hw3/MutableDay.java
+:000000 100644 0000000... de17596... A	hw3/MutableDayTest.java
+
+commit 913f1c65d0233f4a4f0d6f68a5638013d5e4b326
+Author: Paul Nguyen <paul.t.nguyen@sjsu.edu>
+Date:   Thu Sep 15 19:38:28 2016 -0700
+
+    Final revised copy
+
+:100644 100644 fd0b9c7... d35315e... M	hw2/Console.java
+:100644 100644 951d2fd... 0be6bfb... M	hw2/MailSystem.java
+:100644 100644 9b634b0... 31f6107... M	hw2/MailSystemTester.java
+:100644 100644 fdbaaf5... aa6e9f2... M	hw2/Mailbox.java
+:100644 100644 032b333... 5e0d8b2... M	hw2/User.java
+:100644 100644 336f852... 99123a9... M	hw2/sequence.jpg
+ 
+Student: pan_yuliang
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+
+Please see me during office hours next week (TuTh 12:45).
+
+ 
+DayWithTimeTest.java
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:11: error: cannot find symbol
+      DayWithTime d2 = d.plusDays(30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:18: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:28: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(-720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:48: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:59: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+25 errors
+JUnit version 4.11
+Could not find class: DayWithTimeTest
+
+Time: 0.003
+
+OK (0 tests)
+
+MutableDayTest.java
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		                    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:71: error: cannot find symbol
+		new MutableDay(2000, 2, 30);
+		    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+17 errors
+JUnit version 4.11
+Could not find class: MutableDayTest
+
+Time: 0.001
+
+OK (0 tests)
+
+ 
+commit 25abd9878b201dde6cd1b66e5010b359ef0d5474
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:20 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... a803b2f... A	hw2ascores.txt
+:000000 100644 0000000... bff68fb... A	hw2bscores.txt
+ 
+Student: pham_kiem
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.017
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.012
+
+OK (8 tests)
+
+ 
+commit 973a315a7c89204c3bbf8007fa0b98fa55fc9c99
+Author: Khiem Pham <Khiem Pham>
+Date:   Wed Sep 21 23:08:31 2016 -0700
+
+    2nd commit 09/21
+
+:100644 100644 5ec33ae... 591d22f... M	hw3/DayWithTime.java
+
+commit f810e232e25d27cdccd1efe31b05302fb54f9665
+Author: Khiem Pham <Khiem Pham>
+Date:   Wed Sep 21 22:51:03 2016 -0700
+
+    commit 09/21
+
+:100644 000000 87a540d... 0000000... D	hw3/Day.java
+:100644 000000 7b6f9a0... 0000000... D	hw3/DayTester.java
+:100644 100644 29547e8... 5ec33ae... M	hw3/DayWithTime.java
+:100644 100644 2b120c0... 7a8fb88... M	hw3/MutableDay.java
+
+commit fba343d79cff556034e5ed97f1f7a12a832c01ef
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 20 16:48:20 2016 -0700
+
+    2nd commit 09/20
+
+:100644 100644 51b9a5c... 2b120c0... M	hw3/MutableDay.java
+
+commit 8ff34df08bc4244628edfeae56ca2861ec9856df
+Author: Khiem Pham <Khiem Pham>
+Date:   Tue Sep 20 13:24:25 2016 -0700
+
+    commit 09/20
+
+:100644 100644 0999897... 51b9a5c... M	hw3/MutableDay.java
+
+commit 0231da970b4eb5f224d63a8b56f9cd696379f180
+Author: Khiem Pham <Khiem Pham>
+Date:   Mon Sep 19 23:20:59 2016 -0700
+
+    commit 09/19
+
+:100644 100644 28a9ea6... 0999897... M	hw3/MutableDay.java
+
+commit 473797bf8eca45ee06121c96c830e83232223b65
+Author: Khiem Pham <Khiem Pham>
+Date:   Sun Sep 18 01:39:35 2016 -0700
+
+    2nd commit 09/18
+
+:100644 100644 7c7b960... 87a540d... M	hw3/Day.java
+:100644 100644 f11ae2c... 29547e8... M	hw3/DayWithTime.java
+:000000 100644 0000000... 28a9ea6... A	hw3/MutableDay.java
+
+commit 3bd25587f9d1d76f43f2ad87bb6a24ddb684517b
+Author: Khiem Pham <Khiem Pham>
+Date:   Sun Sep 18 00:44:31 2016 -0700
+
+    2nd commit 09/18
+
+:100644 100644 83b106f... f11ae2c... M	hw3/DayWithTime.java
+
+commit c1283a12463fc6028302a2c68e47463c3ec06fcb
+Author: Khiem Pham <Khiem Pham>
+Date:   Sun Sep 18 00:23:31 2016 -0700
+
+    commit 09/18
+
+:100644 100644 9bb2539... 83b106f... M	hw3/DayWithTime.java
+
+commit 64d871aa9a45fbb3b1503af51b0a15f106e0ed34
+Author: Khiem Pham <Khiem Pham>
+Date:   Sat Sep 17 20:57:26 2016 -0700
+
+    2nd commit 09/17
+
+:100644 100644 4ad9abc... 9bb2539... M	hw3/DayWithTime.java
+
+commit ff6e170bbf6f5daf58da4b8486c4760ac80c76cb
+Author: Khiem Pham <Khiem Pham>
+Date:   Sat Sep 17 12:23:25 2016 -0700
+
+    commit 09/17
+
+:100644 100644 167efc1... 7c7b960... M	hw3/Day.java
+:100644 100644 e804263... 4ad9abc... M	hw3/DayWithTime.java
+
+commit 9525814b0273eab986ff42b9e13e148b311bc6d4
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:15:31 2016 -0700
+
+    commit 09/16
+
+:000000 100644 0000000... e804263... A	hw3/DayWithTime.java
+
+commit a889f07f212b65ca428d92dc1a05aa39c4c2c4e5
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:14:50 2016 -0700
+
+    more .gitignore
+
+:100644 100644 f2d1777... b825d95... M	.gitignore
+
+commit d5fee087cc1344fd6dd526c6788c2a2fb98eaaa5
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:14:12 2016 -0700
+
+    more .gitignore
+
+:100644 100644 f680e9a... f2d1777... M	.gitignore
+
+commit 099f7608c879e783715d6f7f83bf409bf3b57acf
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:12:15 2016 -0700
+
+    .gitignore
+
+:100644 100644 5751183... f680e9a... M	.gitignore
+
+commit ccd4f683ca003decd8ae894065f3c78783bb2809
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:10:06 2016 -0700
+
+    added .gitignore
+
+:100644 100644 8b13789... 5751183... M	.gitignore
+
+commit 8d1f2b3458f4c0751e80c0b93a7a1bc6c3358ae3
+Author: Khiem Pham <Khiem Pham>
+Date:   Fri Sep 16 23:06:20 2016 -0700
+
+    added .gitignore
+
+:000000 100644 0000000... 8b13789... A	.gitignore
+
+commit dcb7f483306130cc2f1cef7d9d78af799bae2095
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:23 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 449a21b... A	hw2ascores.txt
+:000000 100644 0000000... cf1ccaf... A	hw2bscores.txt
+
+commit a9cce0c17677afff406768247647d78ea01b775e
+Author: Khiem Pham <Khiem Pham>
+Date:   Thu Sep 15 23:16:08 2016 -0700
+
+    hw3 commit 09/15
+
+:000000 100644 0000000... 167efc1... A	hw3/Day.java
+:000000 100644 0000000... 7b6f9a0... A	hw3/DayTester.java
+ 
+Student: prasad_vishaal
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 9
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.012
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.016
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit ec8eec0084ea8942fa6e40f486633399b7577101
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Wed Sep 21 17:04:45 2016 -0700
+
+    fixed citation source chapter typo
+
+:100644 100644 0e41678... b96769c... M	hw3/DayWithTime.java
+:100644 100644 e9df841... 01df6f0... M	hw3/MutableDay.java
+
+commit 69348bf59a66552121a5bb981042968de97eaf8a
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Wed Sep 21 16:54:30 2016 -0700
+
+    added stabilization for MutableDay.java:compareTo
+
+:100644 100644 5f15bed... e9df841... M	hw3/MutableDay.java
+
+commit 24fd7489bfbaccebf99a76636d920e99d7376132
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.attlocal.net>
+Date:   Wed Sep 21 16:52:32 2016 -0700
+
+    added some comments, more stabilization for MutableDay.java
+
+:100644 100644 2351a6a... 0e41678... M	hw3/DayWithTime.java
+:100644 100644 0949628... 5f15bed... M	hw3/MutableDay.java
+
+commit 55758d0a1437d18123ae471fbaf38c9670e32bcc
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Wed Sep 21 00:08:26 2016 -0700
+
+    passes all supplied sample tests
+
+:100644 100644 5fbfa43... 2351a6a... M	hw3/DayWithTime.java
+
+commit 691e80bb825c3860dd04aaa68ca599a2e0d16a65
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Tue Sep 20 18:34:26 2016 -0700
+
+    MutableDay is working
+
+:100644 100644 84c5de7... 5fbfa43... M	hw3/DayWithTime.java
+:100644 100644 2e1bc8e... 0949628... M	hw3/MutableDay.java
+
+commit 767ac32a16854643da467fc9103e40dea743d5e2
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Tue Sep 20 14:17:22 2016 -0700
+
+    made some progress 09-20
+
+:100644 100644 d0388df... 84c5de7... M	hw3/DayWithTime.java
+:100644 100644 3452e6d... 2e1bc8e... M	hw3/MutableDay.java
+
+commit e9777201f3f0379877e561620ddb35adf6eada8c
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Mon Sep 19 23:42:04 2016 -0700
+
+    made some progress 09-19
+
+:100644 100644 05adce6... d0388df... M	hw3/DayWithTime.java
+:100644 100644 ca1084d... 3452e6d... M	hw3/MutableDay.java
+
+commit 5b4a3830306825e9fcedb0a83fefc32f92771405
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Sun Sep 18 12:55:19 2016 -0700
+
+    adding MutableDay.java
+
+:100644 100644 e69de29... 05adce6... M	hw3/DayWithTime.java
+:000000 100644 0000000... ca1084d... A	hw3/MutableDay.java
+
+commit 1218ef33bbdbadabaa4fd23de52146f407b4ed69
+Author: Vishaal Prasad <vishaalprasad@MacBook-Pro.local>
+Date:   Sun Sep 18 12:46:49 2016 -0700
+
+    Adding DayWithTime.java
+
+:000000 100644 0000000... e69de29... A	hw3/DayWithTime.java
+
+commit 38ebd7cf80984bb6e32562ec4cb463ada4f6ae3f
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:26 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 4071ae6... A	hw2ascores.txt
+:000000 100644 0000000... a13421b... A	hw2bscores.txt
+ 
+Student: qiu_jiabao
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.012
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.011
+
+OK (8 tests)
+
+ 
+commit 91cec001dd5456b89abcd22927e284e5fb0cec65
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Wed Sep 21 10:57:30 2016 -0700
+
+    fix range problem
+
+:100644 100644 6eaddd6... 294b64b... M	hw3/MutableDay.java
+:100644 100644 5019f3e... df61bbf... M	hw3/MutableDayTest.java
+:100644 100644 3668229... e4475f9... M	hw3/progress.txt
+
+commit 3883a4748f8e6f09e1f731e81a4baa3cf8ea82f5
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Tue Sep 20 10:20:23 2016 -0700
+
+    added source reference
+
+:100755 100755 60d81af... 67be736... M	hw3/DayWithTime.java
+:100644 100644 5226618... 6eaddd6... M	hw3/MutableDay.java
+:100644 100644 2f3471a... 3668229... M	hw3/progress.txt
+
+commit 1e086112fb0f8484a5d870a2edb2f93cee650bd8
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Mon Sep 19 14:40:17 2016 -0700
+
+    fixed typo in progress.txt
+
+:100644 100644 75ddb42... 2f3471a... M	hw3/progress.txt
+
+commit 23f6bcafd32b213ab007eb87a7c9acf04eb6e164
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Mon Sep 19 14:38:30 2016 -0700
+
+    updated hw3
+
+:100755 100755 29ab773... 60d81af... M	hw3/DayWithTime.java
+:100644 100644 550b93d... 5226618... M	hw3/MutableDay.java
+:100644 100644 e2246cf... 75ddb42... M	hw3/progress.txt
+
+commit b06c89546ac14018b16e92d4988f8f072f9e13c7
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Sun Sep 18 23:19:06 2016 -0700
+
+    daily commit
+
+:100644 100644 9e9a4bf... e2246cf... M	hw3/progress.txt
+
+commit 15b650471b1792d9a6edc6d43f56a992c7310d5d
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Sat Sep 17 11:42:49 2016 -0700
+
+    hw3 set up
+
+:000000 100755 0000000... 29ab773... A	hw3/DayWithTime.java
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 550b93d... A	hw3/MutableDay.java
+:000000 100644 0000000... 5019f3e... A	hw3/MutableDayTest.java
+:000000 100644 0000000... 9e9a4bf... A	hw3/progress.txt
+
+commit 37734fe4ebedc4fa0e61ed9c7baffa2d1440d5ac
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:29 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... b16cc10... A	hw2ascores.txt
+:000000 100644 0000000... 97d8c22... A	hw2bscores.txt
+
+commit 65396028a8461b00bb6af0ddf51fd2eac20534dd
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Fri Sep 16 13:49:01 2016 -0700
+
+    daily commit
+
+:100644 100644 e50e03a... 39e7387... M	hw2/progress.txt
+
+commit 4533fd1ac405aa773b7bb23e5b8864f420666c82
+Author: Jiabao Qiu <Nit@Jiabaos-MacBook-Pro.local>
+Date:   Thu Sep 15 12:53:49 2016 -0700
+
+    daily commit
+
+:100644 100644 258595d... e50e03a... M	hw2/progress.txt
+ 
+Student: shah_shariq
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+
+It would be more professional to use Logger for messages and turn them off before turning in your work.
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.-365 days and -4 hours apart.
+-365 days and -11 hours apart.
+-366 days and -12 hours apart.
+..365 days and 4 hours apart.
+365 days and 11 hours apart.
+366 days and 12 hours apart.
+....
+Time: 0.012
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.014
+
+OK (8 tests)
+
+ 
+commit 9840d04accf6f4beb3e52a5bca1dc9a6939635c4
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Thu Sep 22 03:45:13 2016 -0700
+
+    Finished the assignment.
+
+:100644 100644 f96bd12... 604b1f2... M	hw3/MutableDay.java
+
+commit 5543a72201d50572806061a43ac5fbef1d3b19a1
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Thu Sep 22 00:41:29 2016 -0700
+
+    Finished all of DayWithTime.java
+
+:100644 100644 bf90e38... fcfa575... M	hw3/DayWithTime.java
+:100644 100644 e6c8406... af8bcea... M	hw3/DayWithTimeTest.java
+:000000 100644 0000000... df61bbf... A	hw3/MutableDayTest.java
+
+commit 0f2d4f09f8986a12860902a92fcedb51dfb491a6
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Wed Sep 21 03:47:01 2016 -0700
+
+    Added lots of methods for hw3
+
+:100644 100644 da3f1bc... bf90e38... M	hw3/DayWithTime.java
+
+commit dcbf670c8d6dd5134d12cb038577f5c773ed9b56
+Author: shariqs <shariq.s@hotmail.com>
+Date:   Tue Sep 20 03:22:37 2016 -0700
+
+    Added all files. Added Return statements.
+
+:000000 100644 0000000... da3f1bc... A	hw3/DayWithTime.java
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... f96bd12... A	hw3/MutableDay.java
+
+commit 82cef9df0bc6918c85911228e627556414a7c0b0
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:32 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... d6932ae... A	hw2ascores.txt
+:000000 100644 0000000... f8befa6... A	hw2bscores.txt
+ 
+Student: shi_hengyi
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 9
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.012
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.014
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit 0b25139345292534a3dee35c1744a638106fb4b4
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Thu Sep 22 01:14:40 2016 -0700
+
+    work done
+
+:100644 100644 6f753a7... c58cb21... M	hw3/MutableDay.java
+
+commit d091255515ed39e889c9182784b9863532711a2e
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Thu Sep 22 01:06:29 2016 -0700
+
+    work done
+
+:100644 100644 8356af7... 29aea82... M	hw3/hw3.txt
+
+commit 5df0d7573e77678456b519d8dae77be5a841b150
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Thu Sep 22 00:57:54 2016 -0700
+
+    work done
+
+:100644 100644 783abb9... 428a13a... M	hw3/DayWithTime.java
+:100644 100644 b937440... 6f753a7... M	hw3/MutableDay.java
+
+commit 84c537fca8fc69c0ab382741d5a4c3266fb2f702
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Wed Sep 21 00:26:56 2016 -0700
+
+    9/20 parcial work done havn't finished
+
+:100644 100644 8cbf48e... 8356af7... M	hw3/hw3.txt
+
+commit ca52169802edb1abe00732bb0f378d90e26cb2f7
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Wed Sep 21 00:26:06 2016 -0700
+
+    9/20 parcial work done havn't finished
+
+:000000 100644 0000000... 783abb9... A	hw3/DayWithTime.java
+:000000 100644 0000000... edd2720... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... b937440... A	hw3/MutableDay.java
+:000000 100644 0000000... 0b63223... A	hw3/MutableDayTest.java
+
+commit 658e6adb947233d3293fd952cc6e10bf670935f6
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Tue Sep 20 00:18:46 2016 -0700
+
+    9/19 did nothing today
+
+:100644 100644 9253a7a... 8cbf48e... M	hw3/hw3.txt
+
+commit 01f6cbf23431865f309310c64b3805d58cb10c73
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Sat Sep 17 23:35:12 2016 -0700
+
+    9/16 did nothing today
+
+:100644 100644 6abcbad... 9253a7a... M	hw3/hw3.txt
+
+commit 13bc0281cef17c348d83ae868cd72ad479928651
+Author: HengYiShi <qweasdzxc962453@gmail.com>
+Date:   Fri Sep 16 23:44:05 2016 -0700
+
+    9/14 optimized for test case 4/5
+
+:000000 100644 0000000... 6abcbad... A	hw3/hw3.txt
+
+commit 5b59ac476d72d3053460ba6eaeaed47581766860
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:35 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... e6eec2c... A	hw2ascores.txt
+:000000 100644 0000000... 353c3e0... A	hw2bscores.txt
+ 
+Student: sterpka_michael
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 7
+MutableDay compiles, passes tests (max. 10 points): 9
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.E......
+Time: 0.014
+There was 1 failure:
+1) testNegativeDaysFrom(DayWithTimeTest)
+java.lang.AssertionError: expected:<-365> but was:<-367>
+	at DayWithTimeTest.testNegativeDaysFrom(DayWithTimeTest.java:60)
+
+FAILURES!!!
+Tests run: 7,  Failures: 1
+
+MutableDayTest.java
+JUnit version 4.11
+........E
+Time: 0.014
+There was 1 failure:
+1) testConstructorException(MutableDayTest)
+java.lang.AssertionError: Expected exception: java.lang.IllegalStateException
+
+FAILURES!!!
+Tests run: 8,  Failures: 1
+
+ 
+commit 857d4dd1323a698b10907f617d38cb807fc4819d
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Wed Sep 21 00:00:58 2016 -0700
+
+    Completed hw3
+
+:100644 100644 5708a3f... e611ebf... M	progress.txt
+
+commit aad1722f0c0f1cd12da7279bfb10b5bb58aa54ac
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Tue Sep 20 23:52:15 2016 -0700
+
+    Fixed for cases for DayWithTime
+
+:100644 100644 d82e7ed... 4bbe1b7... M	hw3/DayWithTime.java
+
+commit 70b83ed03138e753902125d78ad13c68698f2d81
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Tue Sep 20 23:47:15 2016 -0700
+
+    Updated hw3 classes
+
+:100644 100644 b0160ad... d82e7ed... M	hw3/DayWithTime.java
+:100644 100644 11872a3... d0b9d06... M	hw3/MutableDay.java
+
+commit b88f4c79aeca5abf6cbeb2e75731eaeadbed1027
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Mon Sep 19 19:27:02 2016 -0700
+
+    Daily commit
+
+:100644 100644 fca48d4... 5708a3f... M	progress.txt
+
+commit 590b8c7e18e017ffb9402710d05b96ee6a3a4aec
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Sun Sep 18 19:48:51 2016 -0700
+
+    Added hw3 classes
+
+:000000 100644 0000000... b0160ad... A	hw3/DayWithTime.java
+:000000 100644 0000000... 11872a3... A	hw3/MutableDay.java
+
+commit d7bb26da633956e9bbc0716339796d954c2d32e8
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Sun Sep 18 19:45:09 2016 -0700
+
+    Daily commit
+
+:100644 100644 d4a112f... fca48d4... M	progress.txt
+
+commit c6d649f491e0897a37b58f94706b961de307205f
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:38 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 23197a2... A	hw2ascores.txt
+:000000 100644 0000000... ea9781a... A	hw2bscores.txt
+
+commit bf0499a5b6045038087b1836031fe21344a091bc
+Author: Michael Sterpka <michaelsterpka@gmail.com>
+Date:   Thu Sep 15 11:51:49 2016 -0700
+
+    Removed .DS_Store
+
+:100644 000000 6f1d875... 0000000... D	.DS_Store
+ 
+Student: swerdon_matthew
+At least 3 git commits (max. 5 points): 0
+DayWithTime compiles, passes tests (max. 10 points): 0
+MutableDay compiles, passes tests (max. 10 points): 0
+ 
+DayWithTimeTest.java
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:10: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 12, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:11: error: cannot find symbol
+      DayWithTime d2 = d.plusDays(30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:17: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:18: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:27: error: cannot find symbol
+      DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+                          ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:28: error: cannot find symbol
+      DayWithTime d2 = d.plusMinutes(-720);
+      ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:37: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:38: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 2, 7, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:45: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:46: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:48: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:56: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 1, 19, 30);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:57: error: cannot find symbol
+	   DayWithTime d2 = new DayWithTime(2017, 9, 1, 23, 30);
+	                        ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:59: error: cannot find symbol
+	   d2 = new DayWithTime(2017, 9, 2, 07, 29);
+	            ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	   ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+DayWithTimeTest.java:67: error: cannot find symbol
+	   DayWithTime d = new DayWithTime(2016, 9, 30, 19, 30).plusMinutes(721);
+	                       ^
+  symbol:   class DayWithTime
+  location: class DayWithTimeTest
+25 errors
+JUnit version 4.11
+Could not find class: DayWithTimeTest
+
+Time: 0.002
+
+OK (0 tests)
+
+MutableDayTest.java
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:10: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:19: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:20: error: cannot find symbol
+		MutableDay d2 = new MutableDay(2017, 9, 1);
+		                    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:29: error: cannot find symbol
+		MutableDay d = new MutableDay(2016, 9, 16);
+		                   ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:39: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:48: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 1, 31);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:55: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:64: error: cannot find symbol
+		MutableDay deadline = new MutableDay(2001, 2, 28);
+		                          ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+MutableDayTest.java:71: error: cannot find symbol
+		new MutableDay(2000, 2, 30);
+		    ^
+  symbol:   class MutableDay
+  location: class MutableDayTest
+17 errors
+JUnit version 4.11
+Could not find class: MutableDayTest
+
+Time: 0.001
+
+OK (0 tests)
+
+ 
+commit 4928ca4834bb904ed5b32f4e35fecfc0a9bf0a38
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:42 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... b0a3bf4... A	hw2ascores.txt
+:000000 100644 0000000... 6076def... A	hw2bscores.txt
+ 
+Student: ubaldo_gideon
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 7
+
+Compiles after resubmission
+One failure
+
+MutableDay compiles, passes tests (max. 10 points): 8
+
+Compiles after resubmission
+ 
+commit 7975c82e194c0b1c5f4b17289a8b4434bb03e11a
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 21 21:02:10 2016 -0700
+
+    Update MutableDay
+
+:100644 100644 5eb89e1... 847b325... M	hw3/MutableDay
+
+commit 106d11ab50d99684fb079ebd65028a7e6dbaf01a
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 21 20:52:43 2016 -0700
+
+    Update MutableDay
+
+:100644 100644 3aad1ac... 5eb89e1... M	hw3/MutableDay
+
+commit b82417d15fa8e5bbf3df337c98a5cda6107b8b13
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 21 20:21:10 2016 -0700
+
+    Create empty
+
+:000000 100644 0000000... 8b13789... A	hw4/empty
+
+commit 09f81df2f394c20de5fb3c3f48cacfdb21761ce0
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 21 20:20:10 2016 -0700
+
+    Update MutableDay
+
+:100644 100644 eab8bf5... 3aad1ac... M	hw3/MutableDay
+
+commit e5c2035cce03b51fc2c69383471d82b4bdb02da6
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Wed Sep 21 20:01:17 2016 -0700
+
+    Create MutableDay
+
+:000000 100644 0000000... eab8bf5... A	hw3/MutableDay
+
+commit b3b50b547e61afe374cff8bffabc93f0c530dcb8
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Tue Sep 20 22:07:14 2016 -0700
+
+    Update DayWithTime
+
+:100644 100644 716e60d... 23ed64b... M	hw3/DayWithTime
+
+commit 09a8c0f56355f169c1704a40b05107aefedcd72f
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Tue Sep 20 16:55:38 2016 -0700
+
+    Update DayWithTime
+
+:100644 100644 3ec69d0... 716e60d... M	hw3/DayWithTime
+
+commit 2237f5f31a59e763040a1095de80e57978fdd243
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Tue Sep 20 16:26:06 2016 -0700
+
+    Delete empty
+
+:100644 000000 8b13789... 0000000... D	hw3/empty
+
+commit cc7d5ffcd5ef105e9c0136a0366f9ca0c8773cd2
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Tue Sep 20 16:25:56 2016 -0700
+
+    Create DayWithTime
+
+:000000 100644 0000000... 3ec69d0... A	hw3/DayWithTime
+
+commit f44f10cbe055075b7331ef2eaea4a3356ee7f32c
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Sun Sep 18 19:30:20 2016 -0700
+
+    Create empty
+
+:000000 100644 0000000... 8b13789... A	hw3/empty
+
+commit 69d8f0e5a5c693338664e2be36e63cead807cfef
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:44 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 475cdff... A	hw2ascores.txt
+:000000 100644 0000000... 1d9e2ff... A	hw2bscores.txt
+
+commit a3b2b1f80d8e1da8d40a90f202bdcc29264317e3
+Author: gideoness222 <gideon.ubaldo@sjsu.edu>
+Date:   Thu Sep 15 12:51:05 2016 -0700
+
+    program wasn't taking any capital letter
+    
+    added tower on 2 lines
+
+:100644 100644 5ffe38f... 586e147... M	hw2/MailSystem.java
+ 
+Student: wang_ruiyang
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.011
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.011
+
+OK (8 tests)
+
+ 
+commit 0545a08015382ad22d2444a32a8c014e6d82e357
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Thu Sep 22 01:18:10 2016 -0700
+
+    hw3
+
+:100644 100644 744f58f... b50b4dc... M	hw3/DayWithTime.java
+:100644 100644 1a006cf... 781c7d4... M	hw3/DayWithTimeTest.java
+
+commit b9f9d9aedb99e9cc8e12b1d8ce2232d71943cf27
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Thu Sep 22 00:38:12 2016 -0700
+
+    hw3
+
+:100644 100644 d50891f... 81e2f92... M	.gitignore
+:100644 100644 e61063f... 744f58f... M	hw3/DayWithTime.java
+:100644 100644 e6c8406... 1a006cf... M	hw3/DayWithTimeTest.java
+:100644 100644 11872a3... 9d6ad08... M	hw3/MutableDay.java
+:100644 100644 5019f3e... b5c7219... M	hw3/MutableDayTest.java
+
+commit 2ad3c32e42230b94846a8bc6d234725036df27f5
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Wed Sep 21 03:22:22 2016 -0700
+
+    0920
+
+:100644 100644 dfb0d13... e61063f... M	hw3/DayWithTime.java
+
+commit b56669da8d96e3899e470b1367d20617522afe05
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Tue Sep 20 00:59:46 2016 -0700
+
+    0919
+
+:100644 100644 ca927d9... 841f1a5... M	hw3/dailycommit
+
+commit ba86d6b6256ce21b6881d3c22d60c57203796d3c
+Author: Ruiyang Wang <reyoungwang@gmail.com>
+Date:   Sun Sep 18 21:46:21 2016 -0700
+
+    Delete .DS_Store
+
+:100644 000000 ee92ced... 0000000... D	hw3/.DS_Store
+
+commit dbdda92fe767e43db9e99de848b05e90af6384b8
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Sun Sep 18 21:45:30 2016 -0700
+
+    0918
+
+:100644 100644 62c54d8... d50891f... M	.gitignore
+
+commit ccaf3b8c3887ce6eb539a0680e0cf29afce426d7
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Sun Sep 18 21:43:29 2016 -0700
+
+    0918
+
+:000000 100644 0000000... ee92ced... A	hw3/.DS_Store
+:100644 100644 964d645... ca927d9... M	hw3/dailycommit
+
+commit a79ac7366f28c3973a30a5876018654c97c80b10
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Sat Sep 17 23:41:49 2016 -0700
+
+    0917
+
+:100644 100644 1dc9d6e... 62c54d8... M	.gitignore
+:000000 100644 0000000... dfb0d13... A	hw3/DayWithTime.java
+:000000 100644 0000000... e6c8406... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 11872a3... A	hw3/MutableDay.java
+:000000 100644 0000000... 5019f3e... A	hw3/MutableDayTest.java
+
+commit 47abaf1f26933edf87a9edf435e8bf5cdba6301c
+Author: w851401530 <reyoungwang@gmail.com>
+Date:   Fri Sep 16 23:35:44 2016 -0700
+
+    0916
+
+:000000 100644 0000000... 964d645... A	hw3/dailycommit
+
+commit a3b0323f5d27732039776b79969bf40a31e1a10a
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:47 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 4964230... A	hw2ascores.txt
+:000000 100644 0000000... ab458b9... A	hw2bscores.txt
+ 
+Student: xiao_weihang
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+Note: ./DayWithTime.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+JUnit version 4.11
+.......
+Time: 0.037
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.011
+
+OK (8 tests)
+
+ 
+commit ca51cc69b2641745d13e83f5c7e5fee2028acca6
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Wed Sep 21 23:30:49 2016 -0700
+
+    9.21 progress
+
+:100644 000000 210814f... 0000000... D	hw3/Day.class
+:100755 000000 0fb5770... 0000000... D	hw3/Day.java
+:100644 000000 2b4521f... 0000000... D	hw3/DayWithTime.class
+:100644 100644 cda82ae... 3831c4b... M	hw3/DayWithTime.java
+:000000 100644 0000000... 8da37e3... A	hw3/DayWithTimeTest.java
+:100644 000000 ee1eb63... 0000000... D	hw3/MutableDay.class
+:100644 100644 1193536... 3d4e465... M	hw3/MutableDay.java
+:000000 100644 0000000... 0d229f1... A	hw3/MutableDayTest.java
+
+commit 82819d04f57c8899f599fc657974be257f041b8d
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Tue Sep 20 23:33:22 2016 -0700
+
+    9.20 progress
+
+:000000 100644 0000000... 210814f... A	hw3/Day.class
+:100644 100644 9d7b0f8... 2b4521f... M	hw3/DayWithTime.class
+:100644 100644 b7264fc... cda82ae... M	hw3/DayWithTime.java
+:000000 100644 0000000... ee1eb63... A	hw3/MutableDay.class
+:000000 100644 0000000... 1193536... A	hw3/MutableDay.java
+
+commit c7391c02d8e8a1b9015035c9fba03c0483ad51be
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Mon Sep 19 23:23:22 2016 -0700
+
+    9.19 progress
+
+:000000 100644 0000000... 9d7b0f8... A	hw3/DayWithTime.class
+:100644 100644 d9663b6... b7264fc... M	hw3/DayWithTime.java
+:100644 100644 6807aba... 09cbb9c... M	hw3/progress.txt
+
+commit b425f1b0a2b3fb51f3ebab73e278b53e89956797
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Sun Sep 18 22:16:16 2016 -0700
+
+    9.18 progress
+
+:000000 100644 0000000... d9663b6... A	hw3/DayWithTime.java
+
+commit 99009acc34f7bf0ff3ac606d4e8777dd943c6e8e
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Sat Sep 17 22:56:51 2016 -0700
+
+    9.17 progress
+
+:100644 000000 8a8ec5e... 0000000... D	hw3/Day.class
+:000000 100644 0000000... 6807aba... A	hw3/progress.txt
+
+commit 206185e1d884057e45c18de2021e16e436c4bd9e
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:50 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... 57a4912... A	hw2ascores.txt
+:000000 100644 0000000... 42a1771... A	hw2bscores.txt
+
+commit 786f68695afc6bb8a26ba04334ba4f309dc32d5a
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Fri Sep 16 21:50:19 2016 -0700
+
+    9.16 progress
+
+:000000 100644 0000000... 8a8ec5e... A	hw3/Day.class
+
+commit 2cf48bbbe49b760a4bd06b8d628433f9320ffa6b
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Fri Sep 16 21:45:24 2016 -0700
+
+    9.16 progress
+
+:100644 000000 e69de29... 0000000... D	hw3/.metadata/.lock
+:100644 000000 3ffaedb... 0000000... D	hw3/.metadata/.log
+:100644 000000 25cb955... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+:100644 000000 7ea7946... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+:100644 000000 6b2aaa7... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+:100644 000000 8a1fc9e... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+:100644 000000 1a432db... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+:100644 000000 dffc6b5... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+:100644 000000 a2a5933... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+:100644 000000 e165116... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+:100644 000000 1768a1e... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+:100644 000000 67b1d96... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+:100644 000000 36f4058... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+:100644 000000 08076f2... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+:100644 000000 dd77496... 0000000... D	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+:100644 000000 e95841f... 0000000... D	hw3/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:100644 000000 d5abf41... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdt
+:100644 000000 b8ee809... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdx
+:100644 000000 523c92e... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fnm
+:100644 000000 e69de29... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.frq
+:100644 000000 cf8dc75... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.nrm
+:100644 000000 ebd518d... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tii
+:100644 000000 ebd518d... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tis
+:100644 000000 63a7ec9... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments.gen
+:100644 000000 47e0908... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments_1
+:100644 000000 e69de29... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/write.lock
+:100644 000000 8d45e41... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdt
+:100644 000000 5abdc6a... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdx
+:100644 000000 2a431cb... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fnm
+:100644 000000 522bad8... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.frq
+:100644 000000 a46e531... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.nrm
+:100644 000000 0905bfd... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.prx
+:100644 000000 3cf4b57... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tii
+:100644 000000 95283e6... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tis
+:100644 000000 225a55b... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen
+:100644 000000 1e7d7b6... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_2
+:100644 000000 a56a6a7... 0000000... D	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/server-config.json
+:100644 000000 593f470... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+:100644 000000 593f470... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+:100644 000000 593f470... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+:100644 000000 27e8248... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+:100644 000000 6394834... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+:100644 000000 54c7ac7... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+:100644 000000 a4ee3cb... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+:100644 000000 9e390f5... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+:100644 000000 a5fd4b3... 0000000... D	hw3/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+:100644 000000 1f73e14... 0000000... D	hw3/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+:100644 000000 a4885fd... 0000000... D	hw3/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+:100644 000000 851c296... 0000000... D	hw3/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+:100644 000000 1ff63c7... 0000000... D	hw3/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+:100644 000000 3dd0e9e... 0000000... D	hw3/.metadata/version.ini
+
+commit 326e2bc8202bafc1d55d8a260010c99647a68e46
+Author: Weihang Xiao <xiaoweihang18@gmail.com>
+Date:   Fri Sep 16 21:42:35 2016 -0700
+
+    9.16 progress
+
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.lock
+:000000 100644 0000000... 3ffaedb... A	hw3/.metadata/.log
+:000000 100644 0000000... 25cb955... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+:000000 100644 0000000... 7ea7946... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+:000000 100644 0000000... 6b2aaa7... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+:000000 100644 0000000... 8a1fc9e... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+:000000 100644 0000000... 1a432db... A	hw3/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+:000000 100644 0000000... dffc6b5... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+:000000 100644 0000000... a2a5933... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+:000000 100644 0000000... e165116... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+:000000 100644 0000000... 1768a1e... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+:000000 100644 0000000... 67b1d96... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+:000000 100644 0000000... 36f4058... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+:000000 100644 0000000... 08076f2... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+:000000 100644 0000000... dd77496... A	hw3/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+:000000 100644 0000000... e95841f... A	hw3/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+:000000 100644 0000000... d5abf41... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdt
+:000000 100644 0000000... b8ee809... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fdx
+:000000 100644 0000000... 523c92e... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.fnm
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.frq
+:000000 100644 0000000... cf8dc75... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.nrm
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tii
+:000000 100644 0000000... ebd518d... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/_0.tis
+:000000 100644 0000000... 63a7ec9... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments.gen
+:000000 100644 0000000... 47e0908... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/segments_1
+:000000 100644 0000000... e69de29... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/history/write.lock
+:000000 100644 0000000... 8d45e41... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdt
+:000000 100644 0000000... 5abdc6a... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fdx
+:000000 100644 0000000... 2a431cb... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.fnm
+:000000 100644 0000000... 522bad8... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.frq
+:000000 100644 0000000... a46e531... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.nrm
+:000000 100644 0000000... 0905bfd... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.prx
+:000000 100644 0000000... 3cf4b57... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tii
+:000000 100644 0000000... 95283e6... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/_1.tis
+:000000 100644 0000000... 225a55b... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments.gen
+:000000 100644 0000000... 1e7d7b6... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/remote-index/segments_2
+:000000 100644 0000000... a56a6a7... A	hw3/.metadata/.plugins/org.eclipse.epp.logging.aeri.ui/server-config.json
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+:000000 100644 0000000... 593f470... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+:000000 100644 0000000... 27e8248... A	hw3/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+:000000 100644 0000000... 6394834... A	hw3/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+:000000 100644 0000000... 54c7ac7... A	hw3/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+:000000 100644 0000000... a4ee3cb... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+:000000 100644 0000000... 9e390f5... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+:000000 100644 0000000... a5fd4b3... A	hw3/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+:000000 100644 0000000... 1f73e14... A	hw3/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+:000000 100644 0000000... a4885fd... A	hw3/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+:000000 100644 0000000... 851c296... A	hw3/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+:000000 100644 0000000... 1ff63c7... A	hw3/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+:000000 100644 0000000... 3dd0e9e... A	hw3/.metadata/version.ini
+:000000 100755 0000000... 0fb5770... A	hw3/Day.java
+ 
+Student: yan_xin
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.013
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.013
+
+OK (8 tests)
+
+ 
+commit 001e4fd01b6cbdae2e74f414aee74c4ac89c6143
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 20:14:18 2016 -0700
+
+    update hw3
+
+:100644 100644 3b8a616... f8627a8... M	hw3/DayWithTimeTest.java
+
+commit 6d7126d7fee41adb9d815b92acb629638ec34c59
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 20:12:46 2016 -0700
+
+    update hw3
+
+:100644 100644 3efad62... f86ee01... M	hw3/MutableDay.java
+
+commit 3f2b7453c8dfe62bda1eec2a04c3c952a3acc5b3
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 20:07:43 2016 -0700
+
+    update hw3
+
+:100644 100644 e49b2b9... df61bbf... M	hw3/MutableDayTest.java
+
+commit 4d2d6d68fd918e47326a4f8c4dfbf42fbd81fa44
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 20:03:05 2016 -0700
+
+    update hw3
+
+:100644 100644 ce9a37e... 3efad62... M	hw3/MutableDay.java
+:100644 100644 eede6ed... e49b2b9... M	hw3/MutableDayTest.java
+
+commit eafd619f2c72dd7f4a96fae5da929b36501f0de3
+Author: Joy Yan <joy.yan@me.com>
+Date:   Thu Sep 22 02:21:29 2016 +0000
+
+    MutableDayTest.java edited online with Bitbucket
+
+:100644 100644 eede6ed... df61bbf... M	hw3/MutableDayTest.java
+
+commit 0aba507caea1de7b74da9a4a433d75124a0a9e20
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 19:05:21 2016 -0700
+
+    update hw3
+
+:000000 100644 0000000... 3b8a616... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... eede6ed... A	hw3/MutableDayTest.java
+
+commit 93db3ee06a756336d8de176d86386974cf302d79
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 18:33:41 2016 -0700
+
+    add MutableDay.java
+
+:000000 100644 0000000... ce9a37e... A	hw3/MutableDay.java
+
+commit 47b1149e96b14f628dbc3e1aa07d450814f2de85
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 15:52:52 2016 -0700
+
+    Update DayWithTime
+
+:100644 100644 67eae66... 622c076... M	hw3/DayWithTime.java
+
+commit 4328bb6cad95f711ad5de4c63ea392e0aab48760
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Wed Sep 21 15:37:28 2016 -0700
+
+    DayWithTime
+
+:000000 100644 0000000... 67eae66... A	hw3/DayWithTime.java
+
+commit a023511f6eb38ccf6e115f30dde061bd988aef2b
+Author: joy yan <joyyan@joys-MacBook-Pro.local>
+Date:   Tue Sep 20 12:09:58 2016 -0700
+
+    daily update
+
+:000000 100644 0000000... 8566348... A	hw3/progress.txt
+
+commit 8af986d3fdeba4508f9c41b6878c013a1d97bed2
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:56:58 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... b7dceed... A	hw2ascores.txt
+:000000 100644 0000000... fe7c28a... A	hw2bscores.txt
+ 
+Student: young_charlene
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.011
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.014
+
+OK (8 tests)
+
+ 
+commit fdfb61c9b45f3733ccdbcb042cffa9008df2e879
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Wed Sep 21 00:09:58 2016 -0700
+
+    finished hw3 code
+
+:100644 100644 3b7628f... f34a7f7... M	hw3/MutableDay.java
+
+commit 248c5b428531b2fa3da295fb4529c0a8e8928c8c
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 20 20:53:33 2016 -0700
+
+    updated hw3
+
+:100644 100644 81824cd... 0ad49cb... M	hw3/DayWithTime.java
+:100644 100644 927b7a2... 3b7628f... M	hw3/MutableDay.java
+
+commit ad23d139c43dc2880d73c16c313547c858dd0256
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 20 01:39:46 2016 -0700
+
+    updated MutableDay.java
+
+:100644 100644 a3ff20b... 927b7a2... M	hw3/MutableDay.java
+
+commit f825ec40525e07904b640e9a658a6e5e69061e9a
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Tue Sep 20 00:08:03 2016 -0700
+
+    updated hw3
+
+:100644 100644 11872a3... a3ff20b... M	hw3/MutableDay.java
+
+commit c244f6eabadd2d05846477c942b40a723b5c4dfe
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Mon Sep 19 23:26:53 2016 -0700
+
+    finished DayWithTime.java
+
+:100644 100644 ea5c9eb... 81824cd... M	hw3/DayWithTime.java
+
+commit 9b177daa3dbf861a4b39c5c99bbaee0c676e7f56
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Mon Sep 19 19:49:04 2016 -0700
+
+    updated DayWithTime.java
+
+:100644 100644 ac133f1... 7f02d98... M	hw3/.gitignore
+:100644 100644 0838eb3... ea5c9eb... M	hw3/DayWithTime.java
+
+commit 22b26f9f0eba49da3954c3b7bd36f66eea33dc48
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Mon Sep 19 02:27:38 2016 -0700
+
+    updated hw3
+
+:100644 100644 b452fec... 0838eb3... M	hw3/DayWithTime.java
+
+commit eea3dee842c02571edfb53ba1929d792e274dac3
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Mon Sep 19 02:09:18 2016 -0700
+
+    updated hw3
+
+:100644 100644 f5c2ee1... b452fec... M	hw3/DayWithTime.java
+
+commit 1d6abf44112955d8e24da9ef79251cae05c88673
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Sun Sep 18 20:24:56 2016 -0700
+
+    updated hw3
+
+:100644 100644 04fd9bc... ac133f1... M	hw3/.gitignore
+:100644 100644 b0160ad... f5c2ee1... M	hw3/DayWithTime.java
+
+commit 5a56a16ef53a8019d2c7410452cedbdecb9674f2
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Sat Sep 17 23:30:47 2016 -0700
+
+    updated hw3
+
+:100644 100644 e69de29... 11872a3... M	hw3/MutableDay.java
+
+commit baab709dee8f9580d407d8f44a29d97109bd272f
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:57:02 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... bb6896c... A	hw2ascores.txt
+:000000 100644 0000000... 5f2efb7... A	hw2bscores.txt
+
+commit 5901e9f7ea234a922aae3562622e316e533f36e7
+Author: Charlene Young <jezzys@gmail.com>
+Date:   Fri Sep 16 19:41:27 2016 -0700
+
+    started hw3
+
+:000000 100644 0000000... 04fd9bc... A	hw3/.gitignore
+:000000 100644 0000000... b0160ad... A	hw3/DayWithTime.java
+:000000 100644 0000000... e69de29... A	hw3/MutableDay.java
+ 
+Student: zheng_eeyieng
+At least 3 git commits (max. 5 points): 5
+DayWithTime compiles, passes tests (max. 10 points): 10
+MutableDay compiles, passes tests (max. 10 points): 10
+ 
+DayWithTimeTest.java
+JUnit version 4.11
+.......
+Time: 0.013
+
+OK (7 tests)
+
+MutableDayTest.java
+JUnit version 4.11
+........
+Time: 0.016
+
+OK (8 tests)
+
+ 
+commit 53d080c4a2a294163cfbe79c7bae0cc1daac8c5d
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Wed Sep 21 22:06:28 2016 -0700
+
+    took out tests from git
+
+:100644 000000 a62a28f... 0000000... D	hw3/DayWithTimeTest.java
+:100644 000000 78412db... 0000000... D	hw3/MutableDayTest.java
+
+commit a74567bfbc4625983646787f3fd68843e84e9f67
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Wed Sep 21 22:04:05 2016 -0700
+
+    added constructor check
+
+:100644 100644 936040a... 5f523d7... M	hw3/MutableDay.java
+
+commit 93a13a5086fc89d768ebd1cdf54026746999ca52
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Tue Sep 20 16:50:08 2016 -0700
+
+    Completed. Passed all given tests. No custom tests.
+
+:100644 100644 ef72d91... 936040a... M	hw3/MutableDay.java
+:100644 100644 1a705ed... 78412db... M	hw3/MutableDayTest.java
+
+commit 2587b4fd3509beafbadb6fedb9ccfaa2db48c0ee
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Mon Sep 19 15:24:26 2016 -0700
+
+    completed DayWithTime. Passed all test cases from DayWithTimeTest. Did not test with custom test cases
+
+:100644 100644 8b2ec87... a3bc89e... M	hw3/DayWithTime.java
+:100644 100644 53aeee5... ef72d91... M	hw3/MutableDay.java
+
+commit 2031939b395f72b02758fbd7e722c1ee30c25122
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Sun Sep 18 23:06:40 2016 -0700
+
+    progressing
+
+:100644 100644 f655a65... 104a433... M	.gitignore
+:100644 100644 0d43b91... 8b2ec87... M	hw3/DayWithTime.java
+:100644 100644 0b63223... 1a705ed... M	hw3/MutableDayTest.java
+
+commit 9f20376232f63ba89da3ffc30a02e7397d81483e
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Fri Sep 16 23:02:17 2016 -0700
+
+    baseline
+
+:100644 100644 51a8885... f655a65... M	.gitignore
+:000000 100644 0000000... 0d43b91... A	hw3/DayWithTime.java
+:000000 100644 0000000... a62a28f... A	hw3/DayWithTimeTest.java
+:000000 100644 0000000... 53aeee5... A	hw3/MutableDay.java
+:000000 100644 0000000... 0b63223... A	hw3/MutableDayTest.java
+
+commit c81f591102c84e541f36a368c9635a741b8bc5f8
+Author: Ee Yieng Zheng <eeyiengz@hotmail.com>
+Date:   Fri Sep 16 22:55:22 2016 -0700
+
+    ...
+
+:100644 100644 9fdde2d... 51a8885... M	.gitignore
+:100644 100644 29bc23c... a350392... M	hw1scores.txt
+:100644 100644 4663af8... b403619... M	hw2/Console.java
+:100644 100644 2b4de61... 57709b9... M	hw2/MailSystem.java
+:100644 100644 90498e0... 331dd82... M	hw2/MailSystemTester.java
+:100644 100644 6fe6b3b... 77052db... M	hw2/Mailbox.java
+:100644 100644 948c64c... 17330b4... M	hw2/Message.java
+:100644 100644 6cc61ea... d066ec9... M	hw2/MessageQueue.java
+:100644 100644 6021748... a4c1a65... M	hw2/User.java
+:100644 100644 b2edd84... a70ca11... M	hw2/crc.txt
+:100644 100644 3c3beb1... 0653c0b... M	hw2/uml.txt
+:100644 100644 9cd9055... 6c630f5... M	lab2/report.txt
+
+commit 46ffe03a56a59b7535425cdf875b0ffc4a04953b
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Fri Sep 16 21:57:10 2016 -0700
+
+    Added hw2 scores
+
+:000000 100644 0000000... f5bb03b... A	hw2ascores.txt
+:000000 100644 0000000... e4ac61a... A	hw2bscores.txt
+ 
