@@ -25,7 +25,7 @@ public class Message
     */
    public String getText()
    {
-      return "From: " + sender + "\n" + text;
+      return "From: " + sender + "\n" + text.getContent();
    }
 
    private String sender;
