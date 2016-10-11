@@ -13,8 +13,7 @@ public class Length
       assert feet >= 0;
       assert inches >= 0;
 
-      this.feet = feet + inches / 12;
-      this.inches = inches % 12;
+      this.inches = feet * 12 + inches;
    }
 
    /**
@@ -24,7 +23,7 @@ public class Length
    */
    public int getFeet()
    {
-      return feet;
+      return inches / 12;
    }
 
    /**
