@@ -12,7 +12,7 @@ public class Message
     * @param messageText
     *           the message text
     */
-   public Message(String sender, String messageText)
+   public Message(String sender, Text messageText)
    {
       this.sender = sender;
       text = messageText;
