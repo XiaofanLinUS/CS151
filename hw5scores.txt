@@ -1,0 +1,194 @@
+Student: lin_xiaofan
+Running java AnimationTester 600 yields two dials (max. 2 points):2
+Small dial horizontally centered in large dial (max. 2 points):2
+Large, medium, small tick marks on outer dial (max. 2 points):2
+Large, medium ticks on inner dial (max. 2 points):2
+Numbers 0...55 placed next to large ticks (max. 2 points):2
+Outer dial numbers in larger font than inner dial (max. 2 points):2
+Large hand red, small hand purple (max. 2 points):2
+When clicking Top, clock starts running (max. 2 points):2
+Arrow triangles rotate correctly (max. 2 points):2
+When clicking Second, clock stops running (max. 2 points):2
+When clicking Second again, clock jumps to catch up (max. 2 points):2
+When clicking Top, clock stops, and when clicking Second, resets (max. 2 points):2
+When running java AnimationTester 100, everything properly scaled (max. 2 points):2
+At least 3 git commits (max. 2 points):2
+checkstyle reports no errors (max. 2 points):2
+
+Starting audit...
+Audit done.
+
+commit 09cb2c0d1c38c789189695822cbf896f9ffb8f17
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 6 23:41:07 2016 -0700
+
+    Nothing
+
+:000000 100644 0000000... 3b5fe7c... A	hw5/Viewer.java
+
+commit cc067f428a36c491a6d422ce13264e729c839b7c
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 6 20:20:22 2016 -0700
+
+    Reformatize
+
+:100644 100644 d3e13ea... 942398f... M	hw5/AnimationTester.java
+
+commit a4224e7f36d54524f2e7bae4c144f5a56bed4e6f
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 6 20:07:18 2016 -0700
+
+    Formatize my code
+
+:000000 100644 0000000... d3e13ea... A	hw5/AnimationTester.java
+:100644 100644 bdb2d65... 06a1d5f... M	hw5/Dial.java
+:100644 100644 f0da555... 9e3ad7b... M	hw5/MoveableShape.java
+:100644 100644 0c94b84... 78c7f7c... M	hw5/ShapeIcon.java
+:100644 100644 6106242... 2ec6b1c... M	hw5/Stopwatch.java
+
+commit 92b6c56fde0f32a04a3b90f6708488ac1dd9c303
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 6 00:19:58 2016 -0700
+
+    Press top do nothing when the watch is frozen
+
+:100644 100644 2a434dd... 6106242... M	hw5/Stopwatch.java
+
+commit cf309a8c88575ea03017b66a021a53bd432209ff
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 5 23:47:37 2016 -0700
+
+    Fix a frozen bug
+
+:100644 100644 2c8a649... 2a434dd... M	hw5/Stopwatch.java
+
+commit 091ee47320b513791d4521573d40cfda769c65e4
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 5 23:38:56 2016 -0700
+
+    Add some comments
+
+:100644 100644 01eed8b... 0c94b84... M	hw5/ShapeIcon.java
+
+commit b67d804e0ed71a3b8ce2630bd37a271745aa5d08
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 5 23:36:45 2016 -0700
+
+    Add other needed classes
+
+:000000 100644 0000000... f0da555... A	hw5/MoveableShape.java
+:000000 100644 0000000... 01eed8b... A	hw5/ShapeIcon.java
+
+commit b0be0e3a88491cd14dc678d2d531ace1ab0f40a1
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 5 23:07:55 2016 -0700
+
+    Done
+
+:100644 100644 f068d56... bdb2d65... M	hw5/Dial.java
+:100644 100644 28940aa... 2c8a649... M	hw5/Stopwatch.java
+
+commit 30514e5dfa62a166998ff4fece726e169c82afb9
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 5 22:22:56 2016 -0700
+
+    wip
+
+:100644 100644 9609896... f068d56... M	hw5/Dial.java
+:100644 100644 1c88892... 28940aa... M	hw5/Stopwatch.java
+
+commit 9b773e74ae2f083a62999e7090b1677e921ed7da
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Oct 4 20:40:40 2016 -0700
+
+    Using precise timing(Instant.now()) in stop watch
+
+:100644 100644 8102677... 9609896... M	hw5/Dial.java
+:100644 100644 7a22167... 1c88892... M	hw5/Stopwatch.java
+
+commit 9f24fc510b1ac1984b7f70c6fc4b02b6e402b4c2
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Oct 4 00:17:09 2016 -0700
+
+    There is an arrow to work on
+
+:100644 100644 2d03959... 7a22167... M	hw5/Stopwatch.java
+
+commit bf9c5826f3e4349435cee01ec455cfa47951fa5a
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Oct 3 23:53:26 2016 -0700
+
+    wip
+
+:100644 100644 b5f5ade... 8102677... M	hw5/Dial.java
+:000000 100644 0000000... 2d03959... A	hw5/Stopwatch.java
+
+commit d707c2504e7b0a90c43a36e85ecaa281abb07a07
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Oct 3 22:31:47 2016 -0700
+
+    Perfectize my dial
+
+:100644 100644 e1140aa... b5f5ade... M	hw5/Dial.java
+
+commit f2e340704394b83459bd130db5de4537ed92fc9f
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Oct 3 21:31:44 2016 -0700
+
+    Finish the larger ticks
+
+:000000 100644 0000000... e1140aa... A	hw5/Dial.java
+
+commit ce34b7b664a79b70a267f19a88f8c806932e376b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sun Oct 2 23:39:46 2016 -0700
+
+    wip
+
+:100644 100644 4402aab... 4b93a9f... M	hw5/prograss.txt
+
+commit 1739e9da4a3c9eced124e078fc2cd3d6d3483305
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sun Oct 2 23:12:34 2016 -0700
+
+    Remove test unit
+
+:100644 000000 49ed48b... 0000000... D	hw4/NumberSequenceTest.java
+
+commit 00343a2931605091395fc676635cc7020e4c9246
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 2 21:19:09 2016 -0700
+
+    Regraded hw4
+
+:100644 100644 6f7e916... 433fd29... M	hw4scores.txt
+
+commit 297965d6100c01bd30820c5c3031e815fa533d8b
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Sun Oct 2 17:08:41 2016 -0700
+
+    Finish my java doc
+
+:100644 100644 7c76878... 99bccc3... M	hw4/FilteredSequence.java
+:100644 100644 033f7fc... ccb8f24... M	hw4/InfiniteSequence.java
+:100644 100644 f433e61... bd8bda0... M	hw4/NumberSequence.java
+:100644 100644 ea8e856... 1006f50... M	hw4/SquareSequence.java
+:100644 100644 852d9a2... 585c5e8... M	hw4/UsualSequence.java
+:100644 100644 fd2be3f... 4402aab... M	hw5/prograss.txt
+
+commit 3dc053b31d674aa9e7caaa5504be9128cab45ef4
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 2 16:09:51 2016 -0700
+
+    Homework 4 scores
+
+:000000 100644 0000000... 6f7e916... A	hw4scores.txt
+
+commit 340ba657cabd3b13d79021d7d74cf9740677be22
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Fri Sep 30 23:56:28 2016 -0700
+
+    Create a dir for hw5
+
+:000000 100644 0000000... fd2be3f... A	hw5/prograss.txt
+
