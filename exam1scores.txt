@@ -1,0 +1,48 @@
+Student: lin_xiaofan
+Git
+
+exam submitted through Git, with commit every 10 minutes (max. 5): 5
+
+Question 1
+
+next arrow from NumberSequenceTest object to FilteredSequence object (max. 3 points): 0
+advanceToNext arrow from FilteredSequence object to itself (max. 2 points): 0
+hasNext arrow from FilteredSequence object to SquareSequence object (max. 3 points): 0
+next arrow from FilteredSequence object to SquareSequence object (max. 2 points): 0
+
+Question 2
+
+Stopwatch has two dials (max. 3 points): 1
+Stopwatch implements MoveableShape (max. 1 point): 1
+Dial and ShapeIcon implement Icon  (max. 2 points): 2
+AnimationTester uses Stopwatch and ShapeIcon  (max. 2 points): 1
+
+Uses, not has--there isn't even an AnimationTester instance
+
+Question 3
+
+Text interface  (max. 3 points): 3
+PlainText class  (max. 2 points): 2
+OneTimeText class  (max. 3 points): 3
+Message class uses Text  (max. 4 points): 4
+Message object constructed with PlainText or OneTimeText (max. 3 points): 3
+
+Question 4
+
+Constructor initializes inches  (max. 3 points): 3
+getFeet and getInches return inches / 12, % 12  (max. 2 points): 1
+
+% 12
+
+sum correctly implemented  (max. 2 points): 0
+difference correctly implemented  (max. 3 points): 0
+
+There are no feet any more
+
+Question 5
+
+Context JFileChooser (max. 2 points): 2
+Strategy FileFilter (max. 2 points): 2
+ConcreteStrategy FileNameExtensionFilter (max. 2 points): 2
+doWork() some method inside JFileChooser (max. 2 points): 0
+ 
