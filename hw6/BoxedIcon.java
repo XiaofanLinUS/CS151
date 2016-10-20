@@ -51,7 +51,6 @@ public class BoxedIcon implements Icon
    @Override
    public int getIconHeight()
    {
-      // TODO Auto-generated method stub
       return icon.getIconHeight() + 2 * padding + 2 * STROKE;
    }
 
