@@ -1,6 +1,7 @@
 **/*.class
 **/.metadata
 **/.*
+**/checkstyle.xml
 hw6/IconTester.java
 hw6/ShapeIcon.java
 hw6/CarIcon.java
