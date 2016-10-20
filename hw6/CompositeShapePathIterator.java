@@ -28,17 +28,16 @@ public class CompositeShapePathIterator implements PathIterator
    @Override
    public boolean isDone()
    {
-      boolean result = true;
-      for (PathIterator e : iterators)
-      {
-         result &= e.isDone();
-      }
-      return result;
+      return iterators.size() == 0 ? true : iterators.get(iterators.size() - 1).isDone();
    }
 
    @Override
    public void next()
    {
+      if (isDone())
+      {
+         return;
+      }
       PathIterator currentIterator = iterators.get(currentIndex);
       if (!currentIterator.isDone())
       {
@@ -48,7 +47,6 @@ public class CompositeShapePathIterator implements PathIterator
          currentIndex++;
          iterators.get(currentIndex).next();
       }
-
    }
 
    @Override
