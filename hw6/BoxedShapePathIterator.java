@@ -9,25 +9,39 @@ public class BoxedShapePathIterator implements PathIterator
    {
       this.padding = padding;
       this.shape = shape;
+      this.at = at;
       iter = shape.getPathIterator(at);
       steps = 0;
    }
-   
+
    public BoxedShapePathIterator(Shape shape, int padding, AffineTransform at, double flatness)
    {
       this.padding = padding;
+      this.shape = shape;
+      this.at = at;
       iter = shape.getPathIterator(at, flatness);
       steps = 0;
    }
-   
+
    public int currentSegment(double[] coords)
    {
       Rectangle2D bounds = shape.getBounds2D();
-      double xmin = bounds.getMinX();
-      double xmax = bounds.getMaxX();
-      double ymin = bounds.getMinY();
-      double ymax = bounds.getMaxY();
-      if (steps == 0) 
+      System.out.println(bounds);
+      double[] corners = new double[] { bounds.getMinX(), bounds.getMinY(), bounds.getMaxX(), bounds.getMaxY() };
+      double[] transformedCorners;
+      if (at == null)
+         transformedCorners = corners;
+      else
+      {
+         transformedCorners = new double[4];
+         at.transform(corners, 0, transformedCorners, 0, 2);
+      }
+
+      double xmin = transformedCorners[0];
+      double ymin = transformedCorners[1];
+      double xmax = transformedCorners[2];
+      double ymax = transformedCorners[3];
+      if (steps == 0)
       {
          coords[0] = xmin - padding;
          coords[1] = ymin - padding;
@@ -49,26 +63,28 @@ public class BoxedShapePathIterator implements PathIterator
       {
          coords[0] = xmin - padding;
          coords[1] = ymax + padding;
-         return PathIterator.SEG_LINETO;         
+         return PathIterator.SEG_LINETO;
       }
       else if (steps == 4)
       {
          coords[0] = xmin - padding;
          coords[1] = ymin - padding;
-         return PathIterator.SEG_LINETO;         
+         return PathIterator.SEG_LINETO;
       }
       else if (steps == 5)
       {
          return PathIterator.SEG_CLOSE;
       }
-      else return iter.currentSegment(coords);
+      else
+         return iter.currentSegment(coords);
    }
 
    public int currentSegment(float[] coords)
    {
       double[] dcoords = new double[coords.length];
       int result = currentSegment(dcoords);
-      for (int i = 0; i < coords.length; i++) coords[i] = (float) dcoords[i];
+      for (int i = 0; i < coords.length; i++)
+         coords[i] = (float) dcoords[i];
       return result;
    }
 
@@ -84,12 +100,15 @@ public class BoxedShapePathIterator implements PathIterator
 
    public void next()
    {
-      if (steps <= 5) steps++;
-      else iter.next();
+      if (steps <= 5)
+         steps++;
+      else
+         iter.next();
    }
 
    private Shape shape;
    private PathIterator iter;
    private int padding;
    private int steps;
+   private AffineTransform at;
 }

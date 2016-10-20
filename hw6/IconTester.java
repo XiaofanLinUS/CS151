@@ -10,14 +10,16 @@ public class IconTester
       icon.add(new MarsIcon(60));
       icon.add(new CarIcon(100));
       String size = icon.getIconWidth() + " x " + icon.getIconHeight();
+      Icon inner = new ShapeIcon(
+            TextShapeMaker.makeShape(size, new Font("Serif", Font.PLAIN, 50)));
       icon.add(
          new ShiftedIcon(
             new BoxedIcon(
                new BoxedIcon(
-                  new BoxedIcon(
-                     new ShapeIcon(
-                        TextShapeMaker.makeShape(size, new Font("Serif", Font.PLAIN, 50))), 
-            5), 1), 0), 0, 60));
+                  new BoxedIcon(inner, 1),
+                  1),
+               0),
+            0, 60));
       
       JOptionPane.showMessageDialog(
             null, 

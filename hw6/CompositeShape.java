@@ -30,6 +30,7 @@ public class CompositeShape implements Shape
       shapes.add(aShape);
    }
 
+   @Override
    public boolean contains(double x, double y)
    {
       for (Shape s : shapes)
@@ -40,6 +41,7 @@ public class CompositeShape implements Shape
       return false;
    }
 
+   @Override
    public boolean contains(double x, double y, double w, double h)
    {
       for (Shape s : shapes)
@@ -50,6 +52,7 @@ public class CompositeShape implements Shape
       return false;
    }
 
+   @Override
    public boolean contains(Point2D p)
    {
       for (Shape s : shapes)
@@ -60,6 +63,7 @@ public class CompositeShape implements Shape
       return false;
    }
 
+   @Override
    public boolean contains(Rectangle2D r)
    {
       for (Shape s : shapes)
@@ -70,6 +74,7 @@ public class CompositeShape implements Shape
       return false;
    }
 
+   @Override
    public Rectangle getBounds()
    {
       if (shapes.size() == 0)
@@ -84,6 +89,7 @@ public class CompositeShape implements Shape
       return r;
    }
 
+   @Override
    public Rectangle2D getBounds2D()
    {
       if (shapes.size() == 0)
@@ -98,6 +104,7 @@ public class CompositeShape implements Shape
       return r;
    }
 
+   @Override
    public PathIterator getPathIterator(AffineTransform at)
    {
       CompositeShapePathIterator iterator = new CompositeShapePathIterator();
@@ -108,6 +115,7 @@ public class CompositeShape implements Shape
       return iterator;
    }
 
+   @Override
    public PathIterator getPathIterator(AffineTransform at, double flatness)
    {
       CompositeShapePathIterator iterator = new CompositeShapePathIterator();
@@ -118,6 +126,7 @@ public class CompositeShape implements Shape
       return iterator;
    }
 
+   @Override
    public boolean intersects(double x, double y, double w, double h)
    {
       for (Shape s : shapes)
@@ -128,6 +137,7 @@ public class CompositeShape implements Shape
       return false;
    }
 
+   @Override
    public boolean intersects(Rectangle2D r)
    {
       for (Shape s : shapes)

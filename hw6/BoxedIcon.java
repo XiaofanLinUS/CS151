@@ -7,9 +7,23 @@ import java.awt.geom.Rectangle2D;
 
 import javax.swing.Icon;
 
+/**
+ * A boxed icon with a padding
+ * 
+ * @author linxiaofan
+ *
+ */
 public class BoxedIcon implements Icon
 {
 
+   /**
+    * Construct a boxed icon with a given padding and a given icon
+    * 
+    * @param anIcon
+    *           the icon
+    * @param i
+    *           the padding
+    */
    public BoxedIcon(Icon anIcon, int i)
    {
       icon = anIcon;

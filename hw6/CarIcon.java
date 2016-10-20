@@ -31,7 +31,7 @@ public class CarIcon implements Icon
       Graphics2D g2 = (Graphics2D) g;
       Rectangle2D.Double body
             = new Rectangle2D.Double(x, y + width / 6, 
-                  width - 1, width / 6);
+                  width, width / 6);
       Ellipse2D.Double frontTire
             = new Ellipse2D.Double(x + width / 6, y + width / 3, 
                   width / 6, width / 6);

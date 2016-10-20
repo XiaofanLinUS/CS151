@@ -1,9 +1,18 @@
 import java.awt.geom.PathIterator;
 import java.util.ArrayList;
 
+/**
+ * An iterator that is composed of several individual iterator.
+ * 
+ * @author linxiaofan
+ *
+ */
 public class CompositeShapePathIterator implements PathIterator
 {
 
+   /**
+    * Constructs an empty iterator
+    */
    public CompositeShapePathIterator()
    {
       currentIndex = 0;
@@ -70,6 +79,12 @@ public class CompositeShapePathIterator implements PathIterator
       }
    }
 
+   /**
+    * Add an iterator to a list of iterators
+    * 
+    * @param pathIterator
+    *           the given iterator
+    */
    public void add(PathIterator pathIterator)
    {
       iterators.add(pathIterator);

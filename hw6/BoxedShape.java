@@ -5,9 +5,23 @@ import java.awt.geom.PathIterator;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
+/**
+ * A boxed shape with a padding and a shape in it
+ * 
+ * @author linxiaofan
+ *
+ */
 public class BoxedShape implements Shape
 {
 
+   /**
+    * Construct a boxed shape with a given padding and a given shape
+    * 
+    * @param aShape
+    *           the shape
+    * @param aPadding
+    *           the padding
+    */
    public BoxedShape(Shape aShape, int aPadding)
    {
       shape = aShape;

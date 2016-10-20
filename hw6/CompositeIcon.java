@@ -4,9 +4,18 @@ import java.util.ArrayList;
 
 import javax.swing.Icon;
 
+/**
+ * An icon that is composed of several individual icons.
+ * 
+ * @author linxiaofan
+ *
+ */
 public class CompositeIcon implements Icon
 {
 
+   /**
+    * Construct an empty composite icon
+    */
    public CompositeIcon()
    {
       icons = new ArrayList<Icon>();
@@ -51,6 +60,12 @@ public class CompositeIcon implements Icon
       return max;
    }
 
+   /**
+    * Add an Icon into an arraylist of icons
+    * 
+    * @param anIcon
+    *           the icon
+    */
    public void add(Icon anIcon)
    {
       icons.add(anIcon);
