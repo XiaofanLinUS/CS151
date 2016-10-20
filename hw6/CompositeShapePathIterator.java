@@ -22,6 +22,10 @@ public class CompositeShapePathIterator implements PathIterator
    @Override
    public int getWindingRule()
    {
+      if (isDone())
+      {
+         return WIND_EVEN_ODD;
+      }
       return iterators.get(currentIndex).getWindingRule();
    }
 
