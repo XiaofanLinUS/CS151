@@ -1,3 +1,13 @@
 **/*.class
 **/.metadata
 **/.*
+hw6/IconTester.java
+hw6/ShapeIcon.java
+hw6/CarIcon.java
+hw6/MarsIcon.java
+hw6/ShiftedIcon.java
+hw6/TextShapeMaker.java
+hw6/ShapeTester.java
+hw6/BoxedShapePathIterator.java
+hw6/CompositeShape.java
+hw6/HouseShapeMaker.java
