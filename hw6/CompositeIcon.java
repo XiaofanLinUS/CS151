@@ -35,7 +35,7 @@ public class CompositeIcon implements Icon
    @Override
    public int getIconWidth()
    {
-      int max = icons.get(0).getIconWidth();
+      int max = 0;
       for (Icon e : icons)
       {
          if (max < e.getIconWidth())
@@ -49,7 +49,7 @@ public class CompositeIcon implements Icon
    @Override
    public int getIconHeight()
    {
-      int max = icons.get(0).getIconHeight();
+      int max = 0;
       for (Icon e : icons)
       {
          if (max < e.getIconHeight())
