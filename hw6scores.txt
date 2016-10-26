@@ -1,0 +1,191 @@
+Student: lin_xiaofan
+IconTester compiles and runs (max. 2 points): 2 
+Box around dog (max. 5 points): 4
+Thick box around thin box around text (max. 5 points): 5
+ShapeTester compiles and runs (max. 2 points): 2 
+All four shapes show (max. 5 points): 5
+ShapeTester2 compiles and runs without errors (showing nothing) (max 3 points): 3
+At least 3 git commits (max. 2 points): 2 
+checkstyle reports no errors (max. 5 points): 2 
+ 
+Starting audit...
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:6: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:8:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:17:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:26:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:81:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:90:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:95:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/BoxedShapePathIterator.java:100:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CarIcon.java:12:7: Unused @param tag for 'width'. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CarIcon.java:14:23: Expected @param tag for 'aWidth'. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CarIcon.java:19:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CarIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CarIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:27:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:36:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:45:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:54:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:63:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:76:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:89:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:100:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:111:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/CompositeShape.java:120:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/HouseShapeMaker.java:13:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/HouseShapeMaker.java:34:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/MarsIcon.java:19:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/MarsIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/MarsIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShapeIcon.java:24:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShapeIcon.java:29:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShapeIcon.java:31:1: Line contains a tab character. [FileTabCharacter]
+[ERROR] /tmp/hw6/lin_xiaofan/ShapeIcon.java:34:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShapeIcon.java:36:1: Line contains a tab character. [FileTabCharacter]
+[ERROR] /tmp/hw6/lin_xiaofan/ShiftedIcon.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] /tmp/hw6/lin_xiaofan/ShiftedIcon.java:6:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShiftedIcon.java:13:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShiftedIcon.java:18:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/ShiftedIcon.java:23:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/TextShapeMaker.java:12:4: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /tmp/hw6/lin_xiaofan/TextShapeMaker.java:22:4: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 40 errors.
+javac IconTester.java
+javac ShapeTester2.java ShapeTester.java
+ 
+commit e7aea6057ca6e13c6a9c85479183d3336a8fa4f6
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 20 01:33:15 2016 -0700
+
+    Work even when the Composite icon is empty
+
+:100644 100644 73317ff... 2e78d64... M	hw6/CompositeIcon.java
+
+commit 12db8d2bbc782a0118e49c8c29f338c6ff332838
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 20 01:28:41 2016 -0700
+
+    Work even when the Composite shape is empty
+
+:100644 100644 87fc307... edb8493... M	hw6/CompositeShapePathIterator.java
+
+commit 2b61c4eef7e1d9e425db8dbe8c666aec54ccc766
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Thu Oct 20 01:25:58 2016 -0700
+
+    Improve my code
+
+:100644 100644 aefc6b1... 87fc307... M	hw6/CompositeShapePathIterator.java
+
+commit b8a10228acdabd6464af55c0e3ef6d85df47bbf4
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 19 22:15:08 2016 -0700
+
+    Remove useless comment
+
+:100644 100644 fef8ede... 64411d9... M	hw6/BoxedIcon.java
+
+commit 7423d3400f6216b8e9175cb94a73072d9a1fbd1d
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 19 22:10:31 2016 -0700
+
+    　update my git ignore
+
+:100644 100644 bc42071... 956508d... M	.gitignore
+
+commit 02563e6b3d5f4664e79fb0d5d3b9c864fbc431bc
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 19 22:09:30 2016 -0700
+
+    　update my git ignore
+
+:100644 100644 545317d... bc42071... M	.gitignore
+
+commit 5f9a1102c4715738e85e37072428283ad5cad77f
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 19 21:53:25 2016 -0700
+
+    Keep the important javas and rm the rest
+
+:100644 000000 331987f... 0000000... D	hw6/BoxedShapePathIterator.java
+:100644 000000 60ff2df... 0000000... D	hw6/CarIcon.java
+:100644 000000 52d491e... 0000000... D	hw6/CompositeShape.java
+:100644 000000 d57032c... 0000000... D	hw6/HouseShapeMaker.java
+:100644 000000 e7590b6... 0000000... D	hw6/IconTester.java
+:100644 000000 74b103b... 0000000... D	hw6/MarsIcon.java
+:100644 000000 2eb798a... 0000000... D	hw6/ShapeIcon.java
+:100644 000000 9ae569b... 0000000... D	hw6/ShapeTester.java
+:100644 000000 e6d7ee0... 0000000... D	hw6/ShiftedIcon.java
+:100644 000000 e325474... 0000000... D	hw6/Tester.java
+:100644 000000 9068e07... 0000000... D	hw6/TextShapeMaker.java
+
+commit 1a8c74e8afc4c0e38a74591e02d5b3b575edc772
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Wed Oct 19 21:50:07 2016 -0700
+
+    Doc added
+
+:000000 100644 0000000... e88d1ea... A	hw6.tar.gz
+:100644 100644 ae06fe9... fef8ede... M	hw6/BoxedIcon.java
+:100644 100644 84ffe1c... b79ec96... M	hw6/BoxedShape.java
+:100644 100644 418b6ec... 331987f... M	hw6/BoxedShapePathIterator.java
+:100644 100644 c53b7ae... 60ff2df... M	hw6/CarIcon.java
+:100644 100644 b636904... 73317ff... M	hw6/CompositeIcon.java
+:100644 100644 1cbfb52... 52d491e... M	hw6/CompositeShape.java
+:100644 100644 502cb32... aefc6b1... M	hw6/CompositeShapePathIterator.java
+:100644 100644 e91798a... e7590b6... M	hw6/IconTester.java
+
+commit f7dad32882eced7808139fa2fb798c271b3d6fe1
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Tue Oct 18 01:13:29 2016 -0700
+
+    Finished and waited to be added java doc
+
+:000000 100644 0000000... 84ffe1c... A	hw6/BoxedShape.java
+:000000 100644 0000000... 418b6ec... A	hw6/BoxedShapePathIterator.java
+:000000 100644 0000000... 1cbfb52... A	hw6/CompositeShape.java
+:000000 100644 0000000... 502cb32... A	hw6/CompositeShapePathIterator.java
+:000000 100644 0000000... d57032c... A	hw6/HouseShapeMaker.java
+:000000 100644 0000000... 9ae569b... A	hw6/ShapeTester.java
+:000000 100644 0000000... e325474... A	hw6/Tester.java
+
+commit 1a9870eae56e9c7125501b10ac0b9d13fb04018c
+Author: xiaofanlinus <xiaofanlinus@gmail.com>
+Date:   Mon Oct 17 21:07:59 2016 -0700
+
+    finish boxedicon and compositeicon
+
+:100644 100644 e4e9a00... 665e36a... M	exam1/FileChooserDemo.java
+:000000 100644 0000000... 7757c7e... A	exam1/violet-0.16b.jar
+:000000 100644 0000000... 44b252d... A	hw1/checkstyle.xml
+:000000 100644 0000000... 16d82b8... A	hw4/NumberSequenceTest2.java
+:000000 100644 0000000... 73a8418... A	hw4/NumberSequenceTest3.java
+:000000 100644 0000000... 5d37c33... A	hw5/checkstyle.xml
+:000000 100644 0000000... ae06fe9... A	hw6/BoxedIcon.java
+:000000 100644 0000000... c53b7ae... A	hw6/CarIcon.java
+:000000 100644 0000000... b636904... A	hw6/CompositeIcon.java
+:000000 100644 0000000... e91798a... A	hw6/IconTester.java
+:000000 100644 0000000... 74b103b... A	hw6/MarsIcon.java
+:000000 100644 0000000... 2eb798a... A	hw6/ShapeIcon.java
+:000000 100644 0000000... e6d7ee0... A	hw6/ShiftedIcon.java
+:000000 100644 0000000... 9068e07... A	hw6/TextShapeMaker.java
+
+commit d2ab9f39606d2559a2ebd396769c6539133b525a
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 16 18:22:59 2016 -0700
+
+    Exam 1 scores
+
+:000000 100644 0000000... 3b49245... A	exam1/2016-10-16 15.27.48.jpg
+:000000 100644 0000000... 30c9d86... A	exam1/2016-10-16 15.28.22.jpg
+:000000 100644 0000000... 2b3d783... A	exam1scores.txt
+
+commit e6b2886f0e37eaaa98fb33a04feb6198e4acd700
+Author: Cay Horstmann <cay@horstmann.com>
+Date:   Sun Oct 16 08:19:08 2016 -0700
+
+    Homework 5 scores
+
+:000000 100644 0000000... bdb59d4... A	hw5scores.txt
+ 
