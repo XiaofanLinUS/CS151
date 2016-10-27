@@ -7,4 +7,7 @@ Oct. 25 00:00-01:24: Improving
 Oct. 25 16:00-18:00: Set up Violet for the repo
 Oct. 25 21:00-22:00: Read Violet code
 Oct. 26 15:00-16:00: Meet up my team
-Oct. 26 20:00-23:50: Designing and integrating FDL to violet
+Oct. 26 20:00-24:00: Designing and integrating FDL to violet
+
+Total hours this week: 20
+Total hours on project: 20
