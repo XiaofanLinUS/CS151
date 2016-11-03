@@ -1,0 +1,16 @@
+HengYi Shi
+with 
+XiaoFan Lin
+
+
+1. 100
+2. 9999403
+3. 4
+4. we dont have hash code method defined. The hash set will r
+
+
+1. 100
+2. 4
+3. Two different objects are not equal even they have the same x and y values.
+4. Because points with the same x and y values are treately differently. The loop will insert 1000^2 points to the hash set.
+5. 4
