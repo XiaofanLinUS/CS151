@@ -1,7 +1,7 @@
-Oct. 26 12:00-13:00 Fix buildscript #6
-Oct. 28 20:00-22:00 Add set and get method for node class #7
-Oct. 29 00:00-01:00 Set up new class SmartGraph implementing LayoutPlanner and inherites Graph #8
-Oct. 29 02:00-03:30 Done with integration of FDL to Violet #4
+Oct. 26 12:00-13:00: Fix buildscript #6
+Oct. 28 20:00-22:00: Add set and get method for node class #7
+Oct. 29 00:00-01:00: Set up new class SmartGraph implementing LayoutPlanner and inherites Graph #8
+Oct. 29 02:00-03:30: Done with integration of FDL to Violet #4
 
 Total hours this week: 5.5
 Total hours on project: 25.5
