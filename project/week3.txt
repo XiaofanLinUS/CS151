@@ -3,5 +3,6 @@ Nov. 08 17:00-21:00: Improve ClassDiagramReader and integrate it to violet #9
 Nov. 09 21:00-23:00: Fix bugs in classDiagramReader #13
 Nov. 09 23:00-24:00: Complie the program and update wiki
 Nov. 09 00:00-01:15: Update wiki #11
+
 Total hours this week: 9.25
 Total hours on project: 34.75
