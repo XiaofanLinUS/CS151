@@ -1,0 +1,9 @@
+Nov. 17 20:00-21:00: Improve ClassDiagramReader to let it take Graph instead of ClassDiagramGraph to construct and make a reader interface for it #14
+Nov. 17 21:00-22:00: Improve Reader interface(Let it take a graph and automatically return a corresponding reader) #26
+Nov. 17 22:00-23:00: Make the TextBar use Reader interface instead of ClassDiagramReader #22
+Nov. 17 23:00-23:30: Increase the font size in the textfield in TextBar #23
+Nov. 17 23:30-24:00: Update wiki
+Nov. 18 00:00-01:00: Update wiki #24
+
+Total hours this week: 5
+Total hours on project: 39.75
