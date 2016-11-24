@@ -1,0 +1,12 @@
+Nov. 21 22:00-24:00: Implementing SequenceLayout
+Nov. 22 00:00-01:00: Finish SequenceLayout #25
+Nov. 22 23:00-24:00: Fixing the refresh Issue on the ClassDiagramGraph 
+Nov. 23 00:00-01:00: Fixing the refresh Issue on the ClassDiagramGraph
+Nov. 23 20:00-21:00: Fix the refresh Issue #21
+Nov. 23 21:00-22:10: Fix another refresh Issue(Drawing repetitive graphs) #29
+Nov. 23 22:10-22:30: Finish Java document
+Nov. 23 22:30-23:30: Improve and Debug SequenceLayout #31
+Nov. 23 23:30-24:00: Update Wiki on documentation and command usage #33
+
+Total hours this week: 9
+Total hours on project: 48.75
