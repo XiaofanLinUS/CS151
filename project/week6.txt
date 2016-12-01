@@ -2,7 +2,9 @@ Nov. 29 19:30-22:00: Implementing SequenceDiagramReader
 Nov. 29 22:00-24:00: Improving and Debugging SequenceDiagramReader #32
 Nov. 29 00:00-02:00: Fixing refresh issues on SequenceDiagramReader #38
 Nov. 30 20:00-22:00: Clean up codes, finish java doc and test my build #39
-Nov. 30 22:00-24:00: Finish wiki #40 
+Nov. 30 22:00-23:30: Fix no images bug #41
+Nov. 30 23:30-24:00: Update wiki
+Dec. 01 00:00-01:00: Update Wiki #40
 
-Total hours this week: 10.5
-Total hours on project: 59.25
+Total hours this week: 11.5
+Total hours on project: 60.25
