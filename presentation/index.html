@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+  <head> 
+    <title>Slide Shows in XHTML</title> 
+    <meta name="copyright" 
+	  content="Copyright &#169; 2005 your copyright notice" /> 
+    <link rel="stylesheet" type="text/css" media="screen, projection, print" 
+	  href="http://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+    <link rel="stylesheet" type="text/css" media="screen, projection, print"
+	  href="http://www.w3.org/Talks/Tools/Slidy2/styles/w3c-blue.css" /> 
+    <script src="http://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js" 
+	    charset="utf-8" type="text/javascript"></script> 
+  </head>
+  <body>
+    <div class="background"> 
+      <img id="head-icon" alt="graphic with four colored squares"
+	   src="http://www.w3.org/Talks/Tools/Slidy2/graphics/icon-blue.png" /> 
+      <object id="head-logo" title="W3C logo" type="image/svg+xml"
+	      data="http://www.w3.org/Talks/Tools/Slidy2/graphics/w3c-logo-white.svg"><img
+											  src="http://www.w3.org/Talks/Tools/Slidy2/graphics/w3c-logo-white.gif" 
+											  alt="W3C logo" id="head-logo-fallback" /></object>
+    </div>
+
+    <div class="slide">
+      <h1>My role</h1>
+      <h2>In this team, I design the layout alogrithms to help different graphs to arrange their nodes and edges to the correct position</h2>
+      <h3>Classes:</h3>
+      <p> SmartGraph, SequenceLayout, SequenceDiagramGraph, ForceDirectedLayout, ClassDiagramGraph</p>
+      <h3>Interfaces:</h3>
+      <p>Reader, LayoutPlanner</p>
+    </div>
+    <div class="slide">
+      <h1>My role</h1>
+      <h2>I also do the integration jobs on my teammates classes with the violet program</h2>
+      <h3>Design Patterns</h3>
+      <p>Using uml class graph, I integrate our codes to the violet program as well as clean up the codes in order to make them maintainable</p>
+    </div>
+    <div class="slide">
+      <h1>My role</h1>
+      <h2>I am a bug fixer. When I am available, I will help my teammates to fix the bugs in their codes</h2>
+      <p>Refresh bugs in reader</p>
+      <p>Distance bugs in graph</p>
+      <p>Repaint bugs in textbar</p>
+      <h2>Wiki updater</h2>
+      <p>I do a lot of documentation jobs on wiki</p>
+    </div>
+    <div class="slide">
+      <h1>Techniques</h1>
+      <h2>Strategy Design1</h2>
+	<h3>Context:</h3>
+	<p>SmartGraph</p>
+	<h3>Strategy:</h3>
+	<p>LayoutPlanner</p>
+	<h3>ConreteStrategy:</h3>
+	<p>ForceDirectedLayout</p>
+	<h3>doWork:</h3>
+	<p>refresh</p>
+    </div>
+    
+    <div class="slide">
+      <h1>Techniques</h1>
+      <h2>Strategy Design2</h2>
+      <h3>Context:</h3>
+      <p>TextBar</p>
+      <h3>Strategy:</h3>
+      <p>Reader</p>
+      <h3>ConreteStrategy:</h3>
+      <p>ClassDiagramReader</p>
+      <h3>doWork:</h3>
+      <p>read</p>
+    </div>
+    <div class="slide">
+      <h1>Techniques</h1>
+      <h3>Polymorphism</h3>
+	<img src="https://xiaofanlinus.github.io/designs/design1.png" height="300"/>
+	<img src="https://xiaofanlinus.github.io/designs/design2.png" height="300" />
+	<h3>Reflection</h3>
+	<p>I use reflection in Reader and LayoutPlanner interfaces to let them create the corresponding Strategy for a specific Context.</p>
+    </div>
+    <div class="slide">
+      <h1>Teamwork</h1>
+      <h3>What helps</h3>
+      <p>Started the project early</p>
+      <p>Communication(discussion)</p>
+      
+      <h3>What can be better</h3>
+      <p>Work is not evenly distributed(We need a plan)</p>
+      <p>Need frequent meet ups</p>
+    </div>
+    </div>
+  </body>
+</html>
