@@ -1,1 +1,3 @@
-a. This is not a Strategy design pattern. Because 
+a. This is not a Strategy design pattern. Because the context graph doesn't benefit from different algorithm.
+　　There is only one algorithm work in Command.
+b. This is a Composite design pattern. Because the CommandSequence is Command itself. When the do method is called, CommandSequence will call each element's do method and combine the result.
