@@ -61,7 +61,7 @@ public class DiamondNode implements Node
       } else if (dx >= dy && dx >= -dy)
       {
          return new Point2D.Double(x + size, y + size / 2);
-      } else if (dx >= -dy && dx < dy)
+      } else if (dx < -dy && dx < dy)
       {
          return new Point2D.Double(x, y + size / 2);
       } else
