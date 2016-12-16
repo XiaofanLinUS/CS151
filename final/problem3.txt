@@ -1,0 +1,4 @@
+Both VioletDroid teams demonstrated their app on an Android tablet. True [ ] / False [X]
+Both CollabDroid teams demonstrated sharing of class and sequence diagrams. True [X] / False [ ]
+Both the RoundTripViolet and VioletFX teams achieved most of their project goals. True [ ] / False [X]
+Both the UndoViolet and ASCIIViolet teams used the Violet code for drawing shapes. True [X] / False [ ]
