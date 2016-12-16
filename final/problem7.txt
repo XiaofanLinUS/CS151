@@ -1,4 +1,4 @@
-a. It won' work. Because the datasturcture arraylist is not thread-safe.
+a. It won' work. Because the datasturcture arraylist is not thread-safe. Once two threads trying to insert values, they will end inserting the same spot.
 b. It works.
 c. Won't work. Everytime, a new lock is created. Every other access to the link list is still not blocked.
 d. It works.
