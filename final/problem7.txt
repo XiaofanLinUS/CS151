@@ -1,0 +1,7 @@
+a. It will not work. Because the datasturcture arraylist is not thread-safe.
+b. It still won't work. Because the lock should be implemented inside the linked list.
+c. Won't work. The same problem as b.
+d. It works correctly.
+e. Wont' work. HashMap is not thread-safe.
+f. Won't work, it uses wrong method putIfAbsent. 
+g.
