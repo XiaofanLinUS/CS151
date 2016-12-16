@@ -2,6 +2,6 @@ a. It will not work. Because the datasturcture arraylist is not thread-safe.
 b. It works correctly.
 c. Won't work. Everytime, a new lock is created. Every other access to the link list is still not blocked.
 d. It works correctly.
-e. Wont' work. HashMap is also not thread-safe.
-f. It works correctly.
+e. Wont' work. HashMap is not thread-safe.
+f. It doesn't work works corre
 g. It works.
